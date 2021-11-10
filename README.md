@@ -4,3 +4,4 @@ Current goals:
 
 - Getting responsive UI/UX index friendly
 - Pages of each DMC game
+- Keep CSS content consistent 
