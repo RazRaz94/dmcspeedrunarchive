@@ -69,14 +69,28 @@ body{
 	margin-right:auto;
 	background:rgba(0, 0, 0, .9);
 	font-family:Georgia, "Times New Roman", Times, serif;
-	min-height: 1600px;
+	min-height: 1250px;
 }
 
 #clearit {
 	clear: both;
 }
 
-/* ----- Setting up navi bar starts here ----- */
+/* -----  Right float stuff ----- */
+
+.infobox {
+    border: 1px solid #D3BA7F;
+    border-spacing: 3px;
+    background-color: rgba(0, 0, 0, .9);
+	color:#D3BA7F;
+    padding: 0.2em;
+    font-size: 88%;
+    line-height: 1.5em;
+}
+
+.infobox a {
+    text-decoration: none !important;
+}
 
 
 /* ----- This is the end of styling a from banner div as well as navi bar ----- */
@@ -166,14 +180,9 @@ a:visited, a:link{
 	float: right;
     clear: right;
     margin: 4.6em 0 0.5em 0.5em;
+	margin-right: 10px;
 }
 
-#right h1 {
-	clear: left;
-	margin: 0.5em 0 0.3em 0;
-	font-size: 12px;
-	color:#ff3333;
-}
 
 #right h1 span {
 	display: inline-block;
@@ -186,10 +195,6 @@ a:visited, a:link{
 	background: #cc0000;
 }
 
-#right img {
-	float: left;
-	margin: 0 15px 15px 0;
-}
 
 #right h2 {
 	margin: 0;
