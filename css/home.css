@@ -235,7 +235,8 @@ a:visited, a:link{
 #footer {
 	background-color:12323c;
 	height:275px;
-	background-image:url(../images/bg_footer2.png);
+	background-image:url(../images/bg_footer3.png);
+	background-color:#360713;
 	background-repeat: repeat-x;
 	background-position: center top;
 	font-family: Trebuchet MS, Verdana, Arial, Tahoma, sans-serif;
