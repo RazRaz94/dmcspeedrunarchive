@@ -5,6 +5,7 @@
 <meta name="view port" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Devil May Cry Speedruns</title>
+<link rel="stylesheet" href="{{asset('css/footer.css')}}">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 <div id="footer">    <div class = "footercontent">
     <div id = "copyrights">
         <span class="rights"> Desgin and Content Expect footer ©2014 LonerHero - All Rights Reserved</span>
-        <span class="college"> Devil May Cry _ Capcom</span>
+        <span class="college">{{ date('Y-m-d H:i:s') }}</span>
         <div class = "desgin">
             <a href="https://www.zaxios.com">Footer Design by Zaxios</a>
         </div> <!-- desgin -->

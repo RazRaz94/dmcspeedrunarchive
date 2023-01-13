@@ -32,9 +32,9 @@
             </td></tr>
             <tr>
             <tr>
-            <td colspan="2" style="text-align: center; background-color: #FF1F23;"><b><a rel="nofollow" class="external text" href="placeholder">Best Segmented Times</a></b>
+            <td colspan="2" class="options"><b><a href="#">Best Segmented Times</a></b>
             </td></tr>
-            <td colspan="2" style="text-align: center; background-color: #FF1F23;"><b><a rel="nofollow" class="external text" href="placeholder">WR Progression Timeline </a></b>
+            <td colspan="2" class="options"><b><a href="#">WR Progression Timeline </a></b>
             </td></tr></tbody></table>
     </div>
     <div id = "left">
@@ -54,10 +54,10 @@
 <h2>Leaderboards & Categories</h2>
 
 
-<dl><dd><ul><li>Any% - Beats the game as fast as possible.</li>
-    <li>100% - All permanent upgrades must be purchased, weapons, secret missions must be completed. All Missions must end with S rank before beating the game</li>
-    <li>All Collectibles - All Blue orbs/fragments, weapons, secret missions must be completed before beating the game</li>
-    <li>Low% - Beats the game without upgrades or use of weapons that aren't mandatory.</li></dl>
+<dl><dd><ul><li><a href="/DMC1:Any%">Any%</a> - Beats the game as fast as possible.</li>
+    <li><a href="/DMC1:100%">100%</a> - All permanent upgrades must be purchased, weapons, secret missions must be completed. All Missions must end with S rank before beating the game</li>
+    <li><a href="/DMC1:AC">All Collectibles</a> - All Blue orbs/fragments, weapons, secret missions must be completed before beating the game</li>
+    <li><a href="/DMC1:Low%">Low%</a> - Beats the game without upgrades or use of weapons that aren't mandatory.</li></dl>
     
     <h2>Getting Started</h2>
 
