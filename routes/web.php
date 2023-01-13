@@ -20,6 +20,11 @@ Route::get('/', function() {
     return view('welcome');
 });
 
+//DMC1 Page
+Route::get('/DMC1', function() {
+    return view('DMC1');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [
