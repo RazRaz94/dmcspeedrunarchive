@@ -250,6 +250,11 @@ a:visited, a:link{
 	margin-right: auto;
 }
 
+#footer ul li a:hover {
+	color: #d72854;
+	padding-left: 10px;
+}
+
 #copyrights {
 	height: 70px;
 	padding: 7px 1px 0px 1px;
