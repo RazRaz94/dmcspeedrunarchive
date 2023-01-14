@@ -4,12 +4,7 @@
 /* ----- This is body ----- */
 
 body{
-	background-image:url(/images/Temin-Ni-Gru.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size: cover;
 	color:#FBF5F6;
-	margin: 0 auto;
 }
 
 /* ----- This is content div ----- */
@@ -20,7 +15,7 @@ body{
 	margin-right:auto;
 	background:rgba(0, 0, 0, .9);
 	font-family:Georgia, "Times New Roman", Times, serif;
-	min-height: 200px;
+	min-height: auto;
 }
 
 #clearit {

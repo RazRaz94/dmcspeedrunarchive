@@ -1,137 +1,23 @@
 /* CSS Document */
 
-/* modal box */
-input[type="checkbox"] {
-	display:none;
-}
-input[type="checkbox"]:checked ~ .modal,
-input[type="checkbox"]:checked ~ .modal-background {
-	display: block;
-}
-.modal-background {
-	width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    z-index: 9998;
-}
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    display: none;	
-    width: 600px;
-    height: 600px;
-    background-color:rgba(0, 0, 0, .9);
-    box-sizing: border-box;
-    z-index: 9999;
-}
-.modal > p {
-	padding: 15px;
-    margin: 0;
-}
-.modal-header {
-	background-color: rgba(0, 0, 0, .9);
-    border-bottom: 1px solid #dddddd;
-    box-sizing: border-box;
-    height: 50px;
-}
-.modal-header h3 {
-	margin: 0;
-    box-sizing: border-box;
-    padding-left: 15px;
-    line-height: 50px;
-    color: #4d4d4d;
-    font-size: 16px;
-    display: inline-block;
-}
-.modal-header label {
-	box-sizing: border-box;
-    border-left: 1px solid #dddddd;
-    float: right;
-    line-height: 50px;
-    padding: 0 15px 0 15px;
-    cursor: pointer;
-}
-.modal-header label:hover img {
-	opacity: 0.6;
-}
-
 /* ----- This is body ----- */
 
 body{
-	background-image:url(../images/Temin-Ni-Gru.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size: cover;
 	color:#D3BA7F;
 	margin: 0 auto;
-}
-
-/* ----- This is ul from banner div ----- */
-
-#banner img{
-    width: 50%;
-    margin-left:250px;
-}
-
-#banner ul{
-	list-style-type:none;
-    overflow:hidden;
-	margin:0;
-}
-
-/* ----- This is li from banner div ----- */
-
-#banner li{
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size:20px;
-	display:inline-block;
-}
-
-/* ----- This is the start of styling a from banner div ----- */
-
-#banner a:link{
-	display:block;
-	width:130px;
-	background-color:black;
-	color:#9de1f6;
-	text-align:center;
-	padding:4px;
-	text-decoration:none;
-}
-
-#banner a:visited{
-	display:block;
-	width:100px;
-	background-color:black;
-	color:#9de1f6;
-	text-align:center;
-	padding:4px;
-	text-decoration:none;
-}
-
-#banner a:hover{
-	background-color:#FF1F23;
-	color:#9de1f6;
 }
 
 /* ----- This is content div ----- */
 
 #content{
-	height:1000px;
+	height:auto;
 	width:1000px;
 	margin-left:auto;
 	margin-right:auto;
 	background:rgba(0, 0, 0, .9);
 	font-family:Georgia, "Times New Roman", Times, serif;
-	min-height: 1250px;
+	/* min-height: 1250px; */
+	min-height: auto;
 }
 
 #clearit {
@@ -153,7 +39,6 @@ body{
 .infobox a {
     text-decoration: none !important;
 }
-
 
 /* ----- This is the end of styling a from banner div as well as navi bar ----- */
 
@@ -178,12 +63,10 @@ body{
 
 #toc_container a{
     text-decoration: none !important;
+	color:#808000;
     letter-spacing: 1px;
     line-height: 1.6;
 }
-
-
-
 
 /* ----- Ignore the stuff that is down for now till the UI/UX content is complete ---- */
 
@@ -209,14 +92,16 @@ body{
     line-height: 1.3;
 }
 
+#left h3{
+	color:#008b8b ;
+	border-bottom:1px dotted #D3BA7F;
+    line-height: 1.3;
+}
+
 #left ul {
 	color:#D3BA7F;
     line-height: 1.3;
 	list-style-type: square;
-}
-
-a:visited, a:link{
-	color:#D3BA7F;;
 }
 
 #left dt {
@@ -225,8 +110,8 @@ a:visited, a:link{
 	color:#ff3333;
 }
 
-#left dd {
-	margin: 1em 0 1em 6em;
+#left dl {
+	line-height:1.3;
 }
 
 #icon {
@@ -268,48 +153,10 @@ a:visited, a:link{
 	text-align: right;
 }
 
-#right a:visited, a:link{
+/* #box a:visited, a:link{
 	color:#D3BA7F;
 	padding: 2px 3px;
-}
-
-#box{
-	color:#D3BA7F;
-	background:#811832;
-	float: left;
-	position: relative;
-	width: 210px;
-	margin: 15px 0 20px 0;
-	padding: 2px 5px 2px 30px;
-	font-size: 10px;
-	line-height: 1.2;
-}
-
-#box span{
-	background: #D3BA7F;
-	display: block;
-	position: absolute;
-	top: 5px;
-	left: 8px;
-	width: 8px;
-	height: 8px;
-	background: white;
-}
-
-#right input[type=submit] {
-	border: 1px solid silver;
-	border-color:#d72854;
-	background:#811832;
-	float: right;
-	margin: 15px 0 20px 0;
-	margin-right: 60px;
-	width: 150px;
-	height: 30px;
-	color: #D3BA7F;
-	text-align: center;
-	font-size: 14px;
-	line-height: 25px;
-}
+}*/
 
 #clean {
 	clear: both;
@@ -324,12 +171,19 @@ a:visited, a:link{
 	color:#ff3333;
 }
 
-.options{
+.infobox a:link, a:visited{
     text-align: center;
+	color: #D3BA7F;
     background-color: #FF1F23;
 }
 
-.options:hover{
+.infobox a:hover{
     padding-left: 10px;
-    background-color: #4d4d4d;
+    color:black;
+}
+
+.extralinks a:link, a:visited{
+	color:#808000;
+	font-weight: bold;
+	text-decoration: none;
 }

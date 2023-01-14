@@ -3,6 +3,7 @@
 #footer {
 	background-color:12323c;
 	height:275px;
+	min-height: auto;
 	background-image:url(../images/bg_footer3.png);
 	background-color:#360713;
 	background-repeat: repeat-x;
