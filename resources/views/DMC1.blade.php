@@ -1,8 +1,10 @@
 @extends('Layout')
-
+@include('DMC1Modals')
 @section('content')
 
 <link rel="stylesheet" href="{{asset('css/DMC1.css')}}">
+<link rel="stylesheet" href="{{asset('css/Modal.css')}}">
+
 <div id = "content">
     <div id = "right">
         <table class="infobox">
@@ -82,14 +84,16 @@ strats most often used in speedruns'
 <h3>Movement</h3>
 
 <dl class="extralinks"><ul>
-    <li><a href="#">Horse Jump</a> - Mauris feugiat tortor ac aliquet consectetur.</li>
+    <li><a href="#HR" id="myBtn">Horse Jump</a> - Mauris feugiat tortor ac aliquet consectetur.</li>
     <li><a href="#">Quick Menu</a> - Maecenas id metus placerat, sodales enim sit amet, pulvinar justo.</li>
     <li>Aenean vitae tortor ut massa fringilla rutrum.</li>
     <li>Donec rutrum nisl sed erat tempus ullamcorper et ut odio.</li>
     <li>Pellentesque congue erat non magna aliquet tincidunt.</li>
-    <li>Sed quis nulla vitae leo congue sodales sed sed nibh.</li>
     </ul>
 </dl>
+
+@yield('HorseJump')
+
 <h3>Combat</h3>
 
 <dl class="extralinks"><ul>

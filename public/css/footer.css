@@ -1,11 +1,9 @@
 
 
 #footer {
-	background-color:12323c;
 	height:275px;
 	min-height: auto;
-	background-image:url(../images/bg_footer3.png);
-	background-color:#360713;
+	background: url(../images/bg_footer3.png) right bottom no-repeat, url(../images/bg_footerconx.png) left top repeat;
 	background-repeat: repeat-x;
 	background-position: center top;
 	font-family: Trebuchet MS, Verdana, Arial, Tahoma, sans-serif;
@@ -97,7 +95,7 @@
 	padding: 2px;
 	margin-bottom: 4px;
 	background-color: #4d0e1e;
-	border: 2px solid #d72854;
+	border: 2px solid #603f47;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-align: center;
@@ -112,7 +110,7 @@
 #legal {
 	padding: 2px;
 	background-color: #4d0e1e;
-	border: 2px solid #d72854;
+	border: 2px solid #603f47;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	text-align: center;
@@ -121,12 +119,12 @@
 }
 
 #legal .mini {
-	background-image:url(../images/dante3.png);
+	background-image:url(../images/dante4.png);
 	background-repeat: no-repeat;
-	width: 30px;
+	width: 60px;
 	height: 40px;
 	float: left;
 	position: absolute;
 	left: 7px;
-	top: -22px;
+	top: -23px;
 }

@@ -7,6 +7,7 @@
 <title>Devil May Cry Speedruns</title>
 <link rel="stylesheet" href="{{asset('css/footer.css')}}">
 <link rel="stylesheet" href="{{asset('css/body.css')}}">
+<script src="{{ asset('js/Modal.js')}}"></script>
 </head>
 
 <body>
