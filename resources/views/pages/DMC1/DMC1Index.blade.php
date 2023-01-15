@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" href="{{asset('css/DMC1.css')}}">
 <link rel="stylesheet" href="{{asset('css/Modal.css')}}">
+<script src="{{asset('js/Modal.js')}}"></script>
 
 <div id = "content">
     <div id = "right">

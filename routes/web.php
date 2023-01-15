@@ -28,6 +28,10 @@ Route::get('/DMC1', [DMC1::class, 'index']);
 Route::get('/DMC1:Any%', function() {
     return view('pages.DMC1.DMC1AnyPercent');
 });
+//100% Category
+Route::get('/DMC1:100%', function() {
+    return view('pages.DMC1.DMC100Percent');
+});
 
 //Single News
 Route::get('/news/{id}', function($id){
