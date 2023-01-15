@@ -8,7 +8,8 @@
 <link rel="icon" href="{{ url('images/hw.png') }}">
 <link rel="stylesheet" href="{{asset('css/footer.css')}}">
 <link rel="stylesheet" href="{{asset('css/body.css')}}">
-<script src="{{ asset('js/Modal.js')}}"></script>
+<script src="{{asset('js/Modal.js')}}"></script>
+<script src="{{asset('js/ToggleableTabs.js')}}"></script>
 </head>
 
 <body>

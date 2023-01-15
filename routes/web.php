@@ -21,8 +21,13 @@ Route::get('/', function() {
     return view('pages.Home');
 });
 
-//DMC1 Page
+//DMC1 Pages
+//Index
 Route::get('/DMC1', [DMC1::class, 'index']);
+//Any% Category
+Route::get('/DMC1:Any%', function() {
+    return view('pages.DMC1.DMC1AnyPercent');
+});
 
 //Single News
 Route::get('/news/{id}', function($id){

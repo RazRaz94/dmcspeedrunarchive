@@ -1,48 +1,5 @@
 /* CSS Document */
 
-
-
-/* ----- Modal Window Pop up ----- */
-
-/* The Modal (background) */
-.modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	padding-top: 100px; /* Location of the box */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-	background-color: #fefefe;
-	margin: auto;
-	padding: 20px;
-	border: 1px solid #888;
-	width: 80%;
-  }
-  
-  /* The Close Button */
-  .close {
-	color: #aaaaaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-  }
-
 /* ----- body text color ----- */
 
 body{
@@ -72,25 +29,19 @@ body{
     border: 1px solid #D3BA7F;
     border-spacing: 3px;
     background-color: rgba(0, 0, 0, .9);
-	color:#D3BA7F;
     padding: 0.2em;
     font-size: 88%;
     line-height: 1.5em;
 }
 
-.infobox a {
-    text-decoration: none !important;
-}
-
-.infobox a:link, a:visited{
-    text-align: center;
-	color: #D3BA7F;
-    background-color: #FF1F23;
+.infobox a{
+	text-decoration-line: none;
+	color:#D3BA7F;
 }
 
 .infobox a:hover{
     padding-left: 10px;
-    color:rgba(0, 0, 0, .9);
+    color:rgba(0, 0, 0, .9) !important;
 }
 
 /* ----- Table of Contents ----- */
@@ -127,7 +78,7 @@ body{
 	padding: 10px 20px;
 }
 
-#left h1 {
+h1 {
 	font-size: 1.8em;
 	font-weight: normal;
 	color:#ff3333;
@@ -155,9 +106,8 @@ body{
 	list-style-type: square;
 }
 
-.extralinks a:link, a:visited{
+#extralinks a:link, a:visited{
 	color:#808000;
-	font-weight: bold;
 	text-decoration: none;
 }
 
