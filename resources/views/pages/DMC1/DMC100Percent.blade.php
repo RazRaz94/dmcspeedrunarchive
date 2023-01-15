@@ -20,16 +20,24 @@
     <div id="toc_container">
         <p class="toc_title">Contents</p>
         <ul class="toc_list">
-          <li><a href="#Leaderboards_&_Categories">Objectives</a></li>
+          <li><a href="#Objectives">Objectives</a></li>
           <li><a href="#Getting_Started">Tracker</a></li>
           <li><a href="#Tricks">Routes</a></li>
           <li><a href="#Rules">Rules</a></li>
         </ul>
         </div>
 
-    <h2>Routes</h2>
+        <h2 id="Objectives">Objectives</h2>
 
+        <dl id="extralinks">
+            {{"The objective is 100% game completion, meaning all significant interactions and criteria in each Missions needs to be performed and accomplished."}}
+            <ul>
+                <li>{{"Clearing all 23 missions with S rank"}}</li>
+                <li>{{"Clearing all 12 secret missions"}}<sup>(1)</sup></li>
+                <li>{{"All permanent upgrades must be purchased and collected"}}<sup>(2)</sup></li>
+                <li>{{"All usable equipment must be collected "}}<sup>(3)</sup></li>
 
+        </dl>
 
 <div class ="wrapper">
     <div class="buttonWrapper">

@@ -157,3 +157,10 @@ h1 {
 	font-weight: bold;
 	color:#ff3333;
 }
+
+/* Misc Styles */
+
+sup{
+	line-height: 1;
+	color:#ff3333;
+}
