@@ -49,7 +49,7 @@ table{
 
 tr:nth-child(even){background-color:rgba(0, 0, 0, .9);}
 
-tr:hover {background-color: rgba(0, 139, 139, .9);}
+tr:hover {background-color: rgba(77, 14, 30);}
 
 th {
     padding-top: 12px;
