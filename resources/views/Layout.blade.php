@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="view port" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Devil May Cry Speedruns</title>
+<title>@yield('title') - DMCSpeedruns</title>
+<link rel="icon" href="{{ url('images/hw.png') }}">
 <link rel="stylesheet" href="{{asset('css/footer.css')}}">
 <link rel="stylesheet" href="{{asset('css/body.css')}}">
 <script src="{{ asset('js/Modal.js')}}"></script>

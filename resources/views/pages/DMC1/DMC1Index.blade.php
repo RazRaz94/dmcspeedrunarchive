@@ -1,5 +1,5 @@
 @extends('Layout')
-@include('DMC1Modals')
+@include('pages.DMC1.DMC1Modals')
 @section('content')
 
 <link rel="stylesheet" href="{{asset('css/DMC1.css')}}">
@@ -76,20 +76,17 @@
 
     
 <h2>Tricks</h2>
-<dl> <?php echo 'There are number of Strategies and movement tricks that can significantly shorten the amount of time needed to progress through the
+<dl> {{'There are number of Strategies and movement tricks that can significantly shorten the amount of time needed to progress through the
 amount of time needed to progress through the game. Devil May Cry 1 is a heavily scripted game so the following list is only a selection of possible
-strats most often used in speedruns'
-?> </dl>
+strats most often used in speedruns'}} </dl>
 
 <h3>Movement</h3>
 
 <dl class="extralinks"><ul>
-    <li><a href="#HR" id="myBtn">Horse Jump</a> - Mauris feugiat tortor ac aliquet consectetur.</li>
-    <li><a href="#">Quick Menu</a> - Maecenas id metus placerat, sodales enim sit amet, pulvinar justo.</li>
-    <li>Aenean vitae tortor ut massa fringilla rutrum.</li>
-    <li>Donec rutrum nisl sed erat tempus ullamcorper et ut odio.</li>
-    <li>Pellentesque congue erat non magna aliquet tincidunt.</li>
-    </ul>
+    @foreach($Movement as $key)
+    <li><a href="#HR" id="myBtn">{{$key['title']}}</a>  - {{$key['description']}}</li>
+    @endforeach
+</ul>
 </dl>
 
 @yield('HorseJump')

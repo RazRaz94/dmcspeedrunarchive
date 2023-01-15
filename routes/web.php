@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\News;
+use App\Http\Controllers\DMC1;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,13 +18,11 @@ use App\Models\News;
 
 //Home Page
 Route::get('/', function() {
-    return view('welcome');
+    return view('pages.Home');
 });
 
 //DMC1 Page
-Route::get('/DMC1', function() {
-    return view('DMC1');
-});
+Route::get('/DMC1', [DMC1::class, 'index']);
 
 //Single News
 Route::get('/news/{id}', function($id){

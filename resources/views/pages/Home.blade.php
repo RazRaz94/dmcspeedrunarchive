@@ -1,5 +1,5 @@
 @extends('Layout')
-
+@section('title', 'Main Page')
 @section('content')
 <link rel="stylesheet" href="{{asset('css/Home.css')}}">
 <div id = "content">
