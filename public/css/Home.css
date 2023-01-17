@@ -4,7 +4,7 @@
 /* ----- This is body ----- */
 
 body{
-	color:#FBF5F6;
+	color: #D3BA7F;;
 }
 
 /* ----- This is content div ----- */
@@ -14,7 +14,7 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	background:rgba(0, 0, 0, .9);
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family: "Bookman Old Style";
 	min-height: auto;
 }
 
@@ -63,12 +63,11 @@ body{
 
 ul a{
 	text-decoration:none;
-	color:#D3BA7F;
+	color:#ff6600;;
 }
 
 ul a:hover {
 	padding-left: 10px;
-	color:aqua;
 }
 
 #left dt {
@@ -132,12 +131,8 @@ ul a:hover {
 
 #right a{
 	text-decoration:none;
-	color:#D3BA7F;
+	color:#ff6600;;
 	padding: 2px 3px;
-}
-
-#right a:hover{
-	color:aqua;
 }
 
 #box{
