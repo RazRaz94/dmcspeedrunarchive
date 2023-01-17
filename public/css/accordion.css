@@ -6,7 +6,7 @@
   font-family: arial, sans-serif;
   box-sizing: border-box;
 }
-.accordion { max-width: 600px; }
+.accordion { max-width: 620px; }
 
 /* 2 - Hide Checkbox */
 .accordion input { display: none; }
@@ -34,13 +34,28 @@
 .accordion .ShowContent {
   background: rgba(0, 0, 0, .9);
   border: 1px solid #D3BA7F;
+  line-height: 2.5;
+  overflow: hidden;
+  text-align: justify;
+  text-justify: inter-word;
+  max-height: 0;
+}
+
+.accordion .ShowContentHigh {
+  background: rgba(0, 0, 0, .9);
+  border: 1px solid #D3BA7F;
+  line-height: 2.7;
+  text-align: justify;
+  text-justify: inter-word;
   overflow: hidden;
   max-height: 0;
 }
-.accordion .ShowContent ul { padding: 10px; }
+.accordion .ShowContent ul { padding: 30px; padding-top: 0; }
+.accordion .ShowContentHigh ul { padding: 35px; padding-top: 0; }
 
 /* (5) open the accordion once checked */
-.accordion input:checked ~ .ShowContent { max-height: 100vh; }
+.accordion input:checked ~ .ShowContent { max-height: 52vh; }
+.accordion input:checked ~ .ShowContentHigh { max-height: 277vh; }
 
 /* (6) Arrow Indicator */
 .accordion label::after {
