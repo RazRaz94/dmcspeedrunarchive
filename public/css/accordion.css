@@ -1,68 +1,60 @@
-/* CSS for the main interaction */
+/* Accordion Walkthrough step by step
 
-.accordion > input[type="checkbox"] {
-    position: absolute;
-    left: -100vw;
-  }
-  
-  .accordion .textShow {
-    overflow-y: hidden;
-    height: 0;
-  }
-  
-  .accordion > input[type="checkbox"]:checked ~ .textShow {
-    height: auto;
-    overflow: visible;
-  }
-  
-  .accordion label {
-    display: block;
-  }
+1 - Accordion Container */
 
-  /*  Styling */
+.accordion, .accordion * {
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+}
+.accordion { max-width: 600px; }
 
-  .accordion {
-    margin-bottom: 1em;
-    width:40%;
-  }
-  
-  .accordion > input[type="checkbox"]:checked ~ .textShow {
-    padding: 10px;
-    border: 1px solid #e8e8e8;
-    border-top: 0;
-  }
-  
-  .accordion .handle {
-    margin: 0;
-    font-size: 1.125em;
-    line-height: 1.2em;
-  }
-  
-  .accordion label {
-    color: #D3BA7F;
-    cursor: pointer;
-    font-weight: normal;
-    padding: 10px;
-    border: #D3BA7F;
-    background:rgba(77, 14, 30, .9);
-  }
-  
-  .accordion label:hover,
-  .accordion label:focus {
-    background:rgba(77, 14, 30);
-  }
-  
-  .accordion .handle label:before {
-    font-family: Arial, Helvetica, sans-serif;
-    content: '\002B';
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 20px;
-    line-height: 1.556em;
-    vertical-align: middle;
-  }
-  
-  .accordion > input[type="checkbox"]:checked ~ .handle label:before {
-    content: '\2212';
-    font-size: 20px;
-  }
+/* 2 - Hide Checkbox */
+.accordion input { display: none; }
+
+/* Accordion Label */
+
+.accordion label {
+  /* (3.1) DIMENSIONS */
+  position: relative; /* required for (f2) position:absolute */
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+ 
+  /* (3.2) COSMETICS */
+  font-weight: 700;
+  color: #D3BA7F;
+  background: rgba(77, 14, 30);
+  cursor: pointer;
+}
+
+/* (4) Accordion Content - Hidden by default */
+/* css animation will not work with auto height */
+/* this is why we use max-height instead */
+.accordion .ShowContent {
+  background: rgba(0, 0, 0, .9);
+  border: 1px solid #D3BA7F;
+  overflow: hidden;
+  max-height: 0;
+}
+.accordion .ShowContent ul { padding: 10px; }
+
+/* (5) open the accordion once checked */
+.accordion input:checked ~ .ShowContent { max-height: 100vh; }
+
+/* (6) Arrow Indicator */
+.accordion label::after {
+  /* (6.1) right arrow */
+  display: block;  
+  content: "\25b6";
+ 
+  /* (6.2) Placing at the right side */
+  position: absolute;
+  right: 10px; top: 10px;
+ 
+  /* (6.3) animate arrow */
+  transition: all 0.4s;
+}
+ 
+/* (6.4) rotate arrow on checked */
+.accordion input:checked ~ label::after { transform: rotate(90deg); }

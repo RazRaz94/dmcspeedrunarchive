@@ -41,12 +41,10 @@
             Which is the Blue Orb Fragment"}}
         </dl>
 
-        <section class="accordion">
-          <input type="checkbox" name="collapse" id="handle1">
-          <p class="handle">
-            <label for="handle1">List of all Secret Missions to clear</label>
-          </p>
-          <div class="textShow">
+        <div class="accordion">
+          <input id="tab-1" type="checkbox">
+          <label for="tab-1">List of all Secret Missions to clear</label>
+          <div class="ShowContent">
             <ul>
               <li>Secret Mission 1: Critical Hit</li>
               <li>Secret Mission 2: Phantom Baby</li>
@@ -62,8 +60,8 @@
               <li>Secret Mission 12: Hidden Bangle</li>
           </ul>
           </div>
-        </section>
-
+      </div>
+      <br>
 <div class ="wrapper">
     <div class="buttonWrapper">
         <button class="tab-button" data-id="easy">Easy</button>
