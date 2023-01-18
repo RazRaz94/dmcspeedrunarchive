@@ -32,6 +32,10 @@ Route::get('/DMC1:Any%', function() {
 Route::get('/DMC1:100%', function() {
     return view('pages.DMC1.DMC100Percent');
 });
+//All Collectibles
+Route::get('/DMC1:AC', function() {
+    return view('pages.DMC1.DMC1AllCollectibles');
+});
 
 //Single News
 Route::get('/news/{id}', function($id){

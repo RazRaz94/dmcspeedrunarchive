@@ -58,7 +58,7 @@
 <h2 id="Leaderboards_&_Categories">Leaderboards & Categories</h2>
 
 
-<dl id="extralinks"><ul><li><a href="/DMC1:Any%"><b>Any%</b></a> - Beats the game as fast as possible.</li>
+<dl id="extralinks"><ul><li><a href="/DMC1:Any%">Any%</a> - Beats the game as fast as possible.</li>
     <li><a href="/DMC1:100%">100%</a> - All permanent upgrades must be purchased, weapons, secret missions must be completed. All Missions must end with S rank before beating the game</li>
     <li><a href="/DMC1:AC">All Collectibles</a> - All Blue orbs/fragments, weapons, secret missions must be completed before beating the game</li>
     <li><a href="/DMC1:Low%">Low%</a> - Beats the game without upgrades or use of weapons that aren't mandatory.</li></dl>
