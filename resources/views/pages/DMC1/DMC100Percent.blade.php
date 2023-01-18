@@ -23,6 +23,7 @@
           <li><a href="#Objectives">Objectives</a></li>
           <li><a href="#Routes">Routes</a></li>
           <li><a href="#Rules">Rules</a></li>
+          <li><a href="#Learning">Learning</a></li>
         </ul>
         </div>
 
@@ -340,6 +341,34 @@
 </div>
 
 <h2 id="Rules">Rules</h2>
+<dl id="extralinks">{{"(The rules here are specific to this category. Go to"}} <a href="/DMC1#Rules"> <b>this page</b></a> {{"to find the rules that apply to all
+Devil May Cry speedruns.)"}}
+<ul>
+    <li>{{"You need to complete all the objectives listed above in every mission before reaching mission 22"}}</li>
+    <li>{{"Play under the respective difficulty that you're running on."}}</li>
+    <li><a href="/Glitch">Glitches</a>, {{"and any sort of gameplay exploits are allowed. However, The Special Bonus Save/Quit glitch is NOT allowed."}}</li>
+    <li>{{"Back-up saves are allowed, but must be created while the runner has control of Dante, not during end-mission menus."}}</li>
+</ul>
+    </dl>
+
+    <h2 id="Learning">Learning</h2>
+
+    <dl id="extralinks">{{"Learning a 100% category may seem daunting at first, but there are ways of making things easier. It's very important to know that each
+    difficulty has significant route difference."}}
+    <ul>
+      <li>{{"For Dante Must Die specifically, it's highly recommended and check "}} <a href="/DMC1#Tricks"> Tricks</a> {{" section regarding the boss cycles and
+      if you ever get stuck or lost in certain segment, you can check Speedrun Explained video by "}}  <a href="https://youtu.be/ceZqWXbry-8">Waifu</a>.</li>
+      <li>{{"It's much ideal to start with learning "}} <a href="DMC1:AC">All Collectibles</a> {{" category before you get comfortable enough for this
+      since the excessive "}} <b>Special Bonus</b> {{"requirement makes the run much more challenging."}}</li>
+      <li>{{'Make savefiles before each part that you probably have issues with. You can backup and copy the savefiles
+      (generally in <Steam-folder>\userdata\<user-id>\631510\remote\) into a seperate folder.'}}</li>
+      <li>{{'Make splits. Download a program like'}} <a href="https://livesplit.org/" target="_blank"><b>Livesplit</b></a>
+        {{'and setup your splits. It does not matter how bad they are in your first run.'}}</li>
+    </ul>
+
+    {{"Once you have completed your first run and made savefiles practice the parts you are least confident with then try another run."}}
+           </dl>
+    </div>
     </div>
 </div> <!--- This is End of Content --->
 

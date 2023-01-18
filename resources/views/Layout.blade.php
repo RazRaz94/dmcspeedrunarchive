@@ -18,7 +18,7 @@
 <div id="footer">    <div class = "footercontent">
     <div id = "copyrights">
         <span class="rights"> Desgin and Content Expect footer ©2014 LonerHero - All Rights Reserved</span>
-        <span class="college">{{ date('Y-m-d H:i:s') }}</span>
+        <span class="college">DMCSpeedruns © {{now()->format('Y-m-d') }}</span>
         <div class = "desgin">
             <a href="https://www.zaxios.com">Footer Design by Zaxios</a>
         </div> <!-- desgin -->
