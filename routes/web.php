@@ -36,6 +36,10 @@ Route::get('/DMC1:100%', function() {
 Route::get('/DMC1:AC', function() {
     return view('pages.DMC1.DMC1AllCollectibles');
 });
+//Low% Category
+Route::get('/DMC1:Low%', function() {
+    return view('pages.DMC1.DMC1LowPercent');
+});
 
 //Single News
 Route::get('/news/{id}', function($id){

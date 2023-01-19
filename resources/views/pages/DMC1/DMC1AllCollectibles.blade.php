@@ -39,7 +39,7 @@
                 </ul>
                 <sup>(1) </sup>{{"All of them need to be cleared when you finish the game. The rewards you get from these missions are part of collectibles requirement,
                 which is the Blue Orb Fragment. You are also allowed to Save/Quit for quick travel as long as you collect the item reward in the area.
-                For example, you can go back to mission 8's entrance interval after you grab blue orb in secret mission 5."}}
+                For example, you can go back to mission 8's entrance interval after you grab blue orb in secret mission 5."}} 
 
             <div class="accordion">
                 <input id="tab-1" type="checkbox">

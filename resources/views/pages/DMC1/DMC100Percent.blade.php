@@ -234,7 +234,8 @@ Devil May Cry speedruns.)"}}
     <li>{{"You need to complete all the objectives listed above in every mission before reaching mission 22"}}</li>
     <li>{{"Play under the respective difficulty that you're running on."}}</li>
     <li><a href="/Glitch">Glitches</a>, {{"and any sort of gameplay exploits are allowed. However, The Special Bonus Save/Quit glitch is NOT allowed."}}</li>
-    <li>{{"Back-up saves are allowed, but must be created while the runner has control of Dante, not during end-mission menus."}}</li>
+    <li>{{"Back-up saves are allowed, but must be created while the runner has control of Dante, not during end-mission menus."}}
+    <a href="https://youtu.be/_NT_mAYiNmQ" target="_blank">Explanation video</a> {{"on how to avoid Save/Quit glitch by Waifu."}}</li>
 </ul>
     </dl>
 
@@ -244,7 +245,7 @@ Devil May Cry speedruns.)"}}
     difficulty has significant route difference."}}
     <ul>
       <li>{{"For Dante Must Die specifically, it's highly recommended and check "}} <a href="/DMC1#Tricks"> Tricks</a> {{" section regarding the boss cycles and
-      if you ever get stuck or lost in certain segment, you can check Speedrun Explained video by "}}  <a href="https://youtu.be/ceZqWXbry-8">Waifu</a>.</li>
+      if you ever get stuck or lost in certain segment, you can check Speedrun Explained video by "}}  <a href="https://youtu.be/ceZqWXbry-8" target="_blank">Waifu</a>.</li>
       <li>{{"It's much ideal to start with learning "}} <a href="/DMC1:AC">All Collectibles</a> {{" category before you get comfortable enough for this
       since the excessive "}} <b>Special Bonus</b> {{"requirement makes the run much more challenging."}}</li>
       <li>{{'Make savefiles before each part that you probably have issues with. You can backup and copy the savefiles
