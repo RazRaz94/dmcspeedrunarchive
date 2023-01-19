@@ -24,6 +24,10 @@ Route::get('/', function() {
 //DMC1 Pages
 //Index
 Route::get('/DMC1', [DMC1::class, 'index']);
+//Getting Started
+Route::get('/DMC1:Getting_Started', function() {
+    return view('pages.DMC1.DMC1GettingStarted');
+});
 //Any% Category
 Route::get('/DMC1:Any%', function() {
     return view('pages.DMC1.DMC1AnyPercent');
