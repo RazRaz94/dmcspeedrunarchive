@@ -66,7 +66,7 @@
     <h2 id="Getting_Started">Getting Started</h2>
 
 <dl id="extralinks"><ul><li>Visit the <a href="/DMC1:Getting_Started">Getting Started</a> page for information on how to get started with DMC1 speedrunning.</li>
-    <li>Refer to the <a href="#">General Rules</a> for rules that apply to all categories of DMC1 speedrunning.</li>
+    <li>Refer to the <a href="#Rules">General Rules</a> for rules that apply to all categories of DMC1 speedrunning.</li>
     <li>Check the <a href="/DMC1:Frequently_Asked_Questions"> Frequently Asked Questions (FAQ)</a> if you have general questions regarding methods and strategies used in DMC1 speedruns.</li>
     <li>Helpful Utilities:
         <ul><li><a href="/DMC1:Input_Displays">Input Displays</a></li>
