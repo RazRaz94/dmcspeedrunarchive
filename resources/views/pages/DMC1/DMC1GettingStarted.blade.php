@@ -67,6 +67,14 @@
         the timer will pause and resume when you are back in the game. Players commonly mention
         and check this at the end-mission screen to determine whether their segment was good or bad.</li>
         <br>
+        <li><b>DT:</b> Stands for Devil Trigger and is used to transform dante into a demon, boosting his various stats depending on the equipment.
+            While using Alastor, movement speed and attack speed increased, and the sword attack deals more damage. On the other hand, using ifrit
+            only increases the damage output. Gunfire from weapons other than Nightmare-β charged with a respective elemental boost.
+            In Dante Must Die mode, Devil Trigger does not restore health.</li>
+        <br>
+        <li><b>Runes:</b> Devil Trigger in DMC1 often abbreviated as Runes, shows how much DT energy the character has. The runes can be seen below the vitality gauge.
+            The player can extend the runes by buying Purple Orbs, allowing them to maintain their form for a longer period of time.</li>
+        <br>
         <li><b>SB:</b> Stands for Special Bonus and is a bonus that you receive at the end of the missions by meeting four conditions: Getting the present of Red Orbs,
         beating the mission within the timelimit, not receiving any damage and not using excessive items. The bonus is a reward of <b>2,000</b>
         <img height="18" width="18" src="{{asset('images/money.png')}}"></li>
@@ -81,6 +89,8 @@
         <br>
         <li><b>Save & Quit:</b> Commonly used in <a href="DMC1:AC">All Collectibles</a> category. Quitting of the game to the main menu is a efficient way to fast travel
         such as secret mission 5. Quitting out and reloading the game back also used to back up <b>SB</b> in short missions if failed.</li>
+        <br>
+        <li><b> DT grenade launcher:</b> Refers to DT management []</li>
         <br>
         <li><b>Cosmo Climb</b>: Refers to vortex platforming skip in Mission 21[]</li>
     </ul>
