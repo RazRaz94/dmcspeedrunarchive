@@ -28,6 +28,12 @@ Route::get('/DMC1', [DMC1::class, 'index']);
 Route::get('/DMC1:Getting_Started', function() {
     return view('pages.DMC1.DMC1GettingStarted');
 });
+//DMC1 FAQ
+Route::get('/DMC1:Frequently_Asked_Questions', function() {
+    return view('pages.DMC1.DMC1FAQ');
+});
+
+//DMC1 Categories
 //Any% Category
 Route::get('/DMC1:Any%', function() {
     return view('pages.DMC1.DMC1AnyPercent');

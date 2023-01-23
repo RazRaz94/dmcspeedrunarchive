@@ -202,7 +202,8 @@ Devil May Cry speedruns.)"}}
     <dl id="extralinks">{{"For those who are interested in"}} <a href="/DMC1:100%">100%</a> {{"category this is a good starting point."}}
     <ul>
       <li>{{"For Dante Must Die specifically, it's highly recommended and check "}} <a href="/DMC1#Tricks"> Tricks</a> {{" section regarding the boss cycles and
-      if you ever get stuck or lost in certain segment, you can check Speedrun Explained video by "}}  <a href="https://youtu.be/ceZqWXbry-8">Waifu</a>.</li>
+      if you ever get stuck or lost in certain segment, you can check Speedrun Explained video by "}}  <a href="https://youtu.be/ceZqWXbry-8" target="_blank">Waifu</a>.</li>
+      <li>{{"For Normal difficulty refer to"}} <a href="https://youtu.be/uU8wcQgUgN8" target="_blank">DanSpence94's video</a>
       <li>{{"You can save during end-mission menus to secure routes with Special Bonus."}}</li>
       <li>{{'Make savefiles before each part that you probably have issues with. You can backup and copy the savefiles
       (generally in <Steam-folder>\userdata\<user-id>\631510\remote\) into a seperate folder.'}}</li>

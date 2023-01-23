@@ -1,0 +1,29 @@
+.CF {
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 1em 0;
+    font-size: larger;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+}
+
+legend {
+    font-size: 1.2em;
+    color:#783d91;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+fieldset {
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #91783D;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+a:link, a:visited{
+	color:#ff6600;
+	text-decoration: none;
+}
