@@ -14,6 +14,41 @@
             </td></tr></tbody></table>
 
             <fieldset>
+                <legend>What is the fastest way to move ?</legend>
+                {{"From fastest to slowest, the means of movement are ranked as follows:"}}
+                <ul>
+                    <li>Vortex 2</li>
+                    <li>Vortex 1</li>
+                    <li>Stinger 2</li>
+                    <li>DT running</li>
+                    <li>Rolling</li>
+                    <li>Walk Jumping</li>
+                    <li>Walking</li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>What's the difference on each DMC1 release ? Is there difference for HD Collection language ?</legend>
+                {{"There are gameplay differences on each DMC1 release. For PS2:"}}
+                <ul>
+                    <li><b>NTSC-U/C:</b> Dante takes 20% more damage. Controls are different <b style="color:#3ddb9a;">△</b> is jump.
+                        Melee is <b style="color:#f0747f;">O</b> and interaction is <b style="color:#a1c2e5;">X</b></li>
+                    <li><b>NTSC-J:</b> Same as US version however, control is the standard DMC default.</li>
+                    <li><b>PAL:</b> runs at 50&#x3390; which is slower than NTSC (60&#x3390;).</li>
+                </ul>
+                {{"HD Collection:"}}
+                <ul>
+                    <li><b>2012 (PS3/Xbox360):</b> Numerous graphical and audio issues present in the ports,
+                        including simplified or missing graphical effects, distorted or missing audio, and music failing to loop correctly.</li>
+                    <li><b>Twitch Prime Drop:</b> Has a glitch where <a href="https://youtu.be/zgVUySy2Iro" target="_blank">the game speeds up in windowed mode</a>. This due to
+                        how some monitors handle frame rates. Any monitor whose refresh-rate is greater than 60&#x3390;.
+                    <li><b>2018 (PS4/XboxOne/PC):</b> A few of the issues above were addresse, however
+                        it has new bug where Griffon's chest opening for proper hitbox in Mission 15 does not work.</li>
+                </ul>
+                <span style="color:#f0747f;">Changing HD Collection 2018 text to JP text does save a little time over ENG.</span>
+            </fieldset>
+
+            <fieldset>
                 <legend>Is it faster to bait Skewer and jump on and kill <a href="https://devilmaycry.fandom.com/wiki/Shadow" target="_blank">Shadow </a>
                     or Just DT off the bat and shoot him ?</legend>
                 {{"It's always better to just unload with DT. Shadow can also show his core instantly sometimes with a rare RNG. In Dante Must Die, it's better to bait
@@ -37,6 +72,11 @@
                 <legend>Why am I not dealing enough damage to <a href="https://devilmaycry.fandom.com/wiki/Nightmare" target="_blank">nightmare ?</a></legend>
                 {{"Nightmare core health is determined by how many times it is hit. It starts blue, then goes green, then red and when it is red it takes significantly decreased damage.
                 If you need to put extra damage on a scuffed one cycle Nightmare, attack the core on top so you don't do extra damage to the core in the rear."}}
+            </fieldset>
+
+            <fieldset><legend>Can I do Ifrit skip without Air Hike ?</legend>
+                {{"Yes you can, but it's very important to have air hike for the second encounter against"}}
+                <a href="https://devilmaycry.fandom.com/wiki/Phantom" target="_blank">Phantom</a>.
             </fieldset>
 
             <fieldset><legend>Is the room at the end of mission 9 random ?</legend>

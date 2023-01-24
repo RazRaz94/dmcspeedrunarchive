@@ -35,11 +35,11 @@ Route::get('/DMC1:Frequently_Asked_Questions', function() {
 
 //DMC1 Categories
 //Any% Category
-Route::get('/DMC1:Any%', function() {
+Route::get('/DMC1:Any', function() {
     return view('pages.DMC1.DMC1AnyPercent');
 });
 //100% Category
-Route::get('/DMC1:100%', function() {
+Route::get('/DMC1:All', function() {
     return view('pages.DMC1.DMC100Percent');
 });
 //All Collectibles
@@ -47,7 +47,7 @@ Route::get('/DMC1:AC', function() {
     return view('pages.DMC1.DMC1AllCollectibles');
 });
 //Low% Category
-Route::get('/DMC1:Low%', function() {
+Route::get('/DMC1:Low', function() {
     return view('pages.DMC1.DMC1LowPercent');
 });
 
@@ -58,6 +58,12 @@ Route::get('/news/{id}', function($id){
     ]);
 });
 
+//Tools & Utilities
+
+//Input Display
+Route::get('/Input_Displays', function() {
+    return view('pages.Utilities.InputDisplays');
+});
 
 
 

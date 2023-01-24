@@ -58,10 +58,10 @@
 <h2 id="Leaderboards_&_Categories">Leaderboards & Categories</h2>
 
 
-<dl id="extralinks"><ul><li><a href="/DMC1:Any%">Any%</a> - Beats the game as fast as possible.</li>
-    <li><a href="/DMC1:100%">100%</a> - All permanent upgrades must be purchased, weapons, secret missions must be completed. All Missions must end with S rank before beating the game</li>
+<dl id="extralinks"><ul><li><a href="/DMC1:Any">Any%</a> - Beats the game as fast as possible.</li>
+    <li><a href="/DMC1:All">100%</a> - All permanent upgrades must be purchased, weapons, secret missions must be completed. All Missions must end with S rank before beating the game</li>
     <li><a href="/DMC1:AC">All Collectibles</a> - All Blue orbs/fragments, weapons, secret missions must be completed before beating the game</li>
-    <li><a href="/DMC1:Low%">Low%</a> - Beats the game without upgrades or use of weapons that aren't mandatory.</li></dl>
+    <li><a href="/DMC1:Low">Low%</a> - Beats the game without upgrades or use of weapons that aren't mandatory.</li></dl>
     
     <h2 id="Getting_Started">Getting Started</h2>
 
@@ -69,7 +69,7 @@
     <li>Refer to the <a href="#Rules">General Rules</a> for rules that apply to all categories of DMC1 speedrunning.</li>
     <li>Check the <a href="/DMC1:Frequently_Asked_Questions"> Frequently Asked Questions (FAQ)</a> if you have general questions regarding methods and strategies used in DMC1 speedruns.</li>
     <li>Helpful Utilities:
-        <ul><li><a href="/DMC1:Input_Displays">Input Displays</a></li>
+        <ul><li><a href="/Input_Displays">Input Displays</a></li>
             <li><a href="/DMC1:Turbo">PC Turbo Setup</a></li>
             <li><a href="https://www.speedrun.com/resourceasset/5v4dr"> Doorsplitter Splits</a></li>
         </ul>

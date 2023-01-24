@@ -1,12 +1,5 @@
 /* CSS Document */
 
-
-/* ----- This is body ----- */
-
-body{
-	color: #D3BA7F;;
-}
-
 /* ----- This is content div ----- */
 
 #content{
@@ -15,6 +8,7 @@ body{
 	margin-right:auto;
 	background:rgba(0, 0, 0, .9);
 	font-family: "Bookman Old Style";
+	height: 100%;
 	min-height: auto;
 }
 

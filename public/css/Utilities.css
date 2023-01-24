@@ -1,0 +1,55 @@
+/* ----- This is content div ----- */
+
+#content{
+	height:auto;
+    line-height: 1.5;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background:rgba(0, 0, 0, .9);
+	font-family: "Bookman Old Style";
+	min-height: auto;
+}
+
+#clearit {
+	clear: both;
+}
+
+/* ----- Left Div ----- */
+
+#left{
+	padding: 10px 20px;
+}
+
+h1 {
+	font-size: 1.8em;
+	font-weight: normal;
+	color:#ff3333;
+    border-bottom:1px dotted #D3BA7F;
+    line-height: 1.3;
+}
+
+#left h2 {
+    font-size: 1.5em;
+	font-weight: normal;
+    color:#ff3333;
+    border-bottom:1px dotted #D3BA7F;
+    line-height: 1.3;
+}
+
+#left h3{
+	color:#008b8b;
+	border-bottom:1px dotted #D3BA7F;
+    line-height: 1.3;
+}
+
+#left ul {
+	color:#D3BA7F;
+    line-height: 1.3;
+	list-style-type: square;
+}
+
+a:link, a:visited{
+	color:#ff6600;
+	text-decoration: none;
+}

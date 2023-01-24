@@ -64,7 +64,7 @@
             @include('pages.DMC1.DMC1BlueOrbs')
             <br>
 
-            <sup>(2) </sup>{{"While"}} <a href="/DMC1:Any%">Any%</a> {{"skips majority of firearms, this category requires all of them for full completion. The devilarms
+            <sup>(2) </sup>{{"While"}} <a href="/DMC1:Any">Any%</a> {{"skips majority of firearms, this category requires all of them for full completion. The devilarms
   by default are mandatory progression pick."}}
 
 <div class="accordion">
