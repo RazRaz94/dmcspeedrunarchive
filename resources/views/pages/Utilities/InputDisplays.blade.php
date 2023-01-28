@@ -3,6 +3,7 @@
 @section('content')
 <link rel="stylesheet" href="{{asset('css/Utilities.css')}}">
 <link rel="stylesheet" href="{{asset('css/ImageModal.css')}}">
+<link rel="stylesheet" href="{{asset('css/accordion.css')}}">
 
 <div id = "content">
     <div id = "left">
@@ -16,10 +17,10 @@
         <table>
         <tr><td><a href="#img1"><img id="Thumb" src="https://i.imgur.com/VxOa5EM.png" /></a></td><td><a href="#img2"><img id="Thumb" src="https://i.imgur.com/wkpINjl.png" /></a></td></tr>
         </table>
-        <a href="#" class="lightbox" id="img1">
+        <a href="#/" class="lightbox" id="img1">
             <span style="background-image: url('https://i.imgur.com/VxOa5EM.png')"></span>
           </a>
-          <a href="#" class="lightbox" id="img2">
+          <a href="#/" class="lightbox" id="img2">
             <span style="background-image: url('https://i.imgur.com/wkpINjl.png')"></span>
           </a>
           <h2>Downloads</h2>
@@ -60,6 +61,23 @@
             to experiment with Similarity and Key Color Spill Reduction.</li>
             <li>Now you can close the filter window and position the GamePad wherever you like.</li>
           </ol>
+          <div class="accordion">
+            <input id="tab-1" type="checkbox">
+            <label for="tab-1">Open Joystick Display Quick Interface Guide</label>
+            <div class="ShowContent">
+              <br>
+              <a style="padding-left:15px;" href="#img3"><img id="Thumb" src="{{asset('images/OJD_UI.png')}}" /></a>
+              <a href="#/" class="lightbox" id="img3">
+                <span style="background-image: url('images/OJD_UI.png')"></span>
+              </a>
+              <ol>
+                <li>Skin of your Controller.</li>
+                <li>Automatic button mapping depending on the drop down choice.</li>
+                <li>Input Testing / Button Checks</li>
+                <li>Custom Button configuration. Very useful for third-party controllers.</li>
+              </ol>
+            </div>
+          </div>
           <ol>
             <b>Keyboard</b>
             <li>After you start the program, right click > load keyboard. Pick a layout of your choice</li>
@@ -78,5 +96,25 @@
             to experiment with Similarity and Key Color Spill Reduction.</li>
             <li>Now you can close the filter window and position the Keyboard Inputs wherever you like.</li>
           </ol>
+          <div class="accordion">
+            <input id="tab-2" type="checkbox">
+            <label for="tab-2">NohBoard Quick Interface Guide</label>
+            <div class="ShowContent">
+              <br>
+              <a style="padding-left:15px;" href="#img4"><img id="Thumb" src="{{asset('images/Noh.png')}}" /></a>
+              <a href="#/" class="lightbox" id="img4">
+                <span style="background-image: url('images/Noh.png')"></span>
+              </a>
+              <a style="padding-left:15px;" href="#img5"><img id="Thumb" src="{{asset('images/Noh2.png')}}" /></a>
+              <a href="#/" class="lightbox" id="img5">
+                <span style="background-image: url('images/Noh2.png')"></span>
+              </a>
+              <ul>
+                <li>NohBoard has a lot of options that are Self-explanatory</li>
+                <li>What matters the most is the second picture regarding key properties</li>
+                <li>This is where you configure and map each of your keycodes based on the detect</li>
+              </ul>
+            </div>
+          </div>
     </div>
 </div>

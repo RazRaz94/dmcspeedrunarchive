@@ -34,7 +34,6 @@
 .accordion .ShowContent {
   background: rgba(0, 0, 0, .9);
   border: 1px solid #D3BA7F;
-  line-height: 2.5;
   overflow: hidden;
   text-align: justify;
   text-justify: inter-word;
