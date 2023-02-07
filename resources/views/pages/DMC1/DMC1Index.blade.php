@@ -70,7 +70,7 @@
     <li>Check the <a href="/DMC1:Frequently_Asked_Questions"> Frequently Asked Questions (FAQ)</a> if you have general questions regarding methods and strategies used in DMC1 speedruns.</li>
     <li>Helpful Utilities:
         <ul><li><a href="/Input_Displays">Input Displays</a></li>
-            <li><a href="/DMC1:Turbo">PC Turbo Setup</a></li>
+            <li><a href="/DMC1:Turbo">Turbo Setup</a></li>
             <li><a href="https://www.speedrun.com/resourceasset/5v4dr"> Doorsplitter Splits</a></li>
         </ul>
     </li></dl> 

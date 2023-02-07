@@ -65,6 +65,11 @@ Route::get('/Input_Displays', function() {
     return view('pages.Utilities.InputDisplays');
 });
 
+//DMC1 Turbo
+Route::get('/DMC1:Turbo', function() {
+    return view('pages.DMC1.DMC1Turbo');
+});
+
 
 
 /* Route::get('/hello', function(){

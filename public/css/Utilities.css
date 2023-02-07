@@ -53,3 +53,17 @@ a:link, a:visited{
 	color:#ff6600;
 	text-decoration: none;
 }
+
+/* ----- Step by Step with image ----- */
+
+table
+{
+width: auto;
+color:#D3BA7F;
+}
+table, th, td
+{
+border-collapse: collapse;
+padding: 3px 4px;
+text-align: center;
+}
