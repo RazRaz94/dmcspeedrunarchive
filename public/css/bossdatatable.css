@@ -1,0 +1,33 @@
+#bossdata{
+    color:#D3BA7F;
+    border-spacing: 3px;
+    background-color: rgba(0, 0, 0, .9);
+    border: 1px solid #D3BA7F;
+    padding: 0.2em;
+}
+
+#Steps{  
+  text-align: justify;
+  color:#D3BA7F; 
+}
+
+#Steps td{
+  padding: 3px;
+}
+
+#bossdata th {
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+  
+#bossdata td {
+    letter-spacing: 1px;
+  }
+  
+#bossdata td {
+    text-align: center;
+  }
+  
+#bossdata tfoot th {
+    text-align: right;
+  }

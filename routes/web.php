@@ -51,6 +51,17 @@ Route::get('/DMC1:Low', function() {
     return view('pages.DMC1.DMC1LowPercent');
 });
 
+//DMC1 Bosses
+Route::get('/DMC1:Phantom', function() {
+    return view('pages.DMC1.DMC1Phantom');
+});
+Route::get('/DMC1:Nelo', function() {
+    return view('pages.DMC1.DMC1Nelo');
+});
+Route::get('/DMC1:Nightmare', function() {
+    return view('pages.DMC1.DMC1Nightmare');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [

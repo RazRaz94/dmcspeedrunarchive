@@ -123,10 +123,10 @@ strats most often used in speedruns'}} </dl>
 <h3>Bosses</h3>
 
 <dl id="extralinks"><ul>
-    <li><a href="#">Phantom</a></li>
-    <li><a href="#">Nelo Angelo</a></li>
+    <li><a href="/DMC1:Phantom">Phantom</a></li>
+    <li><a href="/DMC1:Nelo">Nelo Angelo</a></li>
     <li><a href="#">Griffon</a></li>
-    <li><a href="#">Nightmare</a></li>
+    <li><a href="/DMC1:Nightmare">Nightmare</a></li>
     <li><a href="#">Mundus</a></li>
     </ul>
 </dl>
@@ -152,7 +152,7 @@ strats most often used in speedruns'}} </dl>
         <li>The offical run time is counted as the <a href="#">Load Time Removal (LRT)</a>.<ul>
             <li>PC runs can activate autosplitter by Mysterion_06 in livesplit and compare against game time for LRT.</li>
             <li>Console runs will be calculated by moderators upon submission.</ul></li>
-    <li>World record submissions require a twitch VOD. PC runs require <a href="/DMC1:Input_Displays">Input Displays</a> for all inputs.</li>
+    <li>World record submissions require a twitch VOD. PC runs require <a href="/Input_Displays">Input Displays</a> for all inputs.</li>
     <li><a href="/DMC1:Turbo">Turbo Macros or Controllers</a> are only allowed in Dante Must Die difficulty.</li>
     <li>Timer starts when you select difficulty (the "Devil May Cry" audio cue will play).</li>
     <li>Total Result screen at the end of the run which includes IGT, orb count, and mission rankings must be included in the submission.</li>
