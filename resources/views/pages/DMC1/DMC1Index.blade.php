@@ -125,7 +125,7 @@ strats most often used in speedruns'}} </dl>
 <dl id="extralinks"><ul>
     <li><a href="/DMC1:Phantom">Phantom</a></li>
     <li><a href="/DMC1:Nelo">Nelo Angelo</a></li>
-    <li><a href="#">Griffon</a></li>
+    <li><a href="/DMC1:Griffon">Griffon</a></li>
     <li><a href="/DMC1:Nightmare">Nightmare</a></li>
     <li><a href="#">Mundus</a></li>
     </ul>

@@ -55,6 +55,9 @@ Route::get('/DMC1:Low', function() {
 Route::get('/DMC1:Phantom', function() {
     return view('pages.DMC1.DMC1Phantom');
 });
+Route::get('/DMC1:Griffon', function() {
+    return view('pages.DMC1.DMC1Griffon');
+});
 Route::get('/DMC1:Nelo', function() {
     return view('pages.DMC1.DMC1Nelo');
 });
