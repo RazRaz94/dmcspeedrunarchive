@@ -133,5 +133,121 @@
                           </video></td>
                       </tr>
                     </table>
+                    <table id="Steps">
+                        <tr>
+                            <td>
+                          <h3 style="color:#ff3333;">Mission 18</h3>
+                              {{"The fight must end with cores at green state."}}<br> <br>
+                              {{"Depends on what you did at movement section, one taunt should give you max Runes."}}<br><br>
+                              {{"This sequence is extremely important. Note down the timing on when to jump. If you fail to do that then you won't
+                              be able to get the last hit. The timing for the last two full Ifrit charges are very tight."}}<br> <br>
+                              {{"Shoot > 4 Full Charge > 2 Normal hits > 2 Full Charge."}}<br> <br></td>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare2DMDCore1.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                        <tr>
+                            <td>
+                              {{"Before the second core, you will need to setup re-light. Be ready to deal with mini-nightmares
+                              while trying to build back some runes. Walk to Nightmare's side for spike deflect prep"}}<br><br>
+                              {{"DT shoot followed by 5 Full Charge Ifrit."}}<br> <br></td>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare2DMDCore2.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                        <tr>
+                            <td>
+                              {{"Immediately start building 5 runes while staying at the same spot. This sequence is very important to get it right, so
+                              you could deal massive damage on the last hit."}}<br><br>
+                              {{"DT shoot > 5 Full Charge Ifrit > 3 Normal hits > Last hit Full Charge."}}<br> <br></td>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare2DMDCore3.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                        <tr>
+                            <td id="extralinks">
+                              {{"Prep for spike deflect then finish the fight."}}<br><br>
+                              {{"If everything went right, this should be the last sequence you deal with otherwise you'd have to repeat this again one more. Diving
+                              into Nightmare Space is not good for this fight because"}} <a href="/DMC1:Griffon"> Griffon 4</a>
+                              {{"is arguably one of the worst fights in the game as it
+                              takes so much time to kill."}}<br><br>
+                              {{"DT shoot followed by 5 Full Charge Ifrit"}}<br> <br></td>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare2DMDCore4.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                    </table>
+                    <table id="Steps">
+                        <tr>
+                            <td>
+                          <h3 style="color:#ff3333;">Mission 20</h3>
+                              {{"The speed of this fight depends on the re-light consistency."}}<br> <br>
+                              {{"Try to build DT Runes as much as possible. Sometimes you may not have enough for the sixth hit. The jump timing is similar to
+                              the second fight."}}<br><br>
+                              {{"You will have to taunt twice after dpsing
+                              because you will need to keep Runes management high for the re-lighting sequence."}}<br> <br>
+                              {{"First sequence is DT Shoot > 6 Full Charge Ifrit."}}<br> <br></td>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare3DMDCore1.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                    </table>
+                    <table id="Steps">
+                        <tr>
+                            <td>
+                              {{"Unlike previous encoutners, you need to make sure that you are close to the light mechanic."}}<br> <br>
+                              {{"You need to stay in the same line before you prep for spike deflect for few seconds."}}<br><br>
+                              {{"Avoid getting stun-locked with nightmare shots is the most important part."}}<br> <br>
+                              {{"Sequence is 4 Full Charge Ifrit. You can add 5th, but it can very tight to re-light and build back DT runes."}}<br> <br></td>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare3DMDCore2.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                    </table>
+                    <table id="Steps">
+                        <tr>
+                            <td>
+                              {{"Nightmare will try to move you away far from mechanic after that, so you will have to get on his left side to push him back."}}<br><br>
+                              {{"You will need to have at least 6 runes."}}<br> <br>
+                              {{"Sequence is DT Shoot > 5 Full Charge Ifrit."}}<br> <br></td>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare3DMDCore3.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                    </table>
+                    <table id="Steps">
+                        <tr>
+                            <td>
+                              {{"The last sequence for 5 Full Charge Ifrit can be rough if you didn't build 4 runes back. When that happens you will either do 6th
+                              Full Charge or lose time by doing the light mechanic again."}}<br><br>
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare3DMDCore4.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                    </table>
+                    <table id="Steps">
+                        <tr>
+                            <td>
+                              {{"Final phase is troublesome because if you don't light the mechanic fast enough. Nightmare will waste a lot of time to
+                              ceilling bullets. Other than that, you will have to build 5 runes to kill him before the breserk state."}}<br><br>
+                              {{"Sequence can be 4 or 5 Full Charge Ifrit. The moment you see the breserk state, jump away and use untouchable."}}<br><br>
+                              {{"Abuse Inferno till death. It's important to note that the reason why your input gets eaten away is due to Nightmare
+                              interrupting you with a stun. Therefore, you have to be careful from mashing it."}}
+                            <td>
+                              <video width="480" height="360" controls>
+                                <source src="{{asset('video/DMC1Boss/Nightmare/Nightmare3DMDCoreFinal.mp4')}}" type="video/mp4">
+                            </video></td>
+                        </tr>
+                    </table>
+                    <dl id="extralinks">It's good to check the <a href="/DMC1:Frequently_Asked_Questions"> Frequently Asked Questions (FAQ)</a>
+                        if you have general questions regarding the bosses. </dl>
         </div>
     </div>
