@@ -153,5 +153,38 @@
                     </td>
                 </tr>
             </table>
+            <table id="Steps">
+                <tr>
+                    <td id="extralinks">
+                        <h3 style="color:#ff3333;">Mission 15</h3>
+                        {{"You will most likely need a vital star as a back up because its very easy to die in this fight with one mistake."}}<br><br>
+                        {{"The start of this fight is always consistent as long as you perform the inital movement right.
+                        Double straight stinger > Ifrit switch > Jump to the right."}}<br><br>
+                        {{"The camera angle can most likely misinput your meteor charge so, you want to make sure that dante walking backward a bit. Two fully
+                        charged meteor will deal massive damage to griffon."}}<br><br>
+                        {{"Since DMD runs are most common in "}} <a href="/DMC1:AC">All Collectibles </a> {{"the clip showcases Cosmo Climb trick to quick grab
+                        Blue Orb fragment, before knocking Griffon down. If it's not in that category you will just knock him down similar strategy to Normal difficulty."}}
+                    </td>
+                    <td>
+                        <video width="480" height="360" controls>
+                            <source src="{{ asset('video/DMC1Boss/Griffon/Griffon3DMDStart.mp4') }}" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{"The next step is quickly building DT Runes fast before preparing to counter any of the Griffon's attack.
+                        At this point of stage, you may either get a very good fight or a very unlucky fight."}}<br><br>
+                        {{"When Griffon does his back leap, its a good opportunity to start charging meteor, but you may get unlucky when goes for the heavy stomp.
+                        Avoid this by jumping away."}}<br><br>
+                        {{"After each meteor, you have to maintain DT Runes by either shooting him with grenades or Rolling blaze when griffon runs at you."}}
+                    </td>
+                    <td>
+                        <video width="480" height="360" controls>
+                            <source src="{{ asset('video/DMC1Boss/Griffon/Griffon3DMDBuild.mp4') }}" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
