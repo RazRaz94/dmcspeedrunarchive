@@ -24,6 +24,9 @@ Route::get('/', function() {
 //DMC1 Pages
 //Index
 Route::get('/DMC1', [DMC1::class, 'index']);
+Route::get('/DMC2', function() {
+    return view('pages.DMC2.DMC2Index');
+});
 //Getting Started
 Route::get('/DMC1:Getting_Started', function() {
     return view('pages.DMC1.DMC1GettingStarted');

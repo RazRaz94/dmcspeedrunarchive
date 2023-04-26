@@ -42,7 +42,7 @@
     </div>
     <div id = "left">
     	<h1>DEVIL MAY CRY (2001)</h1>
-        <p>Devil May Cry is a 2001 action-adventure game developed by Capcom Production Studio and published by Capcom. Released from August to Decemberit is the first installment in the Devil May Cry series.</p>
+        <p>Devil May Cry is a 2001 action-adventure game developed by Capcom Production Studio and published by Capcom. Released from August to December it is the first installment in the Devil May Cry series.</p>
         <div id="toc_container">
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
@@ -168,7 +168,7 @@ strats most often used in speedruns'}} </dl>
         <li><a href="https://www.speedrunslive.com/rules-faq/glossary/" target="_blank">Speedrun Glossary</a> on SpeedRunsLive</li>
         <li><a href="https://en.wikipedia.org/wiki/Devil_May_Cry_(video_game)" target="_blank">Devil May Cry</a> at Wikipedia</li>
         <li><a href="https://devilmaycry.fandom.com/wiki/Devil_May_Cry" target="_blank">Devil May Cry Fandom Wiki</a></li>
-        <li><a href="https://www.speedrunslive.com/rules-faq/glossary/" target="_blank">Devil May Cry</a> at SpeedDemosArchive</li>
+        <li><a href="https://speeddemosarchive.com/DevilMayCry.html" target="_blank">Devil May Cry</a> at SpeedDemosArchive</li>
         <li><a href="https://www.speedrun.com/dmc" target="_blank">Devil May Cry Leaderboards</a> at speedrun.com</li>
     </ul>
 </dl>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="view port" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>@yield('title') - DMCSpeedruns</title>
 <link rel="stylesheet" href="{{asset('css/sidenav.css')}}">
@@ -39,7 +39,7 @@
           <div class="list">
               <ul>
               <li><a href="/DMC1">Devil May Cry 1</a></li>
-              <li><a href="#">Devil May Cry 2</a></li>
+              <li><a href="/DMC2">Devil May Cry 2</a></li>
               <li><a href="#">Devil May Cry 3</a></li>
               <li><a href="#">Devil May Cry 4</a></li>
               <li><a href="#">DmC: Devil May Cry</a></li>
