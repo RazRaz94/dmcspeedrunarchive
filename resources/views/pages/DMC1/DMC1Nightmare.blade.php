@@ -7,7 +7,21 @@
 
     <div id="content">
         <div id="right">
-            <img src="{{ asset('images/DMC1Files/Bosses/Nightmare.png') }}" width="270" height="206" />
+            <table class="infobox">
+                <tbody><tr>
+                <th colspan="2" style="text-align: center;"><i><b>Nightmare</b></i>
+                </th></tr>
+                <tr>
+                <th colspan="2"> 
+                    <img src="{{ asset('images/DMC1Files/Bosses/Nightmare.png') }}" width="270" height="206" />
+                </th></tr>
+                <tr>
+                  <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>HP Values</b>
+                </td></tr>
+                <tr><td><b>M16</b></td><td>7,000</td></tr>
+                <tr><td><b>M18</b></td><td>7,000</td></tr>
+                <tr><td><b>M20</b></td><td>7,000</td></tr></tr>
+              </tbody></table>
         </div>
         <div id="left">
             <h1>Nightmare</h1>
@@ -22,35 +36,11 @@
                     in some situations.</li>
                 <li>One of the few bosses where HP value is the same regardless of the difficulty.</li>
             </ul>
-            <table id="bossdata">
-                <caption style="background-color:rgba(77, 14, 30);">
-                    <b>HP Value</b>
-                </caption>
-                <thead>
-                    <tr>
-                        <th scope="col">M16</th>
-                        <th scope="col">M18</th>
-                        <th scope="col">M20</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>7000</td>
-                        <td>7000</td>
-                        <td>7000</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <th scope="row">Note:</th>
-                        <td>on DMD Dante Deals 1/3 of Normal damage even in DT.</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Final phase:</th>
-                        <td>2000 HP Only in M20 where Nightmare goes breserk.</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <b>Important Notes:</b>
+            <ul>
+                <li>on DMD, Dante Deals 1/3 of Normal damage even in DT. Standard HP values means the rest of diffculties.</li>
+                <li>Nightmare gets 2,000 HP back when it goes breserk state in Mission 20.</li>
+            </ul>
 
             <h2>Strategy</h2>
             {{ "Every encounter has the same approach. Only difference is M20 where you don't have to throw 2 additional hits from Ifrit. Additionally,

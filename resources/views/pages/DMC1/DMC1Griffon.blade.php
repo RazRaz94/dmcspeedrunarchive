@@ -7,7 +7,30 @@
 
     <div id="content">
         <div id="right">
-            <img src="{{ asset('images/DMC1Files/Bosses/Griffon.png') }}" width="270" height="206" />
+            <table class="infobox">
+                <tbody><tr>
+                <th colspan="2" style="text-align: center;"><i><b>Griffon</b></i>
+                </th></tr>
+                <tr>
+                <th colspan="2"> 
+                    <img src="{{ asset('images/DMC1Files/Bosses/Griffon.png') }}" width="270" height="206" />
+                </th></tr>
+                <tr>
+                  <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>HP Values - Easy</b>
+                </td></tr>
+                <tr><td><b>M9</b></td><td><b>M12</b></td></tr>
+                <tr><td>6,000</td><td>4,000</td></tr>
+                <tr><td><b>M15</b></td><td><b>M18</b></td></tr>
+                <tr><td>10,000</td><td>2,000</td></tr>
+                <tr>
+                  <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>HP Values - Standard</b>
+                </td></tr>
+                <tr><td><b>M9</b></td><td><b>M12</b></td></tr>
+                <tr><td>8,000</td><td>4,000</td></tr>
+                <tr><td><b>M15</b></td><td><b>M18</b></td></tr>
+                <tr><td>10,000</td><td>4,000</td></tr>
+                <tr>
+              </tbody></table>
         </div>
         <div id="left">
             <h1>Griffon</h1>
@@ -21,43 +44,7 @@
                     </li>
                 </ul>
             </dl>
-            <table id="bossdata">
-                <caption style="background-color:rgba(77, 14, 30);">
-                    <b>HP Value</b>
-                </caption>
-                <thead>
-                    <tr>
-                        <th scope="col"></th>
-                        <th scope="col">M9</th>
-                        <th scope="col">M12</th>
-                        <th scope="col">M15</th>
-                        <th scope="col">M18</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Easy</th>
-                        <td>6000</td>
-                        <td>4000</td>
-                        <td>10000</td>
-                        <td>2000</td>
-                    </tr>
-                    <tr>
-                        <th>Standard</th>
-                        <td>8000</td>
-                        <td>4000</td>
-                        <td>10000</td>
-                        <td>4000</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <th scope="row" colspan="2">Note:</th>
-                        <td colspan="2">on DMD Dante Deals 1/3 of Normal damage even in DT.</td>
-                    </tr>
-                </tfoot>
-            </table>
-
+            <b>Note: </b>on DMD, Dante Deals 1/3 of Normal damage even in DT. Standard HP values means the rest of diffculties.
             <h2>Strategy</h2>
             {{ 'On many occasions the strategy kept changing for M12. Currently, there are 3 different approaches:' }}
             <ul>

@@ -7,7 +7,30 @@
 
 <div id = "content">
     <div id = "right">
-        <img src="{{asset('images/DMC1Files/Bosses/DMC1_Phantom_Artbook_Scan.png')}}" width="270" height="206" />
+        <table class="infobox">
+          <tbody><tr>
+          <th colspan="2" style="text-align: center;"><i><b>Phantom</b></i>
+          </th></tr>
+          <tr>
+          <th colspan="2"> 
+            <img src="{{asset('images/DMC1Files/Bosses/DMC1_Phantom_Artbook_Scan.png')}}" width="270" height="206" />
+          </th></tr>
+          <tr>
+            <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>HP Values - Easy</b>
+          </td></tr>
+          <tr><td><b>M3</b></td><td><b>M4/7</b></td></tr>
+          <tr><td>3,375</td><td>1,500</td></tr>
+          <tr><td><b>M16</b></td><td><b>M8</b></td></tr>
+          <tr><td>2,250</td><td>4,1250</td></tr>
+          <tr>
+            <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>HP Values - Standard</b>
+          </td></tr>
+          <tr><td><b>M3</b></td><td><b>M4/7</b></td></tr>
+          <tr><td>4,500</td><td>2,000</td></tr>
+          <tr><td><b>M16</b></td><td><b>M8</b></td></tr>
+          <tr><td>2,250</td><td>5,500</td></tr>
+          <tr>
+        </tbody></table>
     </div>
     <div id ="left">
         <h1>Phantom</h1>
@@ -19,42 +42,7 @@
             <li>Phantom's quick RNG pattern</li>
             <li id="extralinks">Failing to meet SB requirement by taking damage (This applies the most in M3 with <a href="/DMC1:Any">Any%</a></li>
         </ul>
-        <table id="bossdata">
-            <caption style="background-color:rgba(77, 14, 30);">
-              <b>HP Value</b>
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">M3</th>
-                <th scope="col">M4/7</th>
-                <th scope="col">M16</th>
-                <th scope="col">M8</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Easy</th>
-                <td>3375</td>
-                <td>1500</td>
-                <td>2250</td>
-                <td>4125</td>
-              </tr>
-              <tr>
-                <th>Standard</th>
-                <td>4500</td>
-                <td>2000</td>
-                <td>2250</td>
-                <td>5500</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th scope="row" colspan="2">Note:</th>
-                <td colspan="2">on DMD Dante Deals 1/3 of Normal damage even in DT.</td>
-              </tr>
-            </tfoot>
-          </table>
+        <b>Note: </b>on DMD, Dante Deals 1/3 of Normal damage even in DT. Standard HP values means the rest of diffculties.
         <h2>Strategy</h2>
         {{"The idea is to keep the HB stun loop going,
         but the start up is different for both encounters. With Mission 3, the RNG is usually determined by how fast he ends his fireball pattern. For example:"}}

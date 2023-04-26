@@ -7,7 +7,30 @@
 
 <div id = "content">
     <div id = "right">
-        <img src="{{asset('images/DMC1Files/Bosses/Nelo_Angelo.png')}}" width="270" height="206" />
+        <table class="infobox">
+          <tbody><tr>
+          <th colspan="2" style="text-align: center;"><i><b>Nelo Angelo</b></i>
+          </th></tr>
+          <tr>
+          <th colspan="2"> 
+            <img src="{{asset('images/DMC1Files/Bosses/Nelo_Angelo.png')}}" width="270" height="206" />
+          </th></tr>
+          <tr>
+            <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>HP Values - Easy</b>
+          </td></tr>
+          <tr><td><b>M4</b></td><td><b>M11</b></td></tr>
+          <tr><td>1,500</td><td>2,100</td></tr>
+          <tr><td><b>M17</b></td><td><b>M20</b></td></tr>
+          <tr><td>2,100</td><td>1,000</td></tr>
+          <tr>
+            <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>HP Values - Standard</b>
+          </td></tr>
+          <tr><td><b>M4</b></td><td><b>M11</b></td></tr>
+          <tr><td>1,500</td><td>2,100</td></tr>
+          <tr><td><b>M17</b></td><td><b>M20</b></td></tr>
+          <tr><td>2,500</td><td>1,000</td></tr>
+          <tr>
+        </tbody></table>
     </div>
     
     <div id ="left">
@@ -21,45 +44,11 @@
             <li>DMD has RNG factor with the loop setup, but the time loss is not severe.</li>
             <li>The DMD trick usually comes from keeping up the hit count and knowing when take distance from him.</li>
         </ul>
-        <table id="bossdata">
-            <caption style="background-color:rgba(77, 14, 30);">
-              <b>HP Value</b>
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">M4</th>
-                <th scope="col">M11</th>
-                <th scope="col">M17</th>
-                <th scope="col">M20</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Easy</th>
-                <td>1500</td>
-                <td>2100</td>
-                <td>2100</td>
-                <td>1000</td>
-              </tr>
-              <tr>
-                <th>Standard</th>
-                <td>1500</td>
-                <td>2100</td>
-                <td>2500</td>
-                <td>1000</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th scope="row" colspan="2">Note:</th>
-                <td colspan="2">on DMD Dante Deals 1/3 of Normal damage even in DT.</td>
-              </tr>
-            </tfoot>
-          </table>
+        <b>Note: </b>on DMD, Dante Deals 1/3 of Normal damage even in DT. Standard HP values means the rest of diffculties.
           <h2>Strategy</h2>
           {{"For Normal and Easy, Holy Water makes this fight scripted. Unless you are playing the PS2 NA or EU release of this game. Dante's damage including Holy Water item
           is modified into a certain percentage. Therefore, most of these instrcutions applies to HD Collection and JP PS2 release."}}
+          <br><br><br><br><br><br><br>
           <table id="Steps">
             <tr>
                 <td>
