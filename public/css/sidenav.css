@@ -1,12 +1,15 @@
 /* https://dmc.wiki/images/bg_footer3.png */   
     #sidenav {
-        height:100vh;
-        width:250px;
+        height:100%;
+        float:left;
+        width: 20em;
         position: fixed;
         z-index: 1;
         top: 0;
         left: 0;
         overflow: hidden;
+        padding:1em;
+        margin: 0 0 1em 0;
         padding-top: 60px;
         background: url(../images/sidebar-background.jpg);
         background-position: center top;
@@ -16,19 +19,18 @@
         border-image-source: url(https://dmc.wiki/images/bg_footer3.png);
         border-image-repeat: repeat;
         box-shadow: 0 1px 2px 1px rgba(0,0,0,0.06);
+        clear:left;
     }
     
     #sidenav ul{
-    
-      padding-right:50px;
-        margin-right: auto;
-        margin-left: auto;
     list-style-type:none;
     display:block;
+    padding: 1% 1% 0.5% 0;
+    padding-left: 2%;
     }
     
     #sidenav li{
-        padding: 2px;
+        padding: 1px;
         margin-bottom: 4px;
         background-color: rgba(6, 4, 4, .9);
         border: 2px solid rgba(70, 4, 4);
@@ -124,3 +126,9 @@
         color: #fff6a9;
       }
     }
+
+    @media (max-width: 768px) {
+      #sidenav {
+          display: none;
+      }
+  }

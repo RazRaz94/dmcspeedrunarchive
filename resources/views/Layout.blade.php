@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>@yield('title') - DMCSpeedruns</title>
 <link rel="stylesheet" href="{{asset('css/sidenav.css')}}">
@@ -12,6 +12,8 @@
 <div id="container">
 <body>
     <div id="header">
+        <a href="#default" class="Logo"></a>
+        <div class="header-right">
         <div class="wrap">
             <div class="search">
                <input type="text" class="searchTerm" placeholder="What are you looking for?">
@@ -20,6 +22,7 @@
               </button>
             </div>
          </div>
+        </div>
     </div>
     <div id="sidenav">    <div class = "sidenavcontent">
         <img class="logo" src="../images/DMCLogo.png"/>

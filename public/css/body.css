@@ -5,18 +5,23 @@ html, body {
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size: cover;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	color: #D3BA7F;
 }
 
+#container {
+	min-height:100%;
+	position:relative;
+ }
+
 #header {
-    height: 0;
+	overflow: hidden;
+	background-color: black;
     position: fixed;
     z-index: 100;
     top: 0;
     width: 100%;
-	background-color: black;
 	border-bottom: solid 1px #d72854;
     color: #000000;
     padding: 0.3em 0 0;
@@ -24,22 +29,25 @@ html, body {
     box-sizing: border-box;
  }
 
- #header h1 {
-    margin: 0;
-    padding: 0;
-	padding: 0.1em 1em 0.2em;
-    color: #000000;
-    font-family: 'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;
-    font-variant: small-caps;
-	font-weight: normal;
-    font-size: 1.85em;
-    display: block;
-	border:none;
-    text-decoration: none;
+ #header a.Logo {
+	background-image: url(https://static.wikia.nocookie.net/devilmaycry/images/f/fc/Untouchable_DMC.png);
+	display: block;
+    background-image: url(/images/banner.png);
+    height: 60px;
+    width: 560px;
+    position: absolute;
+    margin-left: auto;
+	margin:-7px;
+    background-color: black;
 }
 
-#header a:visited, a:hover {
-	color:#d72854;
+.header a.active {
+	background-color: dodgerblue;
+	color: white;
+}
+
+.header-right {
+	float: right;
 }
 
 .search {
@@ -50,7 +58,7 @@ html, body {
 
 .searchTerm {
 	width: 100%;
-	border: 3px solid #d72854;
+	border: 2px solid #d72854;
 	background-color: transparent;
 	border-right: none;
 	padding: 5px;
@@ -66,14 +74,13 @@ html, body {
   
   .searchButton {
 	width: 40px;
-	height: 36px;
+	height: 34px;
 	border: 1px solid #d72854;
 	background: #d72854;
 	text-align: center;
-	color: #fff;
 	border-radius: 0 5px 5px 0;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 26px;
   }
   
   /*Resize the wrap to see the search bar change!*/
@@ -84,8 +91,3 @@ html, body {
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
-
-#container {
-	min-height:100%;
-	position:relative;
- }
