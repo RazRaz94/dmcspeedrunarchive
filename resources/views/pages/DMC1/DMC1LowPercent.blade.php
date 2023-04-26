@@ -151,5 +151,7 @@
                 {{"Once you have completed your first run and made savefiles practice the parts you are least confident with then try another run.
                 When you get more confident you should stop getting safety routes and start tighten your currency."}}
                        </dl>
-    </div>
-    </div>
+                      </div>
+                      <div id="clearit"></div>
+                      </div>
+                  @endsection

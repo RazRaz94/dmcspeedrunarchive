@@ -149,7 +149,5 @@
            </dl>
     </div>
 </div> <!--- This is End of Content --->
-
-
-
+<div id="clearit"></div>
 @endsection

@@ -257,9 +257,6 @@ Devil May Cry speedruns.)"}}
     {{"Once you have completed your first run and made savefiles practice the parts you are least confident with then try another run."}}
            </dl>
     </div>
+    <div id="clearit"></div>
     </div>
-</div> <!--- This is End of Content --->
-
-
-
 @endsection

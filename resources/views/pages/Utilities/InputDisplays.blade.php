@@ -117,4 +117,6 @@
             </div>
           </div>
     </div>
-</div>
+    <div id="clearit"></div>
+    </div>
+@endsection

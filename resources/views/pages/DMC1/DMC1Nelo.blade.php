@@ -205,4 +205,6 @@
       <dl id="extralinks">It's good to check the <a href="/DMC1:Frequently_Asked_Questions"> Frequently Asked Questions (FAQ)</a>
         if you have general questions regarding the bosses. </dl>
         </div>
-</div>
+        <div id="clearit"></div>
+      </div>
+      @endsection

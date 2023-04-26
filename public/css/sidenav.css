@@ -1,0 +1,126 @@
+/* https://dmc.wiki/images/bg_footer3.png */   
+    #sidenav {
+        height:100vh;
+        width:250px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        padding-top: 60px;
+        background: url(../images/sidebar-background.jpg);
+        background-position: center top;
+        font-family: Trebuchet MS, Verdana, Arial, Tahoma, sans-serif;
+        font-size: 12px;
+        border: 1px solid black;
+        border-image-source: url(https://dmc.wiki/images/bg_footer3.png);
+        border-image-repeat: repeat;
+        box-shadow: 0 1px 2px 1px rgba(0,0,0,0.06);
+    }
+    
+    #sidenav ul{
+    
+      padding-right:50px;
+        margin-right: auto;
+        margin-left: auto;
+    list-style-type:none;
+    display:block;
+    }
+    
+    #sidenav li{
+        padding: 2px;
+        margin-bottom: 4px;
+        background-color: rgba(6, 4, 4, .9);
+        border: 2px solid rgba(70, 4, 4);
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    #sidenav li:hover{
+        background-color: rgba(46, 0, 0, .9);
+        border: 2px solid rgba(70, 4, 4);
+    }
+        
+    
+    #sidenav ul li a:hover {
+        color: #d72854;
+        padding-left: 10px;
+    }
+    
+    #links a:link, #links a:visited, #links a:active {
+        color: #D3BA7F;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .logo{
+        margin: 0;
+        width:240px;
+        height:120px;
+    }
+    
+    .borderimage {
+        margin: 0;
+        width:240px;
+    }
+    
+    .sidenavcontent h3 {
+        color:white;
+        width: max-content;
+        margin: 0.25em auto;
+        padding: 0 0 0 0.3em;
+        font-family: "Sacramento", cursive;
+        letter-spacing: 0.2em;
+        text-align: center;
+      animation: blink 12s infinite;
+      -webkit-animation: blink 12s infinite;
+    }
+    
+    @-webkit-keyframes blink {
+      20%,
+      24%,
+      55% {
+        color: #111;
+        text-shadow: none;
+      }
+    
+      0%,
+      19%,
+      21%,
+      23%,
+      25%,
+      54%,
+      56%,
+      100% {
+    /*     color: #fccaff;
+        text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+          0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+      text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+      }
+    }
+    
+    @keyframes blink {
+      20%,
+      24%,
+      55% {
+        color: #111;
+        text-shadow: none;
+      }
+    
+      0%,
+      19%,
+      21%,
+      23%,
+      25%,
+      54%,
+      56%,
+      100% {
+    /*     color: #fccaff;
+        text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+          0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+      text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+      }
+    }

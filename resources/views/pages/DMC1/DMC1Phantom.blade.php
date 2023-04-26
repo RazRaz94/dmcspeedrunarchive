@@ -154,4 +154,6 @@
       if you have general questions regarding the bosses. </dl>
 
     </div>
+    <div id="clearit"></div>
 </div>
+@endsection

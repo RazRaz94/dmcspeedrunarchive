@@ -187,4 +187,6 @@
                 </tr>
             </table>
         </div>
+        <div id="clearit"></div>
     </div>
+    @endsection

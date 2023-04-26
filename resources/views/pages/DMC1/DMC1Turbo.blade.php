@@ -75,4 +75,6 @@
           <span style="background-image: url('images/DMC1Files/Turbo/8.png')"></span>
         </a>
     </div>
-</div>
+    <div id="clearit"></div>
+    </div>
+@endsection

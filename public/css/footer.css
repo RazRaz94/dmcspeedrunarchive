@@ -1,14 +1,28 @@
 
 
 #footer {
-	height:275px;
-	min-height: auto;
-	background: url(../images/bg_footer3.png) right bottom no-repeat, url(../images/bg_footerconx.png) left top repeat;
-	background-repeat: repeat-x;
-	background-position: center top;
-	font-family: Trebuchet MS, Verdana, Arial, Tahoma, sans-serif;
-	font-size: 12px;
-	clear: both;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+        background-color: black;
+		border-top: solid 1px #d72854;
+		text-align: center;
+		height:60px;   /* Height of the footer */
+}
+
+.options {
+    float: right;
+    font-size: 90%;
+    padding: 1px 0;
+}
+
+.textfooter {
+    float: left;
+	color:red;
+    font-size: 90%;
+    padding: 1px 0;
 }
 
 #footer .footercontent {
@@ -20,91 +34,6 @@
 #footer ul li a:hover {
 	color: #d72854;
 	padding-left: 10px;
-}
-
-#copyrights {
-	height: 70px;
-	padding: 7px 1px 0px 1px;
-	font-family: Century Gothic, Trebuchet MS, Verdana, Arial, Tahoma, sans-serif;
-	font-size: 12px;
-	color: #D3BA7F;
-}
-
-#copyrights .rights {
-	float: left;
-}
-
-#copyrights .college {
-	float: right;
-}
-
-#copyrights .design {
-	text-indent: -99999px;
-}
-
-#copyrights a:link, #copyrights a:visited, #copyrights a:active {
-    padding-left: 5px;
-	color:mediumseagreen;
-	text-decoration: none;
-}
-
-#links {
-	height: 184px;
-	background-image:url(../images/bg_links_dmc.png);
-	background-repeat: no-repeat;
-}
-
-#links .list {
-	width: 202px;
-	float: left;
-}
-
-#links ul {
-	margin: 0px;
-	padding: 10px 0px 0px 30px;
-	float: left;
-	list-style: none;
-	position: relative;
-}
-
-#links li {
-	margin: -3px 0px;
-	padding: 0px 0px 0px 14px;
-	background-image:url(../images/bullet.png);
-	background-repeat: no-repeat;
-	background-position: 0px 4px;
-}
-
-#links a:link, #links a:visited, #links a:active {
-	color: #D3BA7F;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.line{
-	text-decoration:line-through;
-	color:grey;
-}
-
-#extra {
-	margin: 110px 0px 0px 26px;
-	width: 150px;
-}
-
-#extra div {
-	padding: 2px;
-	margin-bottom: 4px;
-	background-color: #4d0e1e;
-	border: 2px solid #603f47;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	text-align: center;
-}
-
-#extra a:hover{
-    cursor: pointer;
-    color: #d72854;
-    padding-left: 10px;
 }
 
 #legal {
