@@ -28,7 +28,7 @@
         <img class="logo" src="../images/DMCLogo.png"/>
         <img class="borderimage" src="../images/sidebar-border.jpg"/>
       <div id = "links">
-      <h3>Main Page</h3>
+      <h3>Main</h3>
           <div class="list">
               <ul>
               <li><a href="/">Home</a></li>

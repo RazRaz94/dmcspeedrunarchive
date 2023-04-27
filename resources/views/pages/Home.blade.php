@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="{{asset('css/Home.css')}}">
 <div id = "content">
 	<div id = "banner">
+        <h1 id="page">Main Page</h1>
         <img alt = "Home banner" src="{{asset('images/DMCLogo.png')}}">
     </div>
 	

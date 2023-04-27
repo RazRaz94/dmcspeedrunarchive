@@ -33,6 +33,16 @@
     margin-left:250px;
 }
 
+#banner h1 {
+	font-size: 1.8em;
+	font-weight: normal;
+	color:#ff3333;
+    border-bottom:1px dotted #D3BA7F;
+    line-height: 1.3;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
 /* ----- setting up Left Div ----- */
 
 #left{
