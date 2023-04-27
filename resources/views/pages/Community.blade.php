@@ -9,6 +9,7 @@
 
 <div id = "content">
     <div id ="left">
+        <h1>Community</h2>
             <div id="toc_container">
                 <p class="toc_title">Contents</p>
                 <ul class="toc_list">

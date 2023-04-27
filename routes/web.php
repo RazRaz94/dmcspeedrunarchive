@@ -29,6 +29,14 @@ Route::get('/community', function() {
     return view('pages.Community');
 });
 
+Route::get('/NewsArchive', function() {
+    return view('pages.NewsArch');
+});
+
+Route::get('/Info', function() {
+    return view('pages.Info');
+});
+
 //DMC Index Pages
 Route::get('/DMC1', [DMC1::class, 'index']);
 Route::get('/DMC2', function() {

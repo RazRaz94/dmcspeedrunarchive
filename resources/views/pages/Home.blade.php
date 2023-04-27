@@ -9,10 +9,10 @@
 	
     <div id = "left">
     	<h1>For all your DMC Speedrunning needs!</h1>
-		<p> Welcome to the brand new DMC Speedruns Archive</p>
+		<p> Welcome to the brand new DMC Speedruns Archive. This website is established in January 2023 as a community
+            hub for people seeking information about speedrunning the various Devil May Cry games.
+        </p>
         <dl>
-        <dt>Refrencees</dt>
-        <dd>All of the refrencees will be displayed on the bottom of page such as copyrights</dd>
         <dt>Events</dt>
         <dd>The DMC3 Peak of Darkness Speedrun Tournament on November 13-14, 2021 </dd>
         </dl>
@@ -34,17 +34,11 @@
         <p class="link"><a href="https://twitter.com/DmcSpeedruns">Twitter</a> <a href="https://www.twitch.tv/dmcspeedruns">Twitch</a></p>
         <h1>  Weekly Race Schedule </h1>
         <p>If you have plan organize events. Feel free to join the Discord </p>
-        <div id = "box">
-        	<span></span>We need your Feedback!! for improving this site!! We need your help!!
-        </div> <!-- end of box -->
-        <form method="post" action="/Feedback">
-        <input type="submit" value="Fill it out >>">
-        </form>
         <div id = "clean"></div> <!-- clean div -->
         <img src="images/bull.png">
-        <h3>Calendar</h3>
+        <h3>News</h3>
         <p>Important dates for the DMCSpeedruns</p>
-        <p class="link"><a href="/Calendar">Click here</a></p>
+        <p class="link"><a href="/NewsArchive">Click here</a></p>
         </div> <!-- the end of right div -->
 <div id="clearit"></div>
 </div> <!-- this is the end of content -->

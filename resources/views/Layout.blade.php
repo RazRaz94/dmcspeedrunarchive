@@ -34,7 +34,7 @@
               <li><a href="/">Home</a></li>
               <li><a href="/helpout">Help Out!</a></li>
               <li><a href="/community">Community</a></li>
-              <li><a href="#">News Archive</a></li>
+              <li><a href="/NewsArchive">News Archive</a></li>
               </ul>
 <img class="borderimage" src="../images/sidebar-border.jpg"/>
           </div> <!-- list 1 -->
@@ -61,7 +61,7 @@
                       <h3>Support Us</h3>
                                   <div class="list">
               <ul>
-              <li><a href="#">Pay Pal</a></li>
+              <li><a href="/Info">Site Info</a></li>
               </ul>
           </div> <!-- list 3 -->
 </div> <!-- the end of sidenav content -->
