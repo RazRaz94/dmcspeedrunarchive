@@ -12,7 +12,7 @@
 <div id="container">
 <body>
     <div id="header">
-        <a href="#default" class="Logo"></a>
+        <a href="/" class="Logo"></a>
         <div class="header-right">
         <div class="wrap">
             <div class="search">
