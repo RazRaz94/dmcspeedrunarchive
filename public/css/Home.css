@@ -21,8 +21,45 @@
 	padding-bottom: 80px;
 }
 
+#GameList{
+	margin: 2rem 1.5rem;
+	border: 1px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 6px -1px rgba(211, 186, 127, 0.2), 0 2px 4px -1px rgba(211, 186, 127, 0.06);
+}
+#GameWrap{
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	max-width: 85rem;
+}
+
+#GameWrap a:link, a:visited {
+    color: #ff6600;
+    text-decoration: none;
+}
+
 #clearit {
 	clear: both;
+}
+
+legend {
+    font-size: 1.5em;
+    color:#ff3333;
+	font-weight: normal;
+    margin-left: 10px;
+}
+
+fieldset {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border: 1px dotted #D3BA7F;
+	max-width: 85rem;
+	margin: 1%;
 }
 
 
