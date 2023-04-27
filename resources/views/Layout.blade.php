@@ -32,8 +32,8 @@
           <div class="list">
               <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="#">Help Out!</a></li>
-              <li><a href="#">Community</a></li>
+              <li><a href="/helpout">Help Out!</a></li>
+              <li><a href="/community">Community</a></li>
               <li><a href="#">News Archive</a></li>
               </ul>
 <img class="borderimage" src="../images/sidebar-border.jpg"/>

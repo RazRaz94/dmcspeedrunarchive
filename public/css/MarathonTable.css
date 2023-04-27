@@ -1,0 +1,22 @@
+#Marathon{
+    margin: 10px 0;
+    width:100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+#Marathon tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+#Marathon tr:nth-child(2n+1) {
+    background-color: rgba(77, 14, 30);
+}
+#Marathon td:nth-child(1) {
+    font-size:1.2em;
+}
+#Marathon th, #Marathon td {
+    border: 1px solid black;
+    padding:5px;
+}

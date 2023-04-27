@@ -21,8 +21,15 @@ Route::get('/', function() {
     return view('pages.Home');
 });
 
-//DMC1 Pages
-//Index
+Route::get('/helpout', function() {
+    return view('pages.HelpOut');
+});
+
+Route::get('/community', function() {
+    return view('pages.Community');
+});
+
+//DMC Index Pages
 Route::get('/DMC1', [DMC1::class, 'index']);
 Route::get('/DMC2', function() {
     return view('pages.DMC2.DMC2Index');
@@ -39,6 +46,8 @@ Route::get('/DmC', function() {
 Route::get('/DMC5', function() {
     return view('pages.DMC5.DMC5Index');
 });
+
+//DMC1 Pages - Start
 //Getting Started
 Route::get('/DMC1:Getting_Started', function() {
     return view('pages.DMC1.DMC1GettingStarted');
@@ -80,6 +89,13 @@ Route::get('/DMC1:Nightmare', function() {
     return view('pages.DMC1.DMC1Nightmare');
 });
 
+//DMC1 Turbo
+Route::get('/DMC1:Turbo', function() {
+    return view('pages.DMC1.DMC1Turbo');
+});
+
+//DMC1 Pages End -
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [
@@ -92,11 +108,6 @@ Route::get('/news/{id}', function($id){
 //Input Display
 Route::get('/Input_Displays', function() {
     return view('pages.Utilities.InputDisplays');
-});
-
-//DMC1 Turbo
-Route::get('/DMC1:Turbo', function() {
-    return view('pages.DMC1.DMC1Turbo');
 });
 
 

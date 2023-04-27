@@ -38,6 +38,7 @@
   text-align: justify;
   text-justify: inter-word;
   max-height: 0;
+  transition: all 1s;
 }
 
 .accordion .ShowContentHigh {
