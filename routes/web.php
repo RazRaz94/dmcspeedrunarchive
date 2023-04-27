@@ -27,6 +27,18 @@ Route::get('/DMC1', [DMC1::class, 'index']);
 Route::get('/DMC2', function() {
     return view('pages.DMC2.DMC2Index');
 });
+Route::get('/DMC3', function() {
+    return view('pages.DMC3.DMC3Index');
+});
+Route::get('/DMC4', function() {
+    return view('pages.DMC4.DMC4Index');
+});
+Route::get('/DmC', function() {
+    return view('pages.DMCDMC.DMCDMCIndex');
+});
+Route::get('/DMC5', function() {
+    return view('pages.DMC5.DMC5Index');
+});
 //Getting Started
 Route::get('/DMC1:Getting_Started', function() {
     return view('pages.DMC1.DMC1GettingStarted');

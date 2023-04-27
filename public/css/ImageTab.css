@@ -28,32 +28,8 @@
 
   .content {
     display: none;
-    padding: 10px 20px;
   }
   .content.active {
     display: block;
   }
-  
-/* Style the table */
-
-th, td {
-    border: 1px solid #D3BA7F;
-    padding: 8px;
-  }
-
-table{
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-tr:nth-child(even){background-color:rgba(0, 0, 0, .9);}
-
-tr:hover {background-color: rgba(77, 14, 30);}
-
-th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: rgba(77, 14, 30, .9);
-}
+ 

@@ -23,8 +23,8 @@
         <li><a href="/DMC2">Devil May Cry 2</a></li>
         <li><a href="/DMC3">Devil May Cry 3</a></li>
         <li><a href="/DMC4">Devil May Cry 4</a></li>
-        <li><a href="/DMC5">Devil May Cry 5</a></li>
         <li><a href="/DmC">DmC: Devil May Cry</a></li>
+        <li><a href="/DMC5">Devil May Cry 5</a></li>
         </ul>
 	</div> <!-- the end of left div -->
 	<div id = "right">

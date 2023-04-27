@@ -1,22 +1,25 @@
 /* ----- This is content div ----- */
 
 #content{
-	width:1000px;
-	margin-left:auto;
-	margin-right:auto;
+	display:block;
+	height:80%;
+	width:60%;
 	margin-top:3.125em;
 	background:rgba(0, 0, 0, .9);
 	font-family: "Bookman Old Style";
-	min-height: auto;
+	position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+	margin: 1%, 0;
 	box-shadow:0 1px 2px 1px rgba(0,0,0,0.06);
 	border: 1px solid #250b2d;
-    border-right-width: 0;
 	border-radius: 5px;
+	overflow-y: auto; /* relevant part */
 	padding-bottom: 80px;
+	line-height: 1.5;
 }
 
 #clearit {
-	margin-bottom: 10px;
 	clear: both;
 }
 
@@ -40,6 +43,7 @@ h1 {
     color:#ff3333;
     border-bottom:1px dotted #D3BA7F;
     line-height: 1.3;
+	overflow: hidden;
 }
 
 #left h3{

@@ -48,7 +48,7 @@
           <h2>Strategy</h2>
           {{"For Normal and Easy, Holy Water makes this fight scripted. Unless you are playing the PS2 NA or EU release of this game. Dante's damage including Holy Water item
           is modified into a certain percentage. Therefore, most of these instrcutions applies to HD Collection and JP PS2 release."}}
-          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br><br><br>
           <table id="Steps">
             <tr>
                 <td>

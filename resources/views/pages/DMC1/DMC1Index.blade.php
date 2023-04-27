@@ -2,7 +2,7 @@
 @section('title', 'Devil May Cry')
 @section('content')
 
-<link rel="stylesheet" href="{{asset('css/DMC1.css')}}">
+<link rel="stylesheet" href="{{asset('css/DMCIndexPage.css')}}">
 <link rel="stylesheet" href="{{asset('css/Modal.css')}}">
 <script src="{{asset('js/Modal.js')}}"></script>
 
@@ -41,7 +41,7 @@
             </td></tr></tbody></table>
     </div>
     <div id = "left">
-    	<h1>DEVIL MAY CRY (2001)</h1>
+    	<h1>Devil May Cry</h1>
         <p>Devil May Cry is a 2001 action-adventure game developed by Capcom Production Studio and published by Capcom. Released from August to December it is the first installment in the Devil May Cry series.</p>
         <div id="toc_container">
 <p class="toc_title">Contents</p>

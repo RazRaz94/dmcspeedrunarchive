@@ -2,9 +2,7 @@
 @section('title', 'Devil May Cry 2')
 @section('content')
 
-<link rel="stylesheet" href="{{asset('css/DMC1.css')}}">
-<link rel="stylesheet" href="{{asset('css/Modal.css')}}">
-<script src="{{asset('js/Modal.js')}}"></script>
+<link rel="stylesheet" href="{{asset('css/DMCIndexPage.css')}}">
 
 <div id = "content">
     <div id = "right">
@@ -22,7 +20,7 @@
             <td>PC
             </td></tr>
             <tr>
-            <td>PS4/XBox One
+            <td>PS4/PS2
             </td></tr>
             <td><b>Timing</b>
             </td>
@@ -41,7 +39,7 @@
             </td></tr></tbody></table>
     </div>
     <div id = "left">
-    	<h1>DEVIL MAY CRY 2</h1>
+    	<h1>Devil May Cry 2</h1>
         <p>Devil May Cry 2 is a 2003 action-adventure game developed by Capcom Production Studio and published by Capcom. Released from January to March, originally for the PS2.</p>
         <div id="toc_container">
 <p class="toc_title">Contents</p>
@@ -74,7 +72,7 @@
 <h2 id="Rules">Rules</h2>
 
 <dl id="extralinks">
-    <?php echo '(These rules apply to all DMC1 speedrun categories. Each category also has its own set of rules in addition
+    <?php echo '(These rules apply to all DMC2 speedrun categories. Each category also has its own set of rules in addition
     to the one listed here.)'
 ?>
     <ul>
@@ -91,8 +89,8 @@
 <dl id="extralinks">
     <ul>
         <li><a href="https://www.speedrunslive.com/rules-faq/glossary/" target="_blank">Speedrun Glossary</a> on SpeedRunsLive</li>
-        <li><a href="https://en.wikipedia.org/wiki/Devil_May_Cry_2" target="_blank">Devil May Cry</a> at Wikipedia</li>
-        <li><a href="https://devilmaycry.fandom.com/wiki/Devil_May_Cry_2" target="_blank">Devil May Cry Fandom Wiki</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Devil_May_Cry_2" target="_blank">Devil May Cry 2</a> at Wikipedia</li>
+        <li><a href="https://devilmaycry.fandom.com/wiki/Devil_May_Cry_2" target="_blank">Devil May Cry 2 Fandom Wiki</a></li>
         <li><a href="https://www.speedrun.com/dmc2" target="_blank">Devil May Cry 2 Leaderboards</a> at speedrun.com</li>
     </ul>
 </dl>

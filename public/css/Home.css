@@ -3,7 +3,10 @@
 /* ----- This is content div ----- */
 
 #content{
+	display:block;
+	height:80%;
 	width:60%;
+	margin-top:3.125em;
 	background:rgba(0, 0, 0, .9);
 	font-family: "Bookman Old Style";
 	position: fixed;
@@ -13,6 +16,8 @@
 	box-shadow:0 1px 2px 1px rgba(0,0,0,0.06);
 	border: 1px solid #250b2d;
 	border-radius: 5px;
+	overflow-y: auto; /* relevant part */
+	padding-bottom: 80px;
 }
 
 #clearit {

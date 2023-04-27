@@ -18,7 +18,7 @@
             <div class="search">
                <input type="text" class="searchTerm" placeholder="What are you looking for?">
                <button type="submit" class="searchButton">
-                🔍
+                🔎
               </button>
             </div>
          </div>
@@ -43,10 +43,10 @@
               <ul>
               <li><a href="/DMC1">Devil May Cry 1</a></li>
               <li><a href="/DMC2">Devil May Cry 2</a></li>
-              <li><a href="#">Devil May Cry 3</a></li>
-              <li><a href="#">Devil May Cry 4</a></li>
-              <li><a href="#">DmC: Devil May Cry</a></li>
-              <li><a href="#">Devil May Cry 5</a></li>
+              <li><a href="/DMC3">Devil May Cry 3</a></li>
+              <li><a href="/DMC4">Devil May Cry 4</a></li>
+              <li><a href="/DmC">DmC: Devil May Cry</a></li>
+              <li><a href="/DMC5">Devil May Cry 5</a></li>
               </ul>
               <img class="borderimage" src="../images/sidebar-border.jpg"/>
           <h3>Speedrun Tools</h3>
@@ -67,6 +67,7 @@
 </div> <!-- the end of sidenav content -->
 </div> <!-- the end of sidenav --></div>
     {{-- View OUTPUT --}}
+
     @yield('content')
 
 <div id="footer">    <div class = "footercontent">

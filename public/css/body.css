@@ -8,12 +8,33 @@ html, body {
 	margin: 0;
 	padding: 0;
 	color: #D3BA7F;
+	scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #d72854;
+	border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(215, 40, 84,0.6); 
+  }
 
 #container {
 	min-height:100%;
 	position:relative;
- }
+}
 
 #header {
 	overflow: hidden;
@@ -80,7 +101,7 @@ html, body {
 	text-align: center;
 	border-radius: 0 5px 5px 0;
 	cursor: pointer;
-	font-size: 26px;
+	font-size: 18px;
   }
   
   /*Resize the wrap to see the search bar change!*/
