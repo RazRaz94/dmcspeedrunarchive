@@ -139,6 +139,7 @@
         <li><a href="https://www.speedrunslive.com/rules-faq/glossary/" target="_blank">Speedrun Glossary</a> on SpeedRunsLive</li>
         <li><a href="https://en.wikipedia.org/wiki/Devil_May_Cry_3" target="_blank">Devil May Cry 3</a> at Wikipedia</li>
         <li><a href="https://devilmaycry.fandom.com/wiki/Devil_May_Cry_3" target="_blank">Devil May Cry 3 Fandom Wiki</a></li>
+        <li><a href="https://speeddemosarchive.com/DevilMayCry3.html" target="_blank">Devil May Cry 3</a> at SpeedDemosArchive</li>
         <li><a href="https://www.speedrun.com/dmc3se" target="_blank">Devil May Cry 3 Leaderboards</a> at speedrun.com</li>
     </ul>
 </dl>

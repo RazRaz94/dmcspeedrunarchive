@@ -141,6 +141,7 @@
         <li><a href="https://www.speedrunslive.com/rules-faq/glossary/" target="_blank">Speedrun Glossary</a> on SpeedRunsLive</li>
         <li><a href="https://en.wikipedia.org/wiki/Devil_May_Cry_4" target="_blank">Devil May Cry 4</a> at Wikipedia</li>
         <li><a href="https://devilmaycry.fandom.com/wiki/Devil_May_Cry_4" target="_blank">Devil May Cry 4 Fandom Wiki</a></li>
+        <li><a href="https://speeddemosarchive.com/DevilMayCry4.html" target="_blank">Devil May Cry 4</a> at SpeedDemosArchive</li>
         <li><b>Devil May Cry 4 Leaderboards</b> at speedrun.com:</li>
         <ul>
         <li><a href="https://www.speedrun.com/dmc4" target="_blank">Vanilla</a></li>
