@@ -8,7 +8,7 @@
 <div id = "content">
     <div id ="left">
         <h1>Frequently Asked Questions</h1>
-        <table class="CF">
+        <table class="CF2">
             <tbody><tr>
             <td><b>Press CTRL+F to search for specific questions!</b>
             </td></tr></tbody></table>
