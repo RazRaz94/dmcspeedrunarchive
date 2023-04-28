@@ -34,6 +34,7 @@
         </div>
         <div id="left">
             <h1>Griffon</h1>
+            {{ Breadcrumbs::render('Griffon') }}
             <dl id="extralinks"><b>Griffon</b> is a boss which encountered first in Mission 9. The actual
                 mandatory fight starts from Mission 12 and it's final encounter in 15. It's infamously remarked that it
                 kills the player run if:

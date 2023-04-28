@@ -88,6 +88,7 @@
 </div>
     <div id = "left">
     	<h1>Devil May Cry 4</h1>
+        {{ Breadcrumbs::render('DMC4') }}
         <p>Devil May Cry 4 is a 2008 action-adventure game developed and published by Capcom. It was remastered in 2015
             as Devil May Cry 4: Special Edition, featuring new playable characters and polished gameplay. This wiki focuses mainly on the Special Edition version.</p>
         <p>Note: The World Record Progression / best segemented time is shared with both releases.</p>

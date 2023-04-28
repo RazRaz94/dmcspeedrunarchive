@@ -79,6 +79,7 @@
 </div>
     <div id = "left">
     	<h1>Devil May Cry 3: Dante's Awakening</h1>
+        {{ Breadcrumbs::render('DMC3') }}
         <p>Devil May Cry 3 is a 2005 action-adventure game developed and published by Capcom. It was re‐released in 2006
         as Devil May Cry 3: Special Edition, featuring turbo mode, the addition of mid-mission checkpoints, "GOLD mode", and Vergil as a playable character.
         This wiki focuses mainly on the Special Edition version. Note: The World Record Progression / best segemented time is shared with both releases.</p>

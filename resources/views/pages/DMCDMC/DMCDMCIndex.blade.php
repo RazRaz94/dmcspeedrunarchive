@@ -84,6 +84,7 @@
 </div>
     <div id = "left">
     	<h1>DmC: Devil May Cry</h1>
+        {{ Breadcrumbs::render('DmC') }}
         <p>DmC: Devil May Cry is a 2013 action-adventure game developed by Ninja Theory and published by Capcom. A parallel game to the mainline Devil May Cry series.
             A DLC expansion for the game, titled Vergil's Downfall was released on 23 March 2013.</p>
         <p>In 2015, a remastered edition of the full game was released known as DmC: Definitive Edition with the significant improvements. The game runs at 60 framerate and includes all downloadable content.

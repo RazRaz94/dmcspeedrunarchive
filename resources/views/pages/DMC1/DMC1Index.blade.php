@@ -42,6 +42,7 @@
     </div>
     <div id = "left">
     	<h1>Devil May Cry</h1>
+        {{ Breadcrumbs::render('DMC1') }}
         <p>Devil May Cry is a 2001 action-adventure game developed by Capcom Production Studio and published by Capcom. Released from August to December it is the first installment in the Devil May Cry series.</p>
         <div id="toc_container">
 <p class="toc_title">Contents</p>
@@ -77,8 +78,8 @@
 
     
 <h2 id="Tricks">Tricks</h2>
-<dl> {{'There are number of Strategies and movement tricks that can significantly shorten the amount of time needed to progress through the
-amount of time needed to progress through the game. Devil May Cry 1 is a heavily scripted game so the following list is only a selection of possible
+<dl> {{'There are number of Strategies and movement tricks that can significantly shorten the amount of time needed to progress through
+the game. Devil May Cry 1 is a heavily scripted game so the following list is only a selection of possible
 strats most often used in speedruns'}} </dl>
 
 <h3>Movement</h3>

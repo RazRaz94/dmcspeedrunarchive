@@ -11,6 +11,31 @@ html, body {
 	scroll-behavior: smooth;
 }
 
+
+ol.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	margin-top:-0.9em;
+	overflow: hidden;
+}
+ol.breadcrumb li {
+	display: inline;
+	font-size: 16px;
+  }
+  ol.breadcrumb li+li:before {
+	padding: 8px;
+	color: Green;
+	content: "»\00a0";
+  }
+  ol.breadcrumb li a {
+	color: #ff6600;
+	text-decoration: none;
+  }
+  ol.breadcrumb li a:hover {
+	color: #803300;
+	text-decoration: underline;
+  }
+
 ::-webkit-scrollbar {
 	width: 10px;
   }

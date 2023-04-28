@@ -8,9 +8,7 @@
 <div id = "content">
     <div id = "left">
         <h1>Getting Started</h1>
-        <dl id="extralinks"> {{"This page is meant for people trying to get into"}} <a href="/DMC1">DMC1</a> {{"speedrunning."}}
-        </dl>
-
+        {{ Breadcrumbs::render('Getting_Started') }}
         <div id="toc_container">
             <p class="toc_title">Contents</p>
             <ul class="toc_list">

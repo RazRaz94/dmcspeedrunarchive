@@ -9,6 +9,7 @@
 <div id = "content">
     <div id = "left">
     <h1>Any%</h1>
+    {{ Breadcrumbs::render('Any') }}
     <dl id="extralinks"><b><a href="/DMC1">Devil May Cry</a> Any%</b> {{'is a speedrun category in which the player tries to complete the game as fast as possible. There are
     no added restrictions on how the player completes the game, they must simply start a new character and reach the final plane cutscene as quickly as they can. '}}
     <a href="/Glitch">Glitches</a> {{'such as Shadow despawn are all allowed. Using other programs to affect the game or modifying the game with mod is not allowed.'}}

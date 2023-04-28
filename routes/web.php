@@ -104,6 +104,13 @@ Route::get('/DMC1:Turbo', function() {
 
 //DMC1 Pages End -
 
+//DMC2 Pages - Start
+
+//Dante Information
+Route::get('/DMC2:Dante', function() {
+    return view('pages.DMC2.DMC2Dante');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [

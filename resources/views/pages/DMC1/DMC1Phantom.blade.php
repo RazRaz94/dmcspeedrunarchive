@@ -34,6 +34,7 @@
     </div>
     <div id ="left">
         <h1>Phantom</h1>
+        {{ Breadcrumbs::render('Phantom') }}
         <dl id="extralinks"><b>Phantom</b> is a boss which encountered first in Mission 3. He is also encountered in a hallway during Mission 4 and 7 which are
         not required to fight unless you desperately need the orbs. The final encounter is at Mission 8, but he can also be fought one more time in Nightmare Space M16.
         He does not have any specific difficulty approaches mainly because of fight being scripted. However, he is also one of the main reset points if:</dl>

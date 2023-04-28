@@ -35,6 +35,7 @@
     
     <div id ="left">
         <h1>Nelo Angelo</h1>
+        {{ Breadcrumbs::render('Nelo') }}
         <dl id="extralinks"><b>Nelo Angelo</b> serves as a boss and primary rival for Dante and mirrors his moveset. Appears at the end of Mission 4, 11 and 17. Can
         also be fought in Nightmare Space M20. His fight approaches vary depending on the selected difficulty.</dl>
         <ul>

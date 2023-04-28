@@ -9,6 +9,7 @@
 <div id = "content">
     <div id = "left">
         <h1>Low%</h1>
+        {{ Breadcrumbs::render('Low') }}
         <dl id="extralinks"><b><a href="/DMC1">Devil May Cry</a> Low%</b> {{'is a speedrun category in which the player must follow the stipulations, while using certain
         actions within the game as little as possible.'}}
             <a href="/Glitch">Glitches</a> {{'such as Shadow despawn are all allowed. Using other programs to affect the game or modifying the game with mod is not allowed.'}}

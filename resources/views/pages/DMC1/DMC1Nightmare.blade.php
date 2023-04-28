@@ -25,6 +25,7 @@
         </div>
         <div id="left">
             <h1>Nightmare</h1>
+            {{ Breadcrumbs::render('Nightmare') }}
             <dl id="extralinks"><b>Nightmare</b> is a pile of toxic mush with some garbage and probably one of the most
                 challenging boss.
                 Appears at the end of Mission 16, 18 and 20.</dl>

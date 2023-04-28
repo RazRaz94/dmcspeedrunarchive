@@ -84,6 +84,7 @@
 </div>
     <div id = "left">
     	<h1>DEVIL MAY CRY 5</h1>
+        {{ Breadcrumbs::render('DMC5') }}
         <p>Devil May Cry 5 is a 2019 action-adventure game developed and published by Capcom. It is the sixth installment overall and the fifth mainline installment in the Devil May Cry series.
             Released in March 2019.</p>
             <p>In 2020, Devil May Cry 5 received expansion with Special Edition version which is exclusive for Xbox Series X/S and PlayStation 5. This version features the addition of Vergil as a playable character and new gameplay modes such as

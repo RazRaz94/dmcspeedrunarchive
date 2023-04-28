@@ -8,6 +8,7 @@
 <div id = "content">
     <div id ="left">
         <h1>Frequently Asked Questions</h1>
+        {{ Breadcrumbs::render('Frequently_Asked_Questions') }}
         <table class="CF2">
             <tbody><tr>
             <td><b>Press CTRL+F to search for specific questions!</b>

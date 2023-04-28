@@ -40,6 +40,7 @@
     </div>
     <div id = "left">
     	<h1>Devil May Cry 2</h1>
+        {{ Breadcrumbs::render('DMC2') }}
         <p>Devil May Cry 2 is a 2003 action-adventure game developed by Capcom Production Studio and published by Capcom. Released from January to March, originally for the PS2.</p>
         <div id="toc_container">
 <p class="toc_title">Contents</p>
