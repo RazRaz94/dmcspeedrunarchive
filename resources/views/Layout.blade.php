@@ -26,8 +26,8 @@
         </div>
     </div>
     <div id="sidenav">    <div class = "sidenavcontent">
-        <img class="logo" src="../images/DMCLogo.png"/>
-        <img class="borderimage" src="../images/sidebar-border.jpg"/>
+        <img class="logo" src="{{asset('images/DMCLogo.png')}}"/>
+        <img class="borderimage" src="{{asset('images/sidebar-border.jpg')}}"/>
       <div id = "links">
       <h3>Main</h3>
           <div class="list">
@@ -37,7 +37,7 @@
               <li><a href="/community">Community</a></li>
               <li><a href="/NewsArchive">News Archive</a></li>
               </ul>
-<img class="borderimage" src="../images/sidebar-border.jpg"/>
+<img class="borderimage" src="{{asset('images/sidebar-border.jpg')}}"/>
           </div> <!-- list 1 -->
                   <h3>Games</h3>
           <div class="list">
@@ -49,7 +49,7 @@
               <li><a href="/DmC">DmC: Devil May Cry</a></li>
               <li><a href="/DMC5">Devil May Cry 5</a></li>
               </ul>
-              <img class="borderimage" src="../images/sidebar-border.jpg"/>
+              <img class="borderimage" src="{{asset('images/sidebar-border.jpg')}}"/>
           <h3>Speedrun Tools</h3>
           </div> <!-- list 2 -->
           <div class="list">
