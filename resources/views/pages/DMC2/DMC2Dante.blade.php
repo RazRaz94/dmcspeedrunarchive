@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" href="{{asset('css/DMCCharacterInformation.css')}}">
 <link rel="stylesheet" href="{{asset('css/MarathonTable.css')}}">
+<link rel="stylesheet" href="{{asset('css/CSSModal.css')}}">
 
 <div id = "content">
     <div id = "right">
@@ -45,299 +46,43 @@
             <li>Has second form that requires HP to be at red state before transform.</li>
         </ul>
         <h2 id="Move_List">Move List</h2>
-        <table id="Marathon">
-            <tr>
-                <td>Move List</td>
-                <td>Damage Normal</td>
-                <td>Damage DT</td>
-                <td>Armor break points</td>
-                <td>DT gain</td>
-                <td>Style point</td>
-            </tr>
-            <tr>
-                <td>Combo (Ground)</td>
-                <td>160</td>
-                <td>192</td>
-                <td>50</td>
-                <td>40</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Combo (Ground&#39;s finish hit)</td>
-                <td>200</td>
-                <td>240</td>
-                <td>50</td>
-                <td>40</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Combo (Belvedere)</td>
-                <td>200</td>
-                <td></td>
-                <td>50</td>
-                <td>40</td>
-                <td>300</td>
-            </tr>
-            <tr>
-                <td>Combo (Million Stabs)</td>
-                <td></td>
-                <td>108</td>
-                <td>50</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Combo (Thrust Kick/1st phase)</td>
-                <td></td>
-                <td>192</td>
-                <td>50</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Combo (Thrust Kick/2nd phase)</td>
-                <td></td>
-                <td>216</td>
-                <td>50</td>
-                <td>0</td>
-                <td>200</td>
-            </tr>
-            <tr>
-                <td>Stinger</td>
-                <td>200</td>
-                <td>240</td>
-                <td>50</td>
-                <td>40</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>High Time</td>
-                <td>200</td>
-                <td>240</td>
-                <td>50</td>
-                <td>40</td>
-                <td>400</td>
-            </tr>
-            <tr>
-                <td>Helm Breaker</td>
-                <td>260</td>
-                <td>312</td>
-                <td>50</td>
-                <td>40</td>
-                <td>400</td>
-            </tr>
-            <tr>
-                <td>Combo (Air)</td>
-                <td>180</td>
-                <td>216</td>
-                <td>50</td>
-                <td>40</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Round Trip</td>
-                <td></td>
-                <td>240</td>
-                <td>50</td>
-                <td>0</td>
-                <td>120</td>
-            </tr>
-            <tr>
-                <td>Smash</td>
-                <td>200</td>
-                <td></td>
-                <td>50</td>
-                <td>50</td>
-                <td>300</td>
-            </tr>
-            <tr>
-                <td>Gravedigger</td>
-                <td></td>
-                <td>240</td>
-                <td>50</td>
-                <td>0</td>
-                <td>300</td>
-            </tr>
-            <tr>
-                <td>Handgun</td>
-                <td>20</td>
-                <td></td>
-                <td>12</td>
-                <td>5</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Handgun (Twosome Time)</td>
-                <td>20</td>
-                <td></td>
-                <td>50</td>
-                <td>5</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Handgun (Rainstorm)</td>
-                <td>20</td>
-                <td></td>
-                <td>12</td>
-                <td>5</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Shotgun</td>
-                <td>25</td>
-                <td></td>
-                <td>10</td>
-                <td>3</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Shotgun (Curved hit)</td>
-                <td>25</td>
-                <td></td>
-                <td>10</td>
-                <td>3</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>SMG</td>
-                <td>7</td>
-                <td></td>
-                <td>1</td>
-                <td>1</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Missile launcher (Hit)</td>
-                <td>50</td>
-                <td></td>
-                <td>50</td>
-                <td>20</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Missile launcher (Explosion)</td>
-                <td>300</td>
-                <td></td>
-                <td>50</td>
-                <td>20</td>
-                <td>20</td>
-            </tr>
-            <tr>
-                <td>Electro Heart (Falling lightning)</td>
-                <td></td>
-                <td>120</td>
-                <td>50</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Flame Heart (fire)</td>
-                <td></td>
-                <td>12</td>
-                <td>20</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Caligula</td>
-                <td></td>
-                <td>24</td>
-                <td>3</td>
-                <td>0</td>
-                <td>10</td>
-            </tr>
-        </table>
+
+        <h3>Regular Moves</h3>
+        <ul class="line">
+            <li><label class="btn" for="modal-1">Combo</label></li>	
+            <li><label class="btn" for="modal-2">Belvedere</label></li>
+            <li><label class="btn" for="modal-3">Stinger</label></li>
+            <li><label class="btn" for="modal-4">High Time</label></li>
+            <li><label class="btn" for="modal-5">Helm Breaker</label></li>
+            <li><label class="btn" for="modal-6">Air Combo</label></li>
+            <li><label class="btn" for="modal-7">Ebony and Ivory</label></li>
+            <li><label class="btn" for="modal-8">Shotgun</label></li>
+            <li><label class="btn" for="modal-9">SMG</label></li>
+            <li><label class="btn" for="modal-10">Missile launcher</label></li>
+        </ul>
+        <h3> Devil Trigger Moves </h3>
+        <ul class="line">
+            <li><label class="btn" for="modal-11">Million Stabs</label></li>
+            <li><label class="btn" for="modal-12">Thrust Kick</label></li>
+            <li><label class="btn" for="modal-13">Round Trip</label></li>
+            <li><label class="btn" for="modal-14">Smash / Gravedigger</label></li>
+            <li><label class="btn" for="modal-15">Elemental Damage</label></li>
+            <li><label class="btn" for="modal-16">Caligula</label></li>
+        </ul>
         <h3>Majin Form</h3>
-        <table id="Marathon">
-            <tr>
-                <td>Move List</td>
-                <td>Damage Value</td>
-                <td></td>
-                <td>Armor break points</td>
-                <td>DT gain</td>
-                <td>Style point</td>
-            </tr>
-            <tr>
-                <td>Combo (Ground)</td>
-                <td>500</td>
-                <td></td>
-                <td>500</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Combo (Ground&#39;s finish hit)</td>
-                <td>1000</td>
-                <td></td>
-                <td>500</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Combo (Flight)</td>
-                <td>500</td>
-                <td></td>
-                <td>500</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Archivolt</td>
-                <td>500</td>
-                <td></td>
-                <td>500</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Whirlwind</td>
-                <td>500</td>
-                <td></td>
-                <td>500</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Crimson Bolide</td>
-                <td>500</td>
-                <td></td>
-                <td>50</td>
-                <td>0</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Doomsday (DT gauge at 3000 or below)</td>
-                <td>2500</td>
-                <td></td>
-                <td>1000</td>
-                <td>0</td>
-                <td>200</td>
-            </tr>
-            <tr>
-                <td>Doomsday (DT gauge at 3001 or higher)</td>
-                <td>5000</td>
-                <td></td>
-                <td>1000</td>
-                <td>0</td>
-                <td>200</td>
-            </tr>
-            <tr>
-                <td>Laevateinn (DT gauge at 3000 or below)</td>
-                <td>50</td>
-                <td></td>
-                <td>30</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Laevateinn (DT gauge at 3001 or higher)</td>
-                <td>100</td>
-                <td></td>
-                <td>30</td>
-                <td>0</td>
-                <td>100</td>
-            </tr>
-        </table>
+        <ul class="line">
+            <li><label class="btn" for="modal-17">Combo</label></li>
+            <li><label class="btn" for="modal-18">Air Raid Combo</label></li>
+            <li><label class="btn" for="modal-19">Archivolt</label></li>
+            <li><label class="btn" for="modal-20">Whirlwind</label></li>
+            <li><label class="btn" for="modal-21">Crimson Bolide</label></li>
+            <li><label class="btn" for="modal-22">Doomsday</label></li>
+            <li><label class="btn" for="modal-23">Laevateinn</label></li>
+        </ul>
+      </p>
+
+      @include('pages.DMC2.DMC2DanteMoveList')
+
         <h2 id="Techniques">Techniques</h2>
         <ul>
             <li>Turnaround Stinger - links to new page.</li>
