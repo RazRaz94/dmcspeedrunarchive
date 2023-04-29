@@ -14,7 +14,7 @@
           </th></tr>
           <tr>
           <th colspan="2"> 
-            <img src="{{asset('images/DMC2Files/Character/DMC2Dante.png')}}" width="270" height="206" />
+            <img src="{{asset('images/DMC2Files/Character/DMC2Dante.png')}}" />
           </th></tr>
           <tr>
             <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b>Categories</b>
