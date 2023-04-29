@@ -115,6 +115,10 @@ Route::get('/DMC2:Lucia', function() {
     return view('pages.DMC2.DMC2Lucia');
 });
 
+Route::get('/DMC2:Trish', function() {
+    return view('pages.DMC2.DMC2Trish');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [

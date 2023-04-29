@@ -43,7 +43,8 @@
             <li>Dante's Amulet start is Electro Heart.</li>
             <li>Has the best front roll in the game.</li>
             <li>The only character that utilizes orb manipulation mechanic.</li>
-            <li>Has second form that requires HP to be at red state before transform.</li>
+            <li>Has second DT form (Desperation Devil Trigger / Shin Majin). Requires HP to be at red state.</li>
+            <li>Dante's equipped weapon scales with Majin's melee attacks.</li>
         </ul>
         <h2 id="Move_List">Move List</h2>
 

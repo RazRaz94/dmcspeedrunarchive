@@ -24,7 +24,7 @@
         </tbody></table>
     </div>
     <div id ="left">
-        <h1>Dante (Devil May Cry 2)</h1>
+        <h1>Lucia (Devil May Cry 2)</h1>
         {{ Breadcrumbs::render('DMC2Lucia') }}
         <div id="toc_container">
             <p class="toc_title">Contents</p>
@@ -56,23 +56,24 @@
             <li><label class="btn" for="modal-3">Sky High</label></li>
             <li><label class="btn" for="modal-4">Axe Kick</label></li>
             <li><label class="btn" for="modal-5">Air Combo</label></li>
-            <li><label class="btn" for="modal-6">Underwater</label></li>
-            <li><label class="btn" for="modal-7">Lush</label></li>
-            <li><label class="btn" for="modal-8">Throwing Dagggers</label></li>
-            <li><label class="btn" for="modal-9">Dart</label></li>
-            <li><label class="btn" for="modal-10">Cranky Bomb</label></li>
-            <li><label class="btn" for="modal-11">Bowgun</label></li>
+            <li><label class="btn" for="modal-6">Rapid Fire</label></li>
+            <li><label class="btn" for="modal-7">Underwater</label></li>
+            <li><label class="btn" for="modal-8">Lush</label></li>
+            <li><label class="btn" for="modal-9">Dagggers</label></li>
+            <li><label class="btn" for="modal-10">Dart</label></li>
+            <li><label class="btn" for="modal-11">Cranky Bomb</label></li>
+            <li><label class="btn" for="modal-12">Bowgun</label></li>
         </ul>
         <h3> Devil Trigger Moves </h3>
         <ul class="line">
-            <li><label class="btn" for="modal-12">Slash Down</label></li>
-            <li><label class="btn" for="modal-13">Frenzied</label></li>
-            <li><label class="btn" for="modal-14">Somersault</label></li>
-            <li><label class="btn" for="modal-15">Air Combo</label></li>
-            <li><label class="btn" for="modal-16">Air Raid Cross</label></li>
-            <li><label class="btn" for="modal-17">Elemental Damage</label></li>
-            <li><label class="btn" for="modal-18">Seraphic Soar</label></li>
-            <li><label class="btn" for="modal-19">Divine Anger</label></li>
+            <li><label class="btn" for="modal-13">Slash Down</label></li>
+            <li><label class="btn" for="modal-14">Frenzied</label></li>
+            <li><label class="btn" for="modal-15">Somersault</label></li>
+            <li><label class="btn" for="modal-16">Air Combo</label></li>
+            <li><label class="btn" for="modal-17">Air Raid Cross</label></li>
+            <li><label class="btn" for="modal-18">Elemental Damage</label></li>
+            <li><label class="btn" for="modal-19">Seraphic Soar</label></li>
+            <li><label class="btn" for="modal-20">Divine Anger</label></li>
         </ul>
       </p>
 
