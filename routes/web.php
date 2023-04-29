@@ -111,6 +111,10 @@ Route::get('/DMC2:Dante', function() {
     return view('pages.DMC2.DMC2Dante');
 });
 
+Route::get('/DMC2:Lucia', function() {
+    return view('pages.DMC2.DMC2Lucia');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [

@@ -106,6 +106,11 @@ Breadcrumbs::for('DMC2Dante', function (BreadcrumbTrail $trail) {
     $trail->push('Dante', url('/DMC2:Dante'));
 });
 
+Breadcrumbs::for('DMC2Lucia', function (BreadcrumbTrail $trail) {
+    $trail->parent('DMC2');
+    $trail->push('Lucia', url('/DMC2:Lucia'));
+});
+
 // Home > Blog > [Category]
 //Breadcrumbs::for('category', function (BreadcrumbTrail $trail, $category) {
 //    $trail->parent('blog');
