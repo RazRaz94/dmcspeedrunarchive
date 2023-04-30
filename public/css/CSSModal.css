@@ -38,18 +38,17 @@
   
   .modal__inner {
     transition: top .25s ease;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: .3s ease;
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: -150%;
-    left: 0;
-    width: 90%;
-    margin: auto;
-    overflow: auto;
-    background: transparent;
+    left: 20%;
+    margin-top: 40%;
+    transform: translate(-10%, 50%);
+    width:70%;
+    border: 3px solid rgba(37,11,45,.5);
+    background-color: rgba(0,0,0,.7);
     border-radius: 5px;
-    padding: 1em 2em;
-    height: 50%;
   }
   
   .modal__close {

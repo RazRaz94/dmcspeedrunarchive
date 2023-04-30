@@ -58,6 +58,7 @@
         </ul>
         <h3> Devil Trigger Moves </h3>
         <ul class="line">
+            <li><label class="btn" for="modal-1a">Combo</label></li>	
             <li><label class="btn" for="modal-6">Million Stabs</label></li>
             <li><label class="btn" for="modal-7">Thrust Kick</label></li>
             <li><label class="btn" for="modal-8">Round Trip</label></li>

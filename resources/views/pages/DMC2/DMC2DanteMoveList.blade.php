@@ -2,8 +2,8 @@
 <div class="modal">
    <label class="modal__bg" for="modal-1"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-1"></label>
       <table>
+         <tr>
       <td>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/Combo-A.mp4')}}" type="video/mp4">
@@ -16,11 +16,7 @@
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/Combo-C.mp4')}}" type="video/mp4">
       </video>
-   </td><td>
-      <video autoplay loop muted>
-         <source src="{{asset('video/DMC2Moves/Dante/DT/Combo-B.mp4')}}" type="video/mp4">
-      </video>
-   </td>
+   </td></tr>
    </table>
       <dl>Any stick direction changes dante's combat behaviour whether he hits vertical or horizontal.</dl>
       <table id="Marathon">
@@ -55,7 +51,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-2"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-2"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/Belveder.mp4')}}" type="video/mp4">
       </video>
@@ -83,7 +78,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-3"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-3"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/Stinger.mp4')}}" type="video/mp4">
       </video>
@@ -111,7 +105,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-4"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-4"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/High-Time.mp4')}}" type="video/mp4">
       </video>
@@ -139,7 +132,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-5"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-5"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/AirCombo.mp4')}}" type="video/mp4">
       </video>
@@ -177,11 +169,46 @@
 <!-- End of Human Moves -->
 
 <!-- Start of Devil Trigger Moves -->
+<input class="modal-state" id="modal-1a" type="checkbox" />
+<div class="modal">
+   <label class="modal__bg" for="modal-1a"></label>
+   <div class="modal__inner">
+      <video autoplay loop muted>
+         <source src="{{asset('video/DMC2Moves/Dante/DT/Combo-B.mp4')}}" type="video/mp4">
+      </video>
+   </table>
+      <table id="Marathon">
+         <tr>
+            <td></td>
+            <td>Damage Normal</td>
+            <td>Damage DT</td>
+            <td>Armor break points</td>
+            <td>DT gain</td>
+            <td>Style point</td>
+         </tr>
+         <tr>
+            <td>Regular Hits</td>
+            <td></td>
+            <td>192</td>
+            <td>50</td>
+            <td>40</td>
+            <td>100</td>
+         </tr>
+         <tr>
+            <td>Ender hits</td>
+            <td></td>
+            <td>240</td>
+            <td>50</td>
+            <td>40</td>
+            <td>100</td>
+         </tr>
+      </table>
+   </div>
+</div>
 <input class="modal-state" id="modal-6" type="checkbox" />
 <div class="modal">
    <label class="modal__bg" for="modal-6"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-6"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/DT/Million-Stab.mp4')}}" type="video/mp4">
       </video>
@@ -209,7 +236,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-7"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-7"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/DT/Thrust-Kick.mp4')}}" type="video/mp4">
       </video>
@@ -245,7 +271,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-8"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-8"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/DT/Round-Trip.mp4')}}" type="video/mp4">
       </video>
@@ -274,7 +299,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-9"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-9"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/Smash.mp4')}}" type="video/mp4">
       </video>
@@ -315,7 +339,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-10"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-10"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Majin/Combo.mp4')}}" type="video/mp4">
       </video>
@@ -351,7 +374,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-11"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-11"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Majin/Air-Raid.mp4')}}" type="video/mp4">
       </video>
@@ -379,7 +401,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-12"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-12"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Majin/Archivolt.mp4')}}" type="video/mp4">
       </video>
@@ -407,7 +428,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-13"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-13"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Majin/Whirlwind.mp4')}}" type="video/mp4">
       </video>
@@ -435,7 +455,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-14"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-14"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Majin/Doomsday.mp4')}}" type="video/mp4">
       </video>
@@ -471,7 +490,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-15"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-15"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Majin/Levi.mp4')}}" type="video/mp4">
       </video>
@@ -512,7 +530,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-16"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-16"></label>
       <table>
          <td>
          <video autoplay loop muted>
@@ -572,7 +589,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-17"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-17"></label>
       <table>
          <td>
          <video autoplay loop muted>
@@ -624,7 +640,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-18"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-18"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/FireArms/SMG.mp4')}}" type="video/mp4">
       </video>
@@ -652,7 +667,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-19"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-19"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/FireArms/Rocket.mp4')}}" type="video/mp4">
       </video>
@@ -688,7 +702,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-20"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-20"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/FireArms/Caligula.mp4')}}" type="video/mp4">
       </video>
@@ -716,7 +729,6 @@
 <div class="modal">
    <label class="modal__bg" for="modal-21"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-21"></label>
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/FireArms/Crimson-Bolide.mp4')}}" type="video/mp4">
       </video>
