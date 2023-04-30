@@ -1,3 +1,5 @@
+<!-- Start of Lucia Human Moves -->
+
 <input class="modal-state" id="modal-1" type="checkbox" />
 <div class="modal">
    <label class="modal__bg" for="modal-1"></label>
@@ -239,139 +241,15 @@
    </div>
 </div>
 
+<!-- End of Lucia Human Moves -->
+
+<!-- Start of Lucia Devil Trigger Moves -->
+
 <input class="modal-state" id="modal-9" type="checkbox" />
 <div class="modal">
    <label class="modal__bg" for="modal-9"></label>
    <div class="modal__inner">
       <label class="modal__close" for="modal-9"></label>
-      <table id="Marathon">
-         <tr>
-            <td></td>
-            <td>Damage Normal</td>
-            <td>Damage DT</td>
-            <td>Armor break points</td>
-            <td>DT gain</td>
-            <td>Style point</td>
-         </tr>
-         <tr>
-            <td>Throwing Dagggers</td>
-            <td>40</td>
-            <td></td>
-            <td>12</td>
-            <td>10</td>
-            <td>12</td>
-         </tr>
-         <tr>
-            <td>Twosome Time</td>
-            <td>40</td>
-            <td></td>
-            <td>50</td>
-            <td>10</td>
-            <td>100</td>
-         </tr>
-      </table>
-   </div>
-</div>
-
-<input class="modal-state" id="modal-10" type="checkbox" />
-<div class="modal">
-   <label class="modal__bg" for="modal-10"></label>
-   <div class="modal__inner">
-      <label class="modal__close" for="modal-10"></label>
-      <table id="Marathon">
-         <tr>
-            <td></td>
-            <td>Damage Normal</td>
-            <td>Damage DT</td>
-            <td>Armor break points</td>
-            <td>DT gain</td>
-            <td>Style point</td>
-         </tr>
-         <tr>
-            <td>Dart</td>
-            <td>40</td>
-            <td></td>
-            <td>12</td>
-            <td>10</td>
-            <td>12</td>
-         </tr>
-         <tr>
-            <td>Rainstorm</td>
-            <td>40</td>
-            <td></td>
-            <td>50</td>
-            <td>10</td>
-            <td>50</td>
-         </tr>
-      </table>
-   </div>
-</div>
-
-<input class="modal-state" id="modal-11" type="checkbox" />
-<div class="modal">
-   <label class="modal__bg" for="modal-11"></label>
-   <div class="modal__inner">
-      <label class="modal__close" for="modal-11"></label>
-      <table id="Marathon">
-         <tr>
-            <td></td>
-            <td>Damage Normal</td>
-            <td>Damage DT</td>
-            <td>Armor break points</td>
-            <td>DT gain</td>
-            <td>Style point</td>
-         </tr>
-         <tr>
-            <td>Direct Hit</td>
-            <td>150</td>
-            <td></td>
-            <td>0</td>
-            <td>50</td>
-            <td>100</td>
-         </tr>
-         <tr>
-            <td>Explosion</td>
-            <td>100</td>
-            <td></td>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-         </tr>
-      </table>
-   </div>
-</div>
-
-<input class="modal-state" id="modal-12" type="checkbox" />
-<div class="modal">
-   <label class="modal__bg" for="modal-12"></label>
-   <div class="modal__inner">
-      <label class="modal__close" for="modal-12"></label>
-      <table id="Marathon">
-         <tr>
-            <td></td>
-            <td>Damage Normal</td>
-            <td>Damage DT</td>
-            <td>Armor break points</td>
-            <td>DT gain</td>
-            <td>Style point</td>
-         </tr>
-         <tr>
-            <td>Bowgun</td>
-            <td>20</td>
-            <td></td>
-            <td>1</td>
-            <td>10</td>
-            <td>10</td>
-         </tr>
-      </table>
-   </div>
-</div>
-
-<input class="modal-state" id="modal-13" type="checkbox" />
-<div class="modal">
-   <label class="modal__bg" for="modal-13"></label>
-   <div class="modal__inner">
-      <label class="modal__close" for="modal-13"></label>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -393,11 +271,11 @@
    </div>
 </div>
 
-<input class="modal-state" id="modal-14" type="checkbox" />
+<input class="modal-state" id="modal-10" type="checkbox" />
 <div class="modal">
-   <label class="modal__bg" for="modal-14"></label>
+   <label class="modal__bg" for="modal-10"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-14"></label>
+      <label class="modal__close" for="modal-10"></label>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -419,11 +297,11 @@
    </div>
 </div>
 
-<input class="modal-state" id="modal-15" type="checkbox" />
+<input class="modal-state" id="modal-11" type="checkbox" />
 <div class="modal">
-   <label class="modal__bg" for="modal-15"></label>
+   <label class="modal__bg" for="modal-11"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-15"></label>
+      <label class="modal__close" for="modal-11"></label>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -453,11 +331,11 @@
    </div>
 </div>
 
-<input class="modal-state" id="modal-16" type="checkbox" />
+<input class="modal-state" id="modal-12" type="checkbox" />
 <div class="modal">
-   <label class="modal__bg" for="modal-16"></label>
+   <label class="modal__bg" for="modal-12"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-16"></label>
+      <label class="modal__close" for="modal-12"></label>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -487,11 +365,11 @@
    </div>
 </div>
 
-<input class="modal-state" id="modal-17" type="checkbox" />
+<input class="modal-state" id="modal-13" type="checkbox" />
 <div class="modal">
-   <label class="modal__bg" for="modal-17"></label>
+   <label class="modal__bg" for="modal-13"></label>
    <div class="modal__inner">
-      <label class="modal__close" for="modal-17"></label>
+      <label class="modal__close" for="modal-13"></label>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -521,6 +399,146 @@
    </div>
 </div>
 
+<input class="modal-state" id="modal-14" type="checkbox" />
+<div class="modal">
+   <label class="modal__bg" for="modal-14"></label>
+   <div class="modal__inner">
+      <label class="modal__close" for="modal-14"></label>
+      <table id="Marathon">
+         <tr>
+            <td></td>
+            <td>Damage Normal</td>
+            <td>Damage DT</td>
+            <td>Armor break points</td>
+            <td>DT gain</td>
+            <td>Style point</td>
+         </tr>
+         <tr>
+            <td>Divine Anger - Ground</td>
+            <td></td>
+            <td>240</td>
+            <td>50</td>
+            <td>0</td>
+            <td>500</td>
+         </tr>
+         <tr>
+            <td>Divine Anger - Air Raid / Underwater</td>
+            <td></td>
+            <td>240</td>
+            <td>100</td>
+            <td>0</td>
+            <td>200</td>
+         </tr>
+      </table>
+   </div>
+</div>
+
+<!-- End of Lucia Devil Trigger moves -->
+
+<!-- Start of lucia firearm -->
+
+<input class="modal-state" id="modal-15" type="checkbox" />
+<div class="modal">
+   <label class="modal__bg" for="modal-15"></label>
+   <div class="modal__inner">
+      <label class="modal__close" for="modal-15"></label>
+      <table id="Marathon">
+         <tr>
+            <td></td>
+            <td>Damage Normal</td>
+            <td>Damage DT</td>
+            <td>Armor break points</td>
+            <td>DT gain</td>
+            <td>Style point</td>
+         </tr>
+         <tr>
+            <td>Throwing Dagggers</td>
+            <td>40</td>
+            <td></td>
+            <td>12</td>
+            <td>10</td>
+            <td>12</td>
+         </tr>
+         <tr>
+            <td>Twosome Time</td>
+            <td>40</td>
+            <td></td>
+            <td>50</td>
+            <td>10</td>
+            <td>100</td>
+         </tr>
+      </table>
+   </div>
+</div>
+
+<input class="modal-state" id="modal-16" type="checkbox" />
+<div class="modal">
+   <label class="modal__bg" for="modal-16"></label>
+   <div class="modal__inner">
+      <label class="modal__close" for="modal-16"></label>
+      <table id="Marathon">
+         <tr>
+            <td></td>
+            <td>Damage Normal</td>
+            <td>Damage DT</td>
+            <td>Armor break points</td>
+            <td>DT gain</td>
+            <td>Style point</td>
+         </tr>
+         <tr>
+            <td>Dart</td>
+            <td>40</td>
+            <td></td>
+            <td>12</td>
+            <td>10</td>
+            <td>12</td>
+         </tr>
+         <tr>
+            <td>Rainstorm</td>
+            <td>40</td>
+            <td></td>
+            <td>50</td>
+            <td>10</td>
+            <td>50</td>
+         </tr>
+      </table>
+   </div>
+</div>
+
+<input class="modal-state" id="modal-17" type="checkbox" />
+<div class="modal">
+   <label class="modal__bg" for="modal-17"></label>
+   <div class="modal__inner">
+      <label class="modal__close" for="modal-17"></label>
+      <table id="Marathon">
+         <tr>
+            <td></td>
+            <td>Damage Normal</td>
+            <td>Damage DT</td>
+            <td>Armor break points</td>
+            <td>DT gain</td>
+            <td>Style point</td>
+         </tr>
+         <tr>
+            <td>Direct Hit</td>
+            <td>150</td>
+            <td></td>
+            <td>0</td>
+            <td>50</td>
+            <td>100</td>
+         </tr>
+         <tr>
+            <td>Explosion</td>
+            <td>100</td>
+            <td></td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+         </tr>
+      </table>
+   </div>
+</div>
+
 <input class="modal-state" id="modal-18" type="checkbox" />
 <div class="modal">
    <label class="modal__bg" for="modal-18"></label>
@@ -536,20 +554,12 @@
             <td>Style point</td>
          </tr>
          <tr>
-            <td>Electro Heart - Falling lightning</td>
-            <td></td>
-            <td>72</td>
-            <td>50</td>
-            <td>0</td>
-            <td>100</td>
-         </tr>
-         <tr>
-            <td>Flame Heart - Fire</td>
-            <td></td>
-            <td>12</td>
+            <td>Bowgun</td>
             <td>20</td>
-            <td>0</td>
-            <td>0</td>
+            <td></td>
+            <td>1</td>
+            <td>10</td>
+            <td>10</td>
          </tr>
       </table>
    </div>
@@ -581,36 +591,4 @@
    </div>
 </div>
 
-<input class="modal-state" id="modal-20" type="checkbox" />
-<div class="modal">
-   <label class="modal__bg" for="modal-20"></label>
-   <div class="modal__inner">
-      <label class="modal__close" for="modal-20"></label>
-      <table id="Marathon">
-         <tr>
-            <td></td>
-            <td>Damage Normal</td>
-            <td>Damage DT</td>
-            <td>Armor break points</td>
-            <td>DT gain</td>
-            <td>Style point</td>
-         </tr>
-         <tr>
-            <td>Divine Anger - Ground</td>
-            <td></td>
-            <td>240</td>
-            <td>50</td>
-            <td>0</td>
-            <td>500</td>
-         </tr>
-         <tr>
-            <td>Divine Anger - Air Raid / Underwater</td>
-            <td></td>
-            <td>240</td>
-            <td>100</td>
-            <td>0</td>
-            <td>200</td>
-         </tr>
-      </table>
-   </div>
-</div>
+<!-- End of Lucia Firearm -->

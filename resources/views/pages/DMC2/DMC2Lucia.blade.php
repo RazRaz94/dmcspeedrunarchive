@@ -59,23 +59,24 @@
             <li><label class="btn" for="modal-6">Rapid Fire</label></li>
             <li><label class="btn" for="modal-7">Underwater</label></li>
             <li><label class="btn" for="modal-8">Lush</label></li>
-            <li><label class="btn" for="modal-9">Dagggers</label></li>
-            <li><label class="btn" for="modal-10">Dart</label></li>
-            <li><label class="btn" for="modal-11">Cranky Bomb</label></li>
-            <li><label class="btn" for="modal-12">Bowgun</label></li>
         </ul>
         <h3> Devil Trigger Moves </h3>
         <ul class="line">
-            <li><label class="btn" for="modal-13">Slash Down</label></li>
-            <li><label class="btn" for="modal-14">Frenzied</label></li>
-            <li><label class="btn" for="modal-15">Somersault</label></li>
-            <li><label class="btn" for="modal-16">Air Combo</label></li>
-            <li><label class="btn" for="modal-17">Air Raid Cross</label></li>
-            <li><label class="btn" for="modal-18">Elemental Damage</label></li>
-            <li><label class="btn" for="modal-19">Seraphic Soar</label></li>
-            <li><label class="btn" for="modal-20">Divine Anger</label></li>
+            <li><label class="btn" for="modal-9">Slash Down</label></li>
+            <li><label class="btn" for="modal-10">Frenzied</label></li>
+            <li><label class="btn" for="modal-11">Somersault</label></li>
+            <li><label class="btn" for="modal-12">Air Combo</label></li>
+            <li><label class="btn" for="modal-13">Air Raid Cross</label></li>
+            <li><label class="btn" for="modal-14">Divine Anger</label></li>
         </ul>
-      </p>
+        <h3>Fire Arms</h3>
+        <ul class="line">
+          <li><label class="btn" for="modal-15">Dagggers</label></li>
+          <li><label class="btn" for="modal-16">Dart</label></li>
+          <li><label class="btn" for="modal-17">Cranky Bomb</label></li>
+          <li><label class="btn" for="modal-18">Bowgun</label></li>
+          <li><label class="btn" for="modal-19">Seraphic Soar</label></li>
+        </ul>
 
       @include('pages.DMC2.DMC2LuciaMoveList')
 
