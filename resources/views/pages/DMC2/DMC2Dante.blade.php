@@ -45,12 +45,15 @@
             <li>The only character that utilizes orb manipulation mechanic.</li>
             <li>Has second DT form (Desperation Devil Trigger / Shin Majin). Requires HP to be at red state.</li>
             <li>Dante's equipped weapon scales with Majin's melee attacks.</li>
+            <li>Holding Direction before performing first combo hit starter alternates diagonal slash into horizontal. This also makes dante move forward by 3-4 steps.</li>
         </ul>
         <h2 id="Move_List">Move List</h2>
 
         <h3>Regular Moves</h3>
         <ul class="line">
-            <li><label class="btn" for="modal-1">Combo</label></li>	
+            <li><label class="btn" for="modal-1">Rotating End Cut</label></li>
+            <li><label class="btn" for="modal-1b">Rotating Slash</label></li>
+            <li><label class="btn" for="modal-1c">Lotus Slash</label></li>	
             <li><label class="btn" for="modal-2">Belvedere</label></li>
             <li><label class="btn" for="modal-3">Stinger</label></li>
             <li><label class="btn" for="modal-4">High Time</label></li>
@@ -58,16 +61,16 @@
         </ul>
         <h3> Devil Trigger Moves </h3>
         <ul class="line">
-            <li><label class="btn" for="modal-1a">Combo</label></li>	
+            <li><label class="btn" for="modal-1a">Death Pierce</label></li>	
             <li><label class="btn" for="modal-6">Million Stabs</label></li>
-            <li><label class="btn" for="modal-7">Thrust Kick</label></li>
+            <li><label class="btn" for="modal-7">Shadow Spear</label></li>
             <li><label class="btn" for="modal-8">Round Trip</label></li>
             <li><label class="btn" for="modal-9">Smash / Gravedigger</label></li>
         </ul>
         <h3>Majin Form</h3>
         <ul class="line">
-            <li><label class="btn" for="modal-10">Combo</label></li>
-            <li><label class="btn" for="modal-11">Air Raid Combo</label></li>
+            <li><label class="btn" for="modal-10">Cross Cut</label></li>
+            <li><label class="btn" for="modal-11">Air Raid</label></li>
             <li><label class="btn" for="modal-12">Archivolt</label></li>
             <li><label class="btn" for="modal-13">Whirlwind</label></li>
             <li><label class="btn" for="modal-14">Doomsday</label></li>
@@ -81,8 +84,12 @@
         <li><label class="btn" for="modal-19">Missile launcher</label></li>
         <li><label class="btn" for="modal-20">Caligula</label></li>
         <li><label class="btn" for="modal-21">Crimson Bolide</label></li>
+        <li><label class="btn" for="modal-22">Barret Weir</label></li>
+        <li><label class="btn" for="modal-22a">Fireworks</label></li>
+        <li><label class="btn" for="modal-22b">Brandish</label></li>
+        <li><label class="btn" for="modal-23">Twosome Time</label></li>
+        <li><label class="btn" for="modal-24">Rain Storm</label></li>
     </ul>
-      </p>
 
       @include('pages.DMC2.DMC2DanteMoveList')
 

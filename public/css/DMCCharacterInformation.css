@@ -7,6 +7,11 @@
 	height: 256px;
 }
 
+.modal img{
+	width:20px;
+	height: 20px;
+}
+
 #content{
 	display:block;
 	height:80%;
