@@ -55,31 +55,32 @@
             <li><label class="btn" for="modal-3">Stinger</label></li>
             <li><label class="btn" for="modal-4">High Time</label></li>
             <li><label class="btn" for="modal-5">Helm Breaker</label></li>
-            <li><label class="btn" for="modal-6">Air Combo</label></li>
-            <li><label class="btn" for="modal-7">Ebony and Ivory</label></li>
-            <li><label class="btn" for="modal-8">Shotgun</label></li>
-            <li><label class="btn" for="modal-9">SMG</label></li>
-            <li><label class="btn" for="modal-10">Missile launcher</label></li>
         </ul>
         <h3> Devil Trigger Moves </h3>
         <ul class="line">
-            <li><label class="btn" for="modal-11">Million Stabs</label></li>
-            <li><label class="btn" for="modal-12">Thrust Kick</label></li>
-            <li><label class="btn" for="modal-13">Round Trip</label></li>
-            <li><label class="btn" for="modal-14">Smash / Gravedigger</label></li>
-            <li><label class="btn" for="modal-15">Elemental Damage</label></li>
-            <li><label class="btn" for="modal-16">Caligula</label></li>
+            <li><label class="btn" for="modal-6">Million Stabs</label></li>
+            <li><label class="btn" for="modal-7">Thrust Kick</label></li>
+            <li><label class="btn" for="modal-8">Round Trip</label></li>
+            <li><label class="btn" for="modal-9">Smash / Gravedigger</label></li>
         </ul>
         <h3>Majin Form</h3>
         <ul class="line">
-            <li><label class="btn" for="modal-17">Combo</label></li>
-            <li><label class="btn" for="modal-18">Air Raid Combo</label></li>
-            <li><label class="btn" for="modal-19">Archivolt</label></li>
-            <li><label class="btn" for="modal-20">Whirlwind</label></li>
-            <li><label class="btn" for="modal-21">Crimson Bolide</label></li>
-            <li><label class="btn" for="modal-22">Doomsday</label></li>
-            <li><label class="btn" for="modal-23">Laevateinn</label></li>
+            <li><label class="btn" for="modal-10">Combo</label></li>
+            <li><label class="btn" for="modal-11">Air Raid Combo</label></li>
+            <li><label class="btn" for="modal-12">Archivolt</label></li>
+            <li><label class="btn" for="modal-13">Whirlwind</label></li>
+            <li><label class="btn" for="modal-14">Doomsday</label></li>
+            <li><label class="btn" for="modal-15">Laevateinn</label></li>
         </ul>
+        <h3>Fire Arms</h3>
+    <ul class="line">
+        <li><label class="btn" for="modal-16">Ebony and Ivory</label></li>
+        <li><label class="btn" for="modal-17">Shotgun</label></li>
+        <li><label class="btn" for="modal-18">SMG</label></li>
+        <li><label class="btn" for="modal-19">Missile launcher</label></li>
+        <li><label class="btn" for="modal-20">Caligula</label></li>
+        <li><label class="btn" for="modal-21">Crimson Bolide</label></li>
+    </ul>
       </p>
 
       @include('pages.DMC2.DMC2DanteMoveList')

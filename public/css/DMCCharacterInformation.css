@@ -2,6 +2,11 @@
 
 /* ----- This is content div ----- */
 
+.modal video{
+	width:256px;
+	height: 256px;
+}
+
 #content{
 	display:block;
 	height:80%;
