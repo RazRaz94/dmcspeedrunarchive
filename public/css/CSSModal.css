@@ -11,7 +11,7 @@
     width: 100%;
     text-align: left;
     background: rgba(0,0,0, .9);
-    transition: opacity .25s ease;
+    transition: top .25s ease;
   }
   
   .modal__bg {
@@ -41,9 +41,9 @@
     overflow-x: hidden;
     overflow-y: scroll;
     transition: .3s ease;
-    position: fixed;
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
     left: 20%;
-    margin-top: 40%;
     transform: translate(-10%, 50%);
     width:70%;
     border: 3px solid rgba(37,11,45,.5);
@@ -118,26 +118,6 @@
   .btn:active {
     background: rgba(6, 4, 4, .9);
     box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
-  }
-/*   
-  .btn--blue {
-    background: #2980b9;
-  }
-  
-  .btn--blue:hover,
-  .btn--blue:focus {
-    background: #3498db;
-  }
-  
-  .btn--blue:active {
-    background: #2980b9;
-  }
-   */
-  p img {
-    max-width: 200px;
-    height: auto;
-    float: left;
-    margin: 0 1em 1em 0;
   }
 
   ul.line li {
