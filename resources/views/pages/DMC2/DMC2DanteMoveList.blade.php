@@ -529,7 +529,7 @@
          <td>
       <ul>
          <li>5-hit combo.</li>
-         <li>Performed by pressing <img src="{{asset('images\Inputs\Triangle.png')}}"/> 5 times.</li>
+         <li>Performed by pressing <img src="{{asset('images\Inputs\Triangle.png')}}"/> 5 times. High recovery if stopped in the middle of the combo.</li>
          <li>Possibly the most DT gague demanding move.</li>
       </ul>
    </td><td>
@@ -574,8 +574,9 @@
          <td>
       <ul>
          <li>2-hit combo.</li>
-         <li>Performed by pressing <img src="{{asset('images\Inputs\Triangle.png')}}"/> 2 times.</li>
-         <li>Does not require Aerial Heart.</li>
+         <li>Performed by pressing <img src="{{asset('images\Inputs\Triangle.png')}}"/> 2 times during Air Raid state that does not require Aerial Heart to be
+         equipped</li>
+         <li>Can be very slow and easy to miss against enemies like misras.</li>
       </ul>
    </td><td>
       <video autoplay loop muted>
@@ -610,7 +611,7 @@
       <table>
          <td>
       <ul>
-         <li>Multiple hits depending on the height and enemy.</li>
+         <li>Multiple hits depending on the height and enemy. Hit stops every sucessful hit.</li>
          <li>Performed by pressing <img src="{{asset('images\Inputs\Triangle.png')}}"/> in a raw jump.</li>
       </ul>
    </td><td>
@@ -646,7 +647,7 @@
       <table>
          <td>
       <ul>
-         <li>Multiple hits depending on the height and enemy.</li>
+         <li>Multiple hits depending on the height and enemy. Hit stops every sucessful hit.</li>
          <li>Performed by pressing <img src="{{asset('images\Inputs\Triangle.png')}}"/> while jumping forward.</li>
       </ul>
    </td><td>
@@ -683,7 +684,7 @@
          <td>
       <ul>
          <li>Input - <img src="{{asset('images\Inputs\Triangle.png')}}"/> + <img src="{{asset('images\Inputs\Square.png')}}"/></li>
-         <li>Can kill most enemies with one blow no matter the range.</li>
+         <li>Can kill most enemies with one blow no matter the range. Commonly used in Mission 15 or Bloody Palace.</li>
          <li>Attack damage depends on the current DT gauge.</li>
          <li>Goes back to human form after the usage.</li>
       </ul>
@@ -778,7 +779,7 @@
       <table>
          <td>
       <ul>
-         <li>Has different varation of shooting speed and animation</li>
+         <li>Has different varation of shooting speed and animation. Fastest one is mashing while standing still.</li>
       </ul>
    </td><td>
       <video autoplay loop muted>
@@ -927,8 +928,7 @@
       <table>
          <td>
       <ul>
-         <li>DT Only.</li>
-         <li>From the barrel under dante's wrist, fires elemental bullet.</li>
+         <li>DT only, barrels appear under dante's wrist, fires elemental bullet.</li>
          <li>Has special properties depending on the equipped amulets.</li>
          <li>One of the main reasons why Submachine gun isn't used.</li>
       </ul>
@@ -965,9 +965,7 @@
       <table>
          <td>
       <ul>
-         <li>Majin Only.</li>
-         <li>Fires dark energy.</li>
-         <li>Least expensive DT gauge cost in Majin form.</li>
+         <li>Majin only fire arms that generates dark Energy. This is the least expensive DT gauge cost in Majin form.</li>
       </ul>
    </td><td>
       <video autoplay loop muted>
@@ -1156,8 +1154,7 @@
       <table>
          <td>
       <ul>
-         <li>Performed by pressing <img src="{{asset('images\Inputs\Square.png')}}"/> immediately after air hike</li>
-         <li>Only useful for style points.</li>
+         <li>Performed by pressing <img src="{{asset('images\Inputs\Square.png')}}"/> immediately after air hike. This is only useful for style points.</li>
       </ul>
    </td><td>
       <video autoplay loop muted>
