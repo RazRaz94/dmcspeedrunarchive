@@ -101,7 +101,7 @@
             <li>Stinger/Roll cancel into Air Raid</li>
             <li>Kick Cancel</li>
             <li>DT and Human combo mix ups</li>
-            <li>One-on-one Twosome Time</li>
+            <li>One-on-one Twosome Time - Test</li>
         </ul>
         <h2 id="Categories">Categories</h2>
         <ul>
