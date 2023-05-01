@@ -46,36 +46,41 @@
             <li>Builds DT gauge like it's nothing.</li>
             <li>Lucia melee damage is divided between her equipped melee and kick.</li>
             <li>The DT heart elements will not proc from any of kicks other than the shockwave somersault kick.</li>
+            <li>Holding stick at start will start with slash and a kick. Not holding stick at all will be pure melee.</li>
         </ul>
         <h2 id="Move_List">Move List</h2>
 
         <h3>Regular Moves</h3>
         <ul class="line">
-            <li><label class="btn" for="modal-1">Combo</label></li>	
+            <li><label class="btn" for="modal-1">Cross Cutters</label></li>	
+            <li><label class="btn" for="modal-1a">Rodeo Drive</label></li>	
+            <li><label class="btn" for="modal-1b">Dragon Tail</label></li>	
             <li><label class="btn" for="modal-2">Wheel Kick</label></li>
             <li><label class="btn" for="modal-3">Sky High</label></li>
             <li><label class="btn" for="modal-4">Axe Kick</label></li>
-            <li><label class="btn" for="modal-5">Air Combo</label></li>
+            <li><label class="btn" for="modal-5">Spinner Top</label></li>
             <li><label class="btn" for="modal-6">Rapid Fire</label></li>
             <li><label class="btn" for="modal-7">Underwater</label></li>
             <li><label class="btn" for="modal-8">Lush</label></li>
         </ul>
         <h3> Devil Trigger Moves </h3>
         <ul class="line">
-            <li><label class="btn" for="modal-9">Slash Down</label></li>
+            <li><label class="btn" for="modal-9">Weaning Moon</label></li>
             <li><label class="btn" for="modal-10">Frenzied</label></li>
             <li><label class="btn" for="modal-11">Somersault</label></li>
-            <li><label class="btn" for="modal-12">Air Combo</label></li>
-            <li><label class="btn" for="modal-13">Air Raid Cross</label></li>
+            <li><label class="btn" for="modal-12">Air Slash</label></li>
+            <li><label class="btn" for="modal-13">Aerial Cross</label></li>
             <li><label class="btn" for="modal-14">Divine Anger</label></li>
         </ul>
         <h3>Fire Arms</h3>
         <ul class="line">
           <li><label class="btn" for="modal-15">Dagggers</label></li>
-          <li><label class="btn" for="modal-16">Dart</label></li>
+          <li><label class="btn" for="modal-16">Darts</label></li>
           <li><label class="btn" for="modal-17">Cranky Bomb</label></li>
           <li><label class="btn" for="modal-18">Bowgun</label></li>
           <li><label class="btn" for="modal-19">Seraphic Soar</label></li>
+          <li><label class="btn" for="modal-15a">Twosome Time</label></li>
+          <li><label class="btn" for="modal-16a">Rain Storm</label></li>
         </ul>
 
       @include('pages.DMC2.DMC2LuciaMoveList')

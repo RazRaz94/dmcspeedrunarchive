@@ -44,7 +44,7 @@
     position: -webkit-sticky; /* Safari & IE */
     position: sticky;
     left: 20%;
-    transform: translate(-10%, 50%);
+    transform: translate(-10%, 30%);
     width:70%;
     border: 3px solid rgba(37,11,45,.5);
     background-color: rgba(0,0,0,.7);
