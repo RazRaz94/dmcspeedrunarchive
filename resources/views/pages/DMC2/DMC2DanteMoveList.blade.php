@@ -690,7 +690,7 @@
       </ul>
    </td><td>
       <video autoplay loop muted>
-         <source src="{{asset('video/DMC2Moves/Dante/Majin/Doomsday.mp4')}}" type="video/mp4">
+         <source src="{{asset('video/DMC2Moves/Dante/Majin/DoomsDay.mp4')}}" type="video/mp4">
       </video>
    </td>
    </table>

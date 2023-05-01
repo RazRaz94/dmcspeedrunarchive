@@ -61,7 +61,7 @@
     <ul><li><b>New Game</b> - Beats the game as fast as possible from a new file.</li>
         <li><b>New Game+</b> - Beats the game as fast as possible from a cleared file.</li>
     </ul>
-    Note that <a href="/DMC2:Trish">Trish</a> can only run from a cleard file. Her sub-category is split to pick between <a href="/DMC2:Lucia">Lucia</a> route or <a href="/DMC2:Lucia">Dante</a>. </dl>
+    Note that <a href="/DMC2:Trish">Trish</a> can only run from a cleard file. Her sub-category is split to pick between <a href="/DMC2:Lucia">Lucia</a> route or <a href="/DMC2:Dante">Dante</a>. </dl>
     
     <h2 id="Getting_Started">Getting Started</h2>
 
