@@ -544,7 +544,7 @@
    <div class="modal__inner">
       <table>
          <tr><td>
-         <video style="margin-left:17%;" autoplay loop muted>
+         <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Lucia/Human/DT.mp4')}}" type="video/mp4">
       </video>
       <video autoplay loop muted>
@@ -695,7 +695,7 @@
    <div class="modal__inner">
       <table>
          <tr><td>
-         <video style="margin-left:17%;" autoplay loop muted>
+         <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Lucia/DT/Divine-Anger.mp4')}}" type="video/mp4">
       </video>
       <video autoplay loop muted>

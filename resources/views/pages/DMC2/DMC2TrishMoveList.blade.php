@@ -783,7 +783,7 @@
    <div class="modal__inner">
       <table>
          <tr><td>
-            <video style="margin-left:16%;" autoplay loop muted>
+            <video autoplay loop muted>
             <source src="{{asset('video/DMC2Moves/Trish/FireArms/Humanshots.mp4')}}" type="video/mp4">
          </video>
          <video autoplay loop muted>
@@ -953,7 +953,7 @@
       </ul>
    </td>
    <td>
-      <video style="margin-left:17%;" autoplay loop muted>
+      <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/FireArms/Twosometime.mp4')}}" type="video/mp4">
    </video>
       </td>

@@ -257,7 +257,7 @@
    <div class="modal__inner">
       <table>
       <tr><td>
-      <video style="margin-left:20%;" autoplay loop muted>
+      <video autoplay loop muted>
       <source src="{{asset('video/DMC2Moves/Dante/Human/AirCombo.mp4')}}" type="video/mp4">
    </video>
    <video autoplay loop muted>
@@ -475,7 +475,7 @@
    <div class="modal__inner">
       <table>
          <tr><td>
-         <video style="margin-left:17%;" autoplay loop muted>
+         <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Dante/Human/Smash.mp4')}}" type="video/mp4">
       </video>
       <video autoplay loop muted>
@@ -1110,7 +1110,7 @@
    <div class="modal__inner">
       <table>
          <tr><td>
-         <video style="margin-left:17%;" autoplay loop muted>
+         <video autoplay loop muted>
             <source src="{{asset('video/DMC2Moves/Dante/FireArms/Twosometime.mp4')}}" type="video/mp4">
       </video>
       <video autoplay loop muted>
