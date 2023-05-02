@@ -793,7 +793,7 @@
             <li>Only avaliable to Daggers.</li>
             <li>Input - <img src="{{asset('images\Inputs\Square.png')}}"/> + <img src="{{asset('images\Inputs\leftstick.png')}}"/> nearby enemies on the side or back of
                the opponent.</li>
-            <li>Armor break value is high than normal shots, so it's a useful move to utilise sometimes.</li>
+            <li>Armor break value is higher than normal shots, so it's a useful move to utilise sometimes.</li>
       </ul>
    </td><td>
       <video autoplay loop muted>

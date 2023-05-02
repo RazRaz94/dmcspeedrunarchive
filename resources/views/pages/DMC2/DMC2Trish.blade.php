@@ -1,5 +1,5 @@
 @extends('Layout')
-@section('title', 'Dante (DMC2)')
+@section('title', 'Trish (DMC2)')
 @section('content')
 
 <link rel="stylesheet" href="{{asset('css/DMCCharacterInformation.css')}}">
@@ -42,6 +42,40 @@
         </ul>
         <h2 id="Move_List">Move List</h2>
 
+        <h3>Regular Moves</h3>
+        <ul class="line">
+            <li><label class="btn" for="modal-1">Combo A</label></li>
+            <li><label class="btn" for="modal-1b">Combo B</label></li>
+            <li><label class="btn" for="modal-1c">Combo C</label></li>
+            <li><label class="btn" for="modal-1d">Million Stab</label></li>	
+            <li><label class="btn" for="modal-2">High Time</label></li>
+            <li><label class="btn" for="modal-3">Stinger</label></li>
+            <li><label class="btn" for="modal-4">Helm Breaker</label></li>
+            <li><label class="btn" for="modal-5">Round Trip I</label></li>
+            <li><label class="btn" for="modal-6">Underwater</label></li>
+            <li><label class="btn" for="modal-7">Plant Sparda</label></li>
+        </ul>
+        <h3> Devil Trigger Moves </h3>
+        <ul class="line">
+            <li><label class="btn" for="modal-8">Round Trip II</label></li>	
+            <li><label class="btn" for="modal-9">Vortex</label></li>
+        </ul>
+        <h3>Bare Knuckle Moves</h3>
+        <ul class="line">
+            <li><label class="btn" for="modal-10">RT Combo</label></li>
+            <li><label class="btn" for="modal-11">Jump Kick</label></li>
+            <li><label class="btn" for="modal-12">Magma Drive</label></li>
+            <li><label class="btn" for="modal-13">Kick 13</label></li>
+        </ul>
+        <h3>Fire Arms</h3>
+    <ul class="line">
+        <li><label class="btn" for="modal-14">Luce and Ombra</label></li>
+        <li><label class="btn" for="modal-15">Nightmare-γ</label></li>
+        <li><label class="btn" for="modal-16">Light Rays</label></li>
+        <li><label class="btn" for="modal-17">Twosome Time</label></li>
+    </ul>
+
+    @include('pages.DMC2.DMC2TrishMoveList')
 
         <h2 id="Techniques">Techniques</h2>
 
