@@ -784,7 +784,7 @@
       <table>
          <tr><td>
             <video autoplay loop muted>
-            <source src="{{asset('video/DMC2Moves/Trish/FireArms/Humanshots.mp4')}}" type="video/mp4">
+            <source src="{{asset('video/DMC2Moves/Trish/FireArms/HumanShots.mp4')}}" type="video/mp4">
          </video>
          <video autoplay loop muted>
             <source src="{{asset('video/DMC2Moves/Trish/FireArms/DTshots.mp4')}}" type="video/mp4">
