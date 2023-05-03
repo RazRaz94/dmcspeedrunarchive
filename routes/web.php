@@ -111,12 +111,19 @@ Route::get('/DMC2:Dante', function() {
     return view('pages.DMC2.DMC2Dante');
 });
 
+//Lucia Information
 Route::get('/DMC2:Lucia', function() {
     return view('pages.DMC2.DMC2Lucia');
 });
 
+//Trish Information
 Route::get('/DMC2:Trish', function() {
     return view('pages.DMC2.DMC2Trish');
+});
+
+//Amulets
+Route::get('/DMC2:Amulets', function() {
+    return view('pages.DMC2.DMC2Amulets');
 });
 
 //Single News

@@ -47,6 +47,7 @@
 <ul class="toc_list">
   <li><a href="#Leaderboards_&_Categories">Leaderboards & Categories</a></li>
   <li><a href="#Getting_Started">Getting Started</a></li>
+  <li><a href="#Information">Information & Utilities</a></li>
   <li><a href="#Rules">Rules</a></li>
   <li><a href="#External_Resources">External Resources</a></li>
 </ul>
@@ -68,6 +69,15 @@
 <dl id="extralinks"><ul><li>Visit the <a href="/DMC2:Getting_Started">Getting Started</a> page for information on how to get started with DMC2 speedrunning.</li>
     <li>Refer to the <a href="#Rules">General Rules</a> for rules that apply to all categories of DMC2 speedrunning.</li>
     <li>Check the <a href="/DMC2:Frequently_Asked_Questions"> Frequently Asked Questions (FAQ)</a> if you have general questions regarding methods and strategies used in DMC2 speedruns.</li>
+</dl>
+
+<h2 id="Information">Information & Utilities</h2>
+
+<dl id="extralinks"><ul><li><a href="/DMC2:Amulets">Amulets</a></li>
+    <li><a href="/DMC2:Formulas">Style and Orb formulas</a></li>
+    <li><a href="/DMC2:Enemy">Enemy Database</a></li>
+    <li><a href="/DMC2:SRank">S Rank Guide</a></li>
+    <li><a href="/DMC2:Tools">Tools & Resources</a></li>
 </dl> 
 
 <h2 id="Rules">Rules</h2>

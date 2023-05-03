@@ -63,6 +63,7 @@
                                   <div class="list">
               <ul>
               <li><a href="/Info">Site Info</a></li>
+              <li><a href="https://ko-fi.com/lonerhero">Support Us on Ko-fi</a></li>
               </ul>
           </div> <!-- list 3 -->
 </div> <!-- the end of sidenav content -->

@@ -7,7 +7,7 @@
 
 <div id = "content">
     <div id ="left">
-        <h1>Help Out</h1>
+        <h1>Site Info</h1>
         <dl class="CF2">
         <b>"For support inquiries or any inquiries about DMCSpeedrun Archive, please contact LonerHero#9235 on Discord."</b>
             </dl>

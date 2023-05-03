@@ -1,0 +1,48 @@
+figure {
+    float: left;
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  
+  figcaption {
+    color: #d72854;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+  }
+
+  #left dt {
+	float: left;
+	font-weight: bold;
+	color:#ff3333;
+}
+
+#left dd {
+	margin: 1em 0 1em 6em;
+}
+
+.content{
+  margin: 10px 0;
+  width:100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.content tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.content tr:nth-child(2n+1) {
+  background-color: rgba(77, 14, 30);
+}
+.content td:nth-child(1) {
+  font-size:1.2em;
+}
+.content th, .content td {
+  border: 1px solid black;
+  padding:5px;
+}

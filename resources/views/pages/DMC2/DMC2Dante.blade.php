@@ -46,6 +46,8 @@
             <li>Has second DT form (Desperation Devil Trigger / Shin Majin). Requires HP to be at red state.</li>
             <li>Dante's equipped weapon scales with Majin's melee attacks.</li>
             <li>Holding Direction before performing first combo hit starter alternates diagonal slash into horizontal. This also makes dante move forward by 3-4 steps.</li>
+            <li>Majin Transformation restores 90% of dante's DT gauge.</li>
+            <li>Majin form is invulnerable: Dante does not take damage, his attacks cannot be interrupted, and he does not flinch when hit.</li>
         </ul>
         <h2 id="Move_List">Move List</h2>
 
