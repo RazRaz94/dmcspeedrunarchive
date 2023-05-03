@@ -123,7 +123,7 @@ Route::get('/DMC2:Trish', function() {
 
 //Amulets
 Route::get('/DMC2:Amulets', function() {
-    return view('pages.DMC2.DMC2Amulets');
+    return view('pages.DMC2.amulets');
 });
 
 //Single News
