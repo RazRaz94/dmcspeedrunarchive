@@ -4,20 +4,19 @@
 <div class="modal">
    <label class="modal__bg" for="modal-1"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
       <ul>
          <li>Input - <img src="{{asset('images\Inputs\Triangle.png')}}"/>, <img src="{{asset('images\Inputs\Triangle.png')}}"/>, 
             <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
          <li>A quick 3-hit combo.</li>
          <li>Not available in DT because Trish will always go for additional Reverse double slash.</li>
       </ul>
-   </td><td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/Combo-A.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -61,20 +60,19 @@
 <div class="modal">
    <label class="modal__bg" for="modal-1b"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
       <ul>
          <li>Input - <img src="{{asset('images\Inputs\Triangle.png')}}"/>, <img src="{{asset('images\Inputs\Triangle.png')}}"/> (Pause)
             <img src="{{asset('images\Inputs\Triangle.png')}}"/>, <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
          <li>5-hit combo ending with a heavy downward slash.</li>
          <li>In DT, you don't have to delay for the Reverse double slash.</li>
       </ul>
-   </td><td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/Combo-B.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -126,20 +124,19 @@
 <div class="modal">
    <label class="modal__bg" for="modal-1c"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
       <ul>
          <li>Input - <img src="{{asset('images\Inputs\Triangle.png')}}"/>, <img src="{{asset('images\Inputs\Triangle.png')}}"/> (Pause)
             <img src="{{asset('images\Inputs\Triangle.png')}}"/> (Pause) <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
          <li>5-hit combo ending with Stinger.</li>
          <li>In DT, you don't have to delay for the Reverse double slash.</li>
       </ul>
-   </td><td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/Combo-C.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -191,20 +188,19 @@
 <div class="modal">
    <label class="modal__bg" for="modal-1d"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
       <ul>
          <li>Input - <img src="{{asset('images\Inputs\Triangle.png')}}"/>,<img src="{{asset('images\Inputs\Triangle.png')}}"/> (Longer Pause)
             <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
          <li>Two slashes, followed by series of stabs. The number of stab increases when you continuously press <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
          <li>In DT, the gap of pausing before the input is a lot shorter.</li>
       </ul>
-   </td><td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/MS.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -264,18 +260,17 @@
 <div class="modal">
    <label class="modal__bg" for="modal-2"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+   <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
             <li>Input - <img src="{{asset('images\Inputs\Lockon.png')}}"/> + <img src="{{asset('images\Inputs\stickback.png')}}"/> + <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
             <li>Can be in the mid air if held <img src="{{asset('images\Inputs\Triangle.png')}}"/> like any other launcher moves.</li>
             </ul>
-   </td><td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/HighTime.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -303,18 +298,17 @@
 <div class="modal">
    <label class="modal__bg" for="modal-3"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
             <li>Input - <img src="{{asset('images\Inputs\Lockon.png')}}"/> + <img src="{{asset('images\Inputs\stickforward.png')}}"/> + <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
             <li>Travels decent amount of distance but the recovery is too high and the impact isn't that much.</li>
             </ul>
-   </td><td>
+      </div>
+      <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/Stinger.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -342,19 +336,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-4"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
             <li>Input - (Mid air) <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
             <li>Helm Breaker can be cancelled for multiple hits on a certain platform or enemy hitbox.</li>
             <li>Hits large enemies multiple times.</li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/HB.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -390,19 +383,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-5"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+   <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
             <li>Input - (hold then release) <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
             <li>During that state. Trish move list is switched to Bare Knuckle combat.</li>
             <li>The sword can be called back by pressing <img src="{{asset('images\Inputs\lefttrigger.png')}}"/></li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/RoundTripI.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -430,17 +422,16 @@
 <div class="modal">
    <label class="modal__bg" for="modal-6"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>The attack power is higher than Nightmare-γ but it's very slow and primarily used to activate globes.</li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/underwater.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -468,19 +459,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-7"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>Plant the sword in the ground to switch into bare hands combat.</li>
                <li>Input - (hold then release) <img src="{{asset('images\Inputs\lefttrigger.png')}}"/> + <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
                <li>The sword can be called back by pressing <img src="{{asset('images\Inputs\lefttrigger.png')}}"/> double tap it to switch more quickly.</li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/Human/PlantSparda.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -512,20 +502,19 @@
 <div class="modal">
    <label class="modal__bg" for="modal-8"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>Requires Aerial Heart to get into Air Raid state.</li>
                <li>Compared to Dante and Lucia. Trish Round Trip's Armor break points is a lot less. Therefore, it's fine to use the full attack animation for round trip.</li>
                <li>The drain for DT gauge can be heavy depending on the enivroment and equipped element.</li>
                <li>Can be used underwater and does not require Aerial Heart.</li>
             </ul>
-   </td><td>
+         </div>
+      <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/DT/RoundTrip2.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -553,19 +542,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-9"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>Input - <img src="{{asset('images\Inputs\Triangle.png')}}"/> + <img src="{{asset('images\Inputs\Square.png')}}"/></li>
                <li>Requires Aerial Heart to get into Air Raid state.</li>
                <li>Useful in some enivroment interaction. Unfortunately, it can't be chained since the recovery is high.</li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/DT/Vortex.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -597,19 +585,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-10"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>Input - <img src="{{asset('images\Inputs\Triangle.png')}}"/>, <img src="{{asset('images\Inputs\Triangle.png')}}"/>, <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
                <li>A quick 4-hit combo ending with a roundhouse kick.</li>
                <li>The style point and damage reward is high, but the range is short.</li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/BareKnuckles/RTCombo.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -661,19 +648,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-11"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>Input - (Mid-air) <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
                <li>Jump kick can be used to move certain area more quickly.</li>
                <li>Travel distance depends on your height.</li>
             </ul>
-   </td><td>
+         </div>
+      <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/BareKnuckles/JumpKick.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -701,18 +687,17 @@
 <div class="modal">
    <label class="modal__bg" for="modal-12"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>Input - <img src="{{asset('images\Inputs\Lockon.png')}}"/> + <img src="{{asset('images\Inputs\stickback.png')}}"/> + <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
                <li>Can be charged by holding <img src="{{asset('images\Inputs\Triangle.png')}}"/> , but it does not increase Attack Power.</li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/BareKnuckles/MagmaDrive.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -740,18 +725,17 @@
 <div class="modal">
    <label class="modal__bg" for="modal-13"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
             <ul>
                <li>Input - <img src="{{asset('images\Inputs\Lockon.png')}}"/> + <img src="{{asset('images\Inputs\stickforward.png')}}"/> + <img src="{{asset('images\Inputs\Triangle.png')}}"/></li>
                <li>A quick and powerful flaming back roundhouse kick, its impact will drive the enemy back.</li>
             </ul>
-   </td><td>
+         </div>
+         <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/BareKnuckles/Kick13.mp4')}}" type="video/mp4">
       </video>
-   </td>
-   </table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -781,16 +765,14 @@
 <div class="modal">
    <label class="modal__bg" for="modal-14"></label>
    <div class="modal__inner">
-      <table>
-         <tr><td>
+      <div style="text-align: center">
             <video autoplay loop muted>
             <source src="{{asset('video/DMC2Moves/Trish/FireArms/HumanShots.mp4')}}" type="video/mp4">
          </video>
          <video autoplay loop muted>
             <source src="{{asset('video/DMC2Moves/Trish/FireArms/DTshots.mp4')}}" type="video/mp4">
-         </video></td>
-      </tr>
-         <td>
+         </video>
+      </div>
       <ul>
          <li>Damage / Armor break point between Human and DT form are seperated.</li>
          <li>Must mash at specific specific rhythm to get full speed.</li>
@@ -833,19 +815,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-15"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
       <ul>
          <li>Auto-Equips when underwater.</li>
          <li>Can charge by holding <img src="{{asset('images\Inputs\Square.png')}}"/> to shoot maximum of 5 rays.</li>
          <li>DT always shoots full charge without having to charge the weapon itself.</li>
       </ul>
-   </td><td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/FireArms/Nightmare.mp4')}}" type="video/mp4">
       </video>
-   </td>
-</table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -905,19 +886,18 @@
 <div class="modal">
    <label class="modal__bg" for="modal-16"></label>
    <div class="modal__inner">
-      <table>
-         <td>
+   <div style="float:left; width:55%; margin-top:3.125em;">
       <ul>
          <li>Requires Aerial Heart to get into Air Raid state.</li>
          <li>Fire arms that generates lightning Energy. Attack power is very high but uses large quantities of your DT bar.</li>
          <li>The more you use it then the number of rays fired at the same time increases by 1 (maximum up to 5 shots).</li>
       </ul>
-   </td><td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/FireArms/LightRays.mp4')}}" type="video/mp4">
       </video>
-   </td>
-</table>
+   </div>
       <table id="Marathon">
          <tr>
             <td></td>
@@ -943,21 +923,19 @@
 <div class="modal">
    <label class="modal__bg" for="modal-17"></label>
    <div class="modal__inner">
-      <table>
-      <tr><td>
+      <div style="float:left; width:55%; margin-top:3.125em;">
       <ul>
          <li>Has 3 different variation (Twin Beats, Crossfire and Backdraft).</li>
          <li>Input - <img src="{{asset('images\Inputs\Square.png')}}"/> + <img src="{{asset('images\Inputs\leftstick.png')}}"/> nearby enemies on the side or back of
             the opponent.</li>
          <li>Armor break value is higher than normal shots, so it's a useful move to utilise sometimes.</li>
       </ul>
-   </td>
-   <td>
+   </div>
+   <div style="float:right; width:40%;">
       <video autoplay loop muted>
          <source src="{{asset('video/DMC2Moves/Trish/FireArms/Twosometime.mp4')}}" type="video/mp4">
    </video>
-      </td>
-  </tr>
+   </div>
    </table>
       <table id="Marathon">
          <tr>
