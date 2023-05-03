@@ -1,0 +1,61 @@
+#content table{
+    border-collapse: collapse;
+}
+
+#content img{
+    margin-top:-2px;
+    margin-right:-3px;
+    margin-left:-3px;
+    margin-bottom:-2px;
+}
+
+
+.enemy .image {
+    width: 100px;
+    height: 79px;
+    margin: 0;
+}
+
+.enemy .w93-1 {
+    width: 293px;
+    background-color: rgba(77, 14, 30);
+}
+
+.enemy .w93-2 {
+    width: 93px;
+}
+
+.enemy th {
+    height: 39.5px;
+}
+
+.enemy{
+    margin: 0 0 20px 0;
+    border-right: 0px;
+    border-bottom: 0;
+    border-collapse: collapse;
+    overflow: auto;
+    width: 100%;
+}
+
+.enemy th, td {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 2px 3px 2px 3px;
+    height: 25px;
+    border: 1px solid black;
+    line-height: 5px;
+}
+
+.enemy .enemy-name {
+    width: 50%;
+    font-size: 16px;
+    background-color: #290a0a;
+    font-weight: bold;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}

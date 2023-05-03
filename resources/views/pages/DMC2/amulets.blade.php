@@ -36,7 +36,7 @@
          </ul>
          </div>
        <dl id="extralinks">
-         <dt><img src="{{asset('images/DMC2Files/amulets.png')}}" width="100px" height="100px" /></dt>
+         <dt><img src="{{asset('images/DMC2Files/Amulets.png')}}" width="100px" height="100px" /></dt>
          <dd style="    margin: 1em 0 1em 7em;">
        Amulets are magic stones that augment <a href="/DMC2:Dante">Dante</a>, <a href="/DMC2:Lucia">Lucia</a> and <a href="/DMC2:Trish">Trish</a> Devil Trigger (besides the majin form),
        which plays a very important role in speedrunning.

@@ -121,6 +121,11 @@ Breadcrumbs::for('DMC2Amulets', function (BreadcrumbTrail $trail) {
     $trail->push('Amulets', url('/DMC2:Amulets'));
 });
 
+Breadcrumbs::for('DMC2Enemies', function (BreadcrumbTrail $trail) {
+    $trail->parent('DMC2');
+    $trail->push('Enemies', url('/DMC2:Enemy'));
+});
+
 // Home > Blog > [Category]
 //Breadcrumbs::for('category', function (BreadcrumbTrail $trail, $category) {
 //    $trail->parent('blog');

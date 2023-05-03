@@ -126,6 +126,11 @@ Route::get('/DMC2:Amulets', function() {
     return view('pages.DMC2.amulets');
 });
 
+//Enemies
+Route::get('/DMC2:Enemy', function() {
+    return view('pages.DMC2.DMC2Enemies');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [
