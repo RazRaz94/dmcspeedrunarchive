@@ -223,6 +223,7 @@
       <td>0</td>
    </tr>
 </table>
+</div>
 <h2 id="Notes">Notes</h2>
 <dl id="extralinks">
    <ul style="line-height:1.5;">
@@ -237,7 +238,6 @@
    <li>Offence Heart is +20% damage to DT damage. This amulet however, does not work in PS2 version see <a href="/DMC2:Frequently_Asked_Questions"> Frequently Asked Questions (FAQ)</a>.</li>
    </ul>
 </dl>
-</div>
 </div>
    </div>
    <div id="clearit"></div>

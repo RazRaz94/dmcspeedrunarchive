@@ -9,6 +9,13 @@
     margin-bottom:-2px;
 }
 
+#content .enemy td {
+    padding: 4px;
+    font-size: 12px;
+    height: auto;
+    border-top: 0;
+}
+
 
 .enemy .image {
     width: 100px;
@@ -38,15 +45,15 @@
     width: 100%;
 }
 
-.enemy th, td {
-    font-size: 14px;
+#content th, #content td {
+    font-size: 12px;
     font-weight: normal;
     padding: 2px 3px 2px 3px;
     height: 25px;
-    border: 1px solid black;
-    line-height: 5px;
+    border-color: #FFFFFF;
+    line-height: 20px;
+    border: 1px black solid;
 }
-
 .enemy .enemy-name {
     width: 50%;
     font-size: 16px;
