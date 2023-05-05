@@ -126,6 +126,11 @@ Breadcrumbs::for('DMC2Enemies', function (BreadcrumbTrail $trail) {
     $trail->push('Enemies', url('/DMC2:Enemy'));
 });
 
+Breadcrumbs::for('DMC2StyleOrbFormulas', function (BreadcrumbTrail $trail) {
+    $trail->parent('DMC2');
+    $trail->push('Style & Orb Formulas', url('/DMC2:Formulas'));
+});
+
 // Home > Blog > [Category]
 //Breadcrumbs::for('category', function (BreadcrumbTrail $trail, $category) {
 //    $trail->parent('blog');

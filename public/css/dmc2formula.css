@@ -1,0 +1,111 @@
+figure {
+  float: left;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+figcaption {
+  color: #d72854;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+}
+
+#left dt {
+float: left;
+font-weight: bold;
+color:#ff3333;
+}
+
+#left dd {
+margin: 1em 0 1em 6em;
+}
+
+#data{
+    margin: 10px 0;
+    width:60%;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+#data tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+#data tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  #data tr:nth-child(even) {
+    background-color: rgba(65, 12, 25, 0.4);
+  }
+
+#data td:nth-child(1) {
+    font-size:1.2em;
+}
+#data td {
+    border: 1px solid black;
+    padding:8px;
+    text-align: center;
+}
+
+#data th{
+    border: 1px solid black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(77, 14, 30);
+}
+
+#data2 {
+  table-layout: fixed;
+  width: 60%;
+  padding: 20px;
+  border-collapse: collapse;
+  border: 2px solid #250b2d;
+  border-radius: 4px;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.06);
+}
+
+#data2 td{
+  padding: 8px;
+}
+
+caption {
+    font-family: "Rock Salt", cursive;
+    padding: 20px;
+    font-style: italic;
+    color: #ff6600;
+    letter-spacing: 1px;
+  }
+
+  #data tfoot td {
+    border: none;
+    padding: 20px;
+    font-style: italic;
+    color: #ff6600;
+  }
+
+  #content h3{
+    border-bottom: none;
+  }
+
+  .formula{
+      font-family: Consolas,"courier new";
+      color: grey;
+      padding: 2px;
+      font-size: 105%;
+      font-weight: bold;
+    }
+
+    .CF2 {
+      background-color: black;
+      color: green;
+      padding: 1em;
+      font-size: larger;
+      border: 1px solid #a2a9b1;
+  }

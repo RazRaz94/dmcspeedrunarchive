@@ -4,7 +4,6 @@
 
 <link rel="stylesheet" href="{{asset('css/DMCIndexPage.css')}}">
 <link rel="stylesheet" href="{{asset('css/amulet.css')}}">
-<link rel="stylesheet" href="{{asset('css/MarathonTable.css')}}">
 <link rel="stylesheet" href="{{asset('css/ImageTab.css')}}">
 <script src="{{asset('js/ToggleableTabs.js')}}"></script>
 
@@ -173,12 +172,12 @@
 <div class="contentWrapper">
    <table class="content active" id="dante">
    <tr>
-      <td></td>
-      <td>Damage Normal</td>
-      <td>Damage DT</td>
-      <td>Armor break points</td>
-      <td>DT gain</td>
-      <td>Style point</td>
+      <th></th>
+      <th>Damage Normal</th>
+      <th>Damage DT</th>
+      <th>Armor break points</th>
+      <th>DT gain</th>
+      <th>Style point</th>
    </tr>
    <tr>
       <td>Electro Heart - Falling lightning</td>
@@ -199,12 +198,12 @@
 </table>
 <table class="content" id="lucia">
    <tr>
-      <td></td>
-      <td>Damage Normal</td>
-      <td>Damage DT</td>
-      <td>Armor break points</td>
-      <td>DT gain</td>
-      <td>Style point</td>
+      <th></th>
+      <th>Damage Normal</th>
+      <th>Damage DT</th>
+      <th>Armor break points</th>
+      <th>DT gain</th>
+      <th>Style point</th>
    </tr>
    <tr>
       <td>Electro Heart - Falling lightning</td>

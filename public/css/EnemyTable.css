@@ -25,11 +25,12 @@
 
 .enemy .w93-1 {
     width: 293px;
-    background-color: rgba(77, 14, 30);
+    background-color: rgba(77, 14, 30, 0.5);
 }
 
 .enemy .w93-2 {
     width: 93px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .enemy th {
@@ -56,7 +57,7 @@
 .enemy .enemy-name {
     width: 50%;
     font-size: 16px;
-    background-color: #290a0a;
+    background-color: rgba(77, 14, 30);
     font-weight: bold;
 }
 

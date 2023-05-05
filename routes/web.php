@@ -131,6 +131,11 @@ Route::get('/DMC2:Enemy', function() {
     return view('pages.DMC2.DMC2Enemies');
 });
 
+//Style Orb Calculation
+Route::get('/DMC2:Formulas', function() {
+    return view('pages.DMC2.DMC2StyleOrb');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [

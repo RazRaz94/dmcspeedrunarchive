@@ -36,13 +36,26 @@ figure {
   vertical-align: middle;
   border-color: inherit;
 }
-.content tr:nth-child(2n+1) {
-  background-color: rgba(77, 14, 30);
+
+.content tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.4);
 }
+
+.content tr:nth-child(even) {
+  background-color: rgba(65, 12, 25, 0.4);
+}
+
 .content td:nth-child(1) {
   font-size:1.2em;
 }
-.content th, .content td {
+.content td {
   border: 1px solid black;
-  padding:5px;
+  padding:8px;
+  text-align: center;
+}
+
+.content th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(77, 14, 30);
 }
