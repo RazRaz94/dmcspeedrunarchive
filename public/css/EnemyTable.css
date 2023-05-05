@@ -3,21 +3,21 @@
 }
 
 #content img{
-    margin-top:-2px;
-    margin-right:-3px;
-    margin-left:-3px;
-    margin-bottom:-2px;
+    display: block;
+    border: 1px solid #250b2d;
+    border-radius: 4px;
+    width: 150px;
 }
 
 #content .enemy td {
     padding: 4px;
-    font-size: 12px;
+    font-size: 13px;
     height: auto;
     border-top: 0;
 }
 
 
-.enemy .image {
+#content .enemy .image {
     width: 100px;
     height: 79px;
     margin: 0;
@@ -46,11 +46,10 @@
 }
 
 #content th, #content td {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     padding: 2px 3px 2px 3px;
     height: 25px;
-    border-color: #FFFFFF;
     line-height: 20px;
     border: 1px black solid;
 }
