@@ -33,7 +33,7 @@
         <h1>  Weekly Race Schedule </h1>
         <p>We should be providing race schedules and tournament announcement here soon.</p>
         <div id = "clean"></div> <!-- clean div -->
-        <img src="images/bull.png">
+        <img id="img2" src="images/bull.png">
         <h3>News</h3>
         <p>Important dates for the DMCSpeedruns</p>
         <p class="link"><a href="/NewsArchive">Click here</a></p>

@@ -55,6 +55,39 @@
 </ul>
 </div>
 
+<div id = "mobile">
+    <table class="infobox">
+        <tbody><tr>
+        <th colspan="2" style="text-align: center;"><i><b>Devil May Cry</b></i>
+        </th></tr>
+        <tr>
+        <th colspan="2"> 
+            <img src="images/DMC1box.png" width="270" height="384" />
+        </th></tr>
+        <tr>
+        <td rowspan="2"><b>Main platforms</b>
+        </td>
+        <td>PC
+        </td></tr>
+        <tr>
+        <td>PS4/XBox One
+        </td></tr>
+        <td><b>Timing</b>
+        </td>
+        <td>LRT
+        </td></tr>
+        <tr>
+        <td><b>Framerate</b>
+        </td>
+        <td>60
+        </td></tr>
+        <tr>
+        <tr>
+        <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b><a href="/sample">Best Segmented Times</a></b>
+        </td></tr>
+        <td colspan="2" style="background-color:#FF1F23; text-align: center;"><b><a href="/sample">WR Progression Timeline </a></b>
+        </td></tr></tbody></table>
+</div>
 
 <h2 id="Leaderboards_&_Categories">Leaderboards & Categories</h2>
 

@@ -132,3 +132,9 @@
           display: none;
       }
   }
+
+  @media (max-width: 1180px) {
+    #sidenav {
+        display: none;
+    }
+}

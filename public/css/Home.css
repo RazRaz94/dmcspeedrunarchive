@@ -243,3 +243,298 @@ ul a:hover {
 	font-weight: bold;
 	color:#ff3333;
 }
+
+  /* Mobile Layout
+  
+ 
+         ||
+  ______||
+ / ____ o|
+| / ;; \ |
+| ______ |
+||______||
+||  D2  ||
+||______||
+|'\[--]/'|
+|  ¨''¨  |
+|  ''''  |
+|        |
+|        |
+|        |
+|________| */
+
+  @media only screen and (max-width: 620px) {
+	/* For mobile phones: */
+	#content{
+		display:block;
+		height:80%;
+		width:100%;
+		line-height: 1.3;
+		margin-top:3.125em;
+		background:rgba(0, 0, 0, .9);
+		font-family: "Bookman Old Style";
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 1%, 0;
+		box-shadow:0 1px 2px 1px rgba(0,0,0,0.06);
+		border: 1px solid #250b2d;
+		border-radius: 5px;
+		overflow-y: auto; /* relevant part */
+		padding-bottom: 80px;
+	}
+	
+	#GameList{
+		margin: 2rem 1.5rem;
+		border: 1px;
+		border-radius: 8px;
+		overflow: hidden;
+		box-shadow: 0 4px 6px -1px rgba(211, 186, 127, 0.2), 0 2px 4px -1px rgba(211, 186, 127, 0.06);
+	}
+	#GameWrap{
+		display: inline-flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		max-width: 85rem;
+	}
+	
+	#GameWrap a:link, a:visited {
+		color: #ff6600;
+		text-decoration: none;
+	}
+	
+	#clearit {
+		clear: both;
+	}
+	
+	legend {
+		font-size: 1.5em;
+		color:#ff3333;
+		font-weight: normal;
+		margin-left: 10px;
+	}
+	
+	fieldset {
+		display: inline-flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		border: 1px dotted #D3BA7F;
+		max-width: 85rem;
+		margin: 1%;
+	}
+	
+	
+	/* ----- This is ul from banner div ----- */
+	
+	#banner img{
+		width: 100%;
+		margin-left:250px;
+		display: none;
+	}
+	
+	#banner h1 {
+		font-size: 1.8em;
+		font-weight: normal;
+		color:#ff3333;
+		border-bottom:1px dotted #D3BA7F;
+		line-height: 1.3;
+		padding-left: 10px;
+		overflow: hidden;
+	}
+	
+	/* ----- setting up Left Div ----- */
+	
+	#left{
+		margin-top:25px;
+		float: left;
+		width: 100%;
+		padding: 1% 1% 0.5% 0;
+		padding-left: 2%;
+		border-right: 1px dotted #D3BA7F;
+	}
+	
+	#left h1 {
+		margin: 0.5em 0 0.3em;
+		font-size: 18px;
+		font-weight: normal;
+		color:#ff3333;
+	}
+	
+	#left h2 {
+		margin: 0 0 0 6em;
+		font-size: 100%;
+		font-weight: bold;
+	}
+	
+	#left ul {
+		margin: 0 0 0 6em;
+		padding: 0;
+		color:#cc0000;
+		list-style-type: square;
+		list-style-position: inside;
+	}
+	
+	ul a{
+		text-decoration:none;
+		color:#ff6600;;
+	}
+	
+	ul a:hover {
+		padding-left: 10px;
+	}
+	
+	#left dt {
+		float: left;
+		font-weight: bold;
+		color:#ff3333;
+	}
+	
+	#left dd {
+		margin: 1em 0 1em 6em;
+		width: 70%;
+	}
+	
+	#icon {
+		float: left;
+		margin: 5px;
+		width: 120px;
+		height: 120px;
+	}
+	
+	/* ---- setting up right div ---- */
+	
+	#right {
+		float: left;
+		width: 100%;
+		padding: 1% 1% 0.5% 0;
+		padding-left: 2%;
+	}
+	
+	#right h1 {
+		clear: left;
+		margin: 0.5em 0 0.3em 0;
+		font-size: 13px;
+		color:#ff3333;
+	}
+	
+	#right h1 span {
+		display: inline-block;
+		width: 9px;
+		height: 9px;
+		margin-right: 1em;
+		border: 1px solid silver;
+		vertical-align: middle;
+		border-color: #cc0000;
+		background: #cc0000;
+	}
+	
+	#right img {
+		float: left;
+		margin: 0 15px 15px 0;
+	}
+
+	#img2{
+		width: 40%;
+		height: 10%;
+	}
+	
+	#right h2 {
+		margin: 0;
+		font-size: 100%;
+		font-weight: bold;
+	}
+	
+	#right .link {
+		text-align: right;
+	}
+	
+	#right a{
+		text-decoration:none;
+		color:#ff6600;
+		padding: 2px 3px;
+		position: relative;
+		right:5%;
+	}
+	
+	#box{
+		color:#D3BA7F;
+		background:#811832;
+		float: left;
+		position: relative;
+		width: 210px;
+		margin: 15px 0 20px 0;
+		padding: 2px 5px 2px 30px;
+		font-size: 11px;
+		line-height: 1.2;
+	}
+	
+	#box span{
+		background: #D3BA7F;
+		display: block;
+		position: absolute;
+		top: 5px;
+		left: 8px;
+		width: 8px;
+		height: 8px;
+		background: white;
+	}
+	
+	#right input[type=submit] {
+		border: 1px solid silver;
+		border-color:#d72854;
+		background:#811832;
+		float: right;
+		margin: 15px 0 20px 0;
+		margin-right: 60px;
+		width: 150px;
+		height: 30px;
+		color: #D3BA7F;
+		text-align: center;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	
+	#right input[type=submit]:hover{
+		cursor: pointer;
+		padding-left: 10px;
+		background-color: #4d4d4d;
+		border: 1px solid #4d4d4d;
+	}
+	
+	#clean {
+		clear: both;
+		height: 1px;
+		margin: 0;
+	}
+	
+	#right h3{
+		margin: 0;
+		font-size: 100%;
+		font-weight: bold;
+		color:#ff3333;
+	}
+  }
+
+  @media only screen and (max-width:1180px) {
+	/* For tablets: */
+	#content{
+		display:block;
+		height:80%;
+		width:100%;
+		line-height: 1.3;
+		margin-top:3.125em;
+		background:rgba(0, 0, 0, .9);
+		font-family: "Bookman Old Style";
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 1%, 0;
+		box-shadow:0 1px 2px 1px rgba(0,0,0,0.06);
+		border: 1px solid #250b2d;
+		border-radius: 5px;
+		overflow-y: auto; /* relevant part */
+		padding-bottom: 80px;
+	}
+  }

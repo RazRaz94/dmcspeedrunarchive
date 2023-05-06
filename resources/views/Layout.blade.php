@@ -25,6 +25,32 @@
          </div>
         </div>
     </div>
+                <!-- Mobile Nav -->
+                <nav>
+                    <div class="navbar">
+                      <div class="container nav-container">
+                        <div class="logo">
+                        </div>
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                          <span class="line line1"></span>
+                          <span class="line line2"></span>
+                          <span class="line line3"></span>
+                        </div>  
+                        <div class="menu-items">
+                            <img class="logomobile" src="{{asset('images/DMCLogo.png')}}"/>
+                            <img class="borderimage" src="{{asset('images/sidebar-border.jpg')}}"/>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/helpout">Help Out!</a></li>
+                            <li><a href="/community">Community</a></li>
+                            <li><a href="/NewsArchive">News Archive</a></li>
+                            <img class="borderimage" src="{{asset('images/sidebar-border.jpg')}}"/>
+                            <li><a href="/Info">Site Info</a></li>
+                            <li><a href="https://ko-fi.com/lonerhero">Support Us on Ko-fi</a></li>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
     <div id="sidenav">    <div class = "sidenavcontent">
         <img class="logo" src="{{asset('images/DMCLogo.png')}}"/>
         <img class="borderimage" src="{{asset('images/sidebar-border.jpg')}}"/>

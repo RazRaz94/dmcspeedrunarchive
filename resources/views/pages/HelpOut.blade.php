@@ -19,14 +19,16 @@
                     <li>DMC1 - Complete Griffon and Mundus Page</li>
                     <li>DMC1 - Complete routes Information per category</li>
                     <li>Plan on the page set ups for the other games about characters, category information and such</li>
+                    <li>Gather best segemented times for each DMC games.</li>
+                    <li>Gather list of major skips for each DMC games.</li>
+                    <li>Collect routes with estimate, time pastebin note and VoD for each DMC games.</li>
                 </ul>
             </fieldset>
 
             <fieldset>
                 <legend>Website</legend>
                 <ul>
-                    <li>Make pages responsive</li>
-                    <li>Breadcrumbs trail</li>
+                    <li>Make pages responsive with multiple setups for different platforms/aspect ratios</li>
                     <li>Implment users feature. Enable runners to edit pages to add content</li>
                     <li>End goal - Dynamic pages for the leadderboard and World Record progression</li>
                 </ul>
