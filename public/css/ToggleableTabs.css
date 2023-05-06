@@ -37,23 +37,26 @@
 /* Style the table */
 
 th, td {
-    border: 1px solid #D3BA7F;
-    padding: 8px;
+  border: 1px solid black;
+  padding:8px;
+  text-align: center;
   }
 
 table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
   }
 
-tr:nth-child(even){background-color:rgba(0, 0, 0, .9);}
+tr:nth-child(even){background-color: rgba(65, 12, 25, 0.4);;}
 
 tr:hover {background-color: rgba(77, 14, 30);}
 
 th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: rgba(77, 14, 30, .9);
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(77, 14, 30);
 }

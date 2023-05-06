@@ -13,14 +13,14 @@
             </dl>
             <fieldset>
                 <legend>LonerHero</legend>
-                {{"LonerHero is the wiki's Director. LonerHero is in charge of the site design and takes care of updates and PHP coding duties.
+                <p>{{"LonerHero is the wiki's Director. LonerHero is in charge of the site design and takes care of updates and PHP coding duties.
                 He is also responsible for capturing and editing most contents currently available on the site. Games of interest besides Devil May Cry are
-                Onimusha, Ninja Gaiden, Bloodstained and many other arcade based action games."}}
+                Onimusha, Ninja Gaiden, Bloodstained and many other arcade based action games."}}</p>
             </fieldset> 
             <fieldset>
                 <legend>Hies</legend>
-                {{"Hies is the Senior Administrator and owner of the DMCSpeedrun wiki server. Helping in the general development of Devil May Cry Speedrun Archive. He is also
-                the Director of the infamous DMC3 Tools that helped runner immensely to get consistent result in DMC3 runs."}}
+                <p> {{"Hies is the Senior Administrator and owner of the DMCSpeedrun wiki server. Helping in the general development of Devil May Cry Speedrun Archive. He is also
+                the Director of the infamous DMC3 Tools that helped runner immensely to get consistent result in DMC3 runs."}}</p>
             </fieldset> 
     </div>
 

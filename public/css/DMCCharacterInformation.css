@@ -177,3 +177,33 @@ sup{
 	line-height: 1;
 	color:#ff3333;
 }
+
+  /* Mobile Layout
+  
+ 
+         ||
+  ______||
+ / ____ o|
+| / ;; \ |
+| ______ |
+||______||
+||  D2  ||
+||______||
+|'\[--]/'|
+|  ¨''¨  |
+|  ''''  |
+|        |
+|        |
+|        |
+|________| */
+
+@media only screen and (max-width: 620px) {
+	/* For mobile phones: */
+	#content{
+		width:100%;
+	}
+	
+	#right {
+		display:none;
+	}
+  }

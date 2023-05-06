@@ -29,95 +29,78 @@
         <button class="tab-button" data-id="dantemustdie">Dante Must Die</button>
     </div>
     <div class="contentWrapper">
-        <table class="content" id="easy">
-            <tr>
-              <th>Route</th>
-              <th>Estimated possible time</th>
-              <th>Current Record</th>
-              <th>Runner</th>
-              <th>VoD</th>
-              </tr>
-              <tr>
-                <td>SDA Classic  < link</td>
-                <td>37:37</td>
-                <td>37:35</td>
-                <td>Maxylobes</td>
-                <td>YouTube icon</td>
-              </tr>
-              <tr>
-                <td>Beginner's Route  < link</td>
-                <td>40:30</td>
-                <td>41:35</td>
-                <td>Zetta</td>
-                <td>YouTube icon</td>
-              </tr>
-              <tr>
-                <td>IGT Route</td>
-                <td>42:30</td>
-                <td>43:35</td>
-                <td>Bread</td>
-                <td>YouTube icon</td>
-              </tr>
-            </table>
+      <table class="content" id="easy">
+        <tr>
+          <th>Route</th>
+          <th>Estimated Time</th>
+          <th>Runner</th>
+          <th>VoD</th>
+          </tr>
+          <tr>
+            <td>Beginner</td>
+            <td>40:00 - 55:00</td>
+            <td>DECosmic</td>
+            <td><a href="https://www.twitch.tv/videos/430522645?t=0h0m1s" target="_blank">
+              <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
+          </tr>
+          <tr>
+            <td id="extralinks"><a href="https://pastebin.com/yse0h3zh" target="_blank">Advanced</a></td>
+            <td>34:00 - 40:00</td>
+            <td>Out_With_A_Yang</td>
+            <td><a href="https://www.twitch.tv/videos/1710213858?t=0h0m1s" target="_blank">
+              <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
+          </tr>
+        </table>
             <table class="content active" id="normal">
                 <tr>
                   <th>Route</th>
-                  <th>Estimated possible time</th>
-                  <th>Current Record</th>
+                  <th>Estimated Time</th>
                   <th>Runner</th>
                   <th>VoD</th>
                   </tr>
                   <tr>
-                    <td>Break down < link</td>
-                    <td>37:37</td>
-                    <td>37:35</td>
-                    <td>Maxylobes</td>
-                    <td>YouTube icon</td>
+                    <td>Beginner</td>
+                    <td>45:00 - 55:00</td>
+                    <td>Chad Thorsen</td>
+                    <td><a href="https://www.twitch.tv/videos/795722619" target="_blank">
+                      <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
                   </tr>
                   <tr>
-                    <td>Beginner's Route  < link</td>
-                    <td>40:30</td>
-                    <td>41:35</td>
+                    <td>Intermediate</td>
+                    <td>38:00 - 45:00</td>
+                    <td>DECosmic</td>
+                    <td><a href="https://www.twitch.tv/videos/1096674307?t=0h0m1s" target="_blank">
+                      <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
+                  </tr>
+                  <tr>
                     <td>Zetta</td>
-                    <td>Twitch icon</td>
+                    <td>45:00 - 55:00</td>
+                    <td>Zetta</td>
+                    <td><a href="https://www.youtube.com/watch?v=2EcG1PQ2ss8" target="_blank">
+                      <img id="icon" alt="issue" src="{{asset('images/youtube.png')}}"></a></td>
                   </tr>
                   <tr>
-                    <td>Waifu Route  < link</td>
-                    <td>42:30</td>
-                    <td>43:35</td>
-                    <td>Bread</td>
-                    <td>YouTube icon</td>
+                    <td id="extralinks"><a href="https://pastebin.com/DAUYd2Ke" target="_blank">Best Current Meta</a></td>
+                    <td>35:00 - 38:00</td>
+                    <td>Waifu</td>
+                    <td><a href="https://www.twitch.tv/videos/1567068552?t=0h0m1s" target="_blank">
+                      <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
                   </tr>
                 </table>
                 <table class="content" id="dantemustdie">
+                  <tr>
+                    <th>Route</th>
+                    <th>Estimated Time</th>
+                    <th>Runner</th>
+                    <th>VoD</th>
+                    </tr>
                     <tr>
-                      <th>Route</th>
-                      <th>Estimated possible time</th>
-                      <th>Current Record</th>
-                      <th>Runner</th>
-                      <th>VoD</th>
-                      </tr>
-                      <tr>
-                        <td>Screw Autos < link</td>
-                        <td>37:37</td>
-                        <td>37:35</td>
-                        <td>Maxylobes</td>
-                        <td>YouTube icon</td>
-                      </tr>
-                      <tr>
-                        <td>Beginner's Route  < link</td>
-                        <td>40:30</td>
-                        <td>41:35</td>
-                        <td>Zetta</td>
-                        <td>Twitch icon</td>
-                      </tr>
-                      <tr>
-                        <td>Waifu Route  < link</td>
-                        <td>42:30</td>
-                        <td>43:35</td>
-                        <td>Bread</td>
-                        <td>YouTube icon</td>
-                      </tr>
+                      <td>Standard</td>
+                      <td>54:00+</td>
+                      <td>Waifu</td>
+                      <td><a href="https://www.twitch.tv/videos/1472527755?t=0h0m1s" target="_blank">
+                        <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
+                    </tr>
                     </table>
     </div>
 </div>

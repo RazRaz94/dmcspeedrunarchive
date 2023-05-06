@@ -35,3 +35,16 @@ a:link, a:visited{
 	color:#ff6600;
 	text-decoration: none;
 }
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    fieldset {
+        text-align: left;
+    }
+    #left ul {
+        line-height: 2.0;
+    }
+    #left p {
+        line-height: 2.0;
+    }
+    }

@@ -37,93 +37,55 @@
                 </div>
                 <div class="contentWrapper">
                     <table class="content" id="easy">
-                        <tr>
-                          <th>Route</th>
-                          <th>Estimated possible time</th>
-                          <th>Current Record</th>
-                          <th>Runner</th>
-                          <th>VoD</th>
-                          </tr>
                           <tr>
-                            <td>SDA Classic  < link</td>
-                            <td>37:37</td>
-                            <td>37:35</td>
-                            <td>Maxylobes</td>
-                            <td>YouTube icon</td>
-                          </tr>
-                          <tr>
-                            <td>Beginner's Route  < link</td>
-                            <td>40:30</td>
-                            <td>41:35</td>
-                            <td>Zetta</td>
-                            <td>YouTube icon</td>
-                          </tr>
-                          <tr>
-                            <td>IGT Route</td>
-                            <td>42:30</td>
-                            <td>43:35</td>
-                            <td>Bread</td>
-                            <td>YouTube icon</td>
-                          </tr>
+                            <th>Route</th>
+                            <th>Estimated Time</th>
+                            <th>Runner</th>
+                            <th>VoD</th>
+                            </tr>
+                            <tr>
+                              <td id="extralinks"><a href="https://pastebin.com/DnzDZW7W" target="_blank">Standard</a></td>
+                              <td>45:00 - 55:00</td>
+                              <td>Zetta</td>
+                              <td><a href="https://www.twitch.tv/videos/1424553584?t=0h0m1s" target="_blank">
+                                <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
+                            </tr>
                         </table>
                         <table class="content active" id="normal">
+                          <tr>
+                            <th>Route</th>
+                            <th>Estimated Time</th>
+                            <th>Runner</th>
+                            <th>VoD</th>
+                            </tr>
                             <tr>
-                              <th>Route</th>
-                              <th>Estimated possible time</th>
-                              <th>Current Record</th>
-                              <th>Runner</th>
-                              <th>VoD</th>
-                              </tr>
-                              <tr>
-                                <td>Break down < link</td>
-                                <td>37:37</td>
-                                <td>37:35</td>
-                                <td>Maxylobes</td>
-                                <td>YouTube icon</td>
-                              </tr>
-                              <tr>
-                                <td>Beginner's Route  < link</td>
-                                <td>40:30</td>
-                                <td>41:35</td>
-                                <td>Zetta</td>
-                                <td>Twitch icon</td>
-                              </tr>
-                              <tr>
-                                <td>Waifu Route  < link</td>
-                                <td>42:30</td>
-                                <td>43:35</td>
-                                <td>Bread</td>
-                                <td>YouTube icon</td>
-                              </tr>
+                              <td id="extralinks">Beginner</td>
+                              <td>50:00+</td>
+                              <td>DECosmic</td>
+                              <td><a href="https://www.twitch.tv/videos/644538597?t=0h0m1s" target="_blank">
+                                <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
+                            </tr>
+                            <tr>
+                              <td id="extralinks"><a href="https://pastebin.com/7hnDhVuv" target="_blank">Advanced</a></td>
+                              <td>43:00 - 50:00</td>
+                              <td>Waifu</td>
+                              <td><a href="https://www.twitch.tv/videos/1567073234?t=0h0m1s" target="_blank">
+                                <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
+                            </tr>
                             </table>
                             <table class="content" id="dantemustdie">
-                                <tr>
-                                  <th>Route</th>
-                                  <th>Estimated possible time</th>
-                                  <th>Current Record</th>
-                                  <th>Runner</th>
-                                  <th>VoD</th>
-                                  </tr>
+                              <tr>
+                                <th>Route</th>
+                                <th>Estimated Time</th>
+                                <th>Runner</th>
+                                <th>VoD</th>
+                                </tr>
                                   <tr>
-                                    <td>Screw Autos < link</td>
-                                    <td>37:37</td>
-                                    <td>37:35</td>
-                                    <td>Maxylobes</td>
-                                    <td>YouTube icon</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Beginner's Route  < link</td>
-                                    <td>40:30</td>
-                                    <td>41:35</td>
-                                    <td>Zetta</td>
-                                    <td>Twitch icon</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Waifu Route  < link</td>
-                                    <td>42:30</td>
-                                    <td>43:35</td>
-                                    <td>Bread</td>
-                                    <td>YouTube icon</td>
+                                    <td id="extralinks">Standard</td>
+                                    <td>54:00+</td>
+                                    <td>Waifu</td>
+                                    <td><a href="https://www.twitch.tv/videos/1472527755?t=0h0m1s" target="_blank">
+                                      <img id="icon" alt="issue" src="{{asset('images/twitch.png')}}"></a></td>
                                   </tr>
                                 </table>
                 </div>
