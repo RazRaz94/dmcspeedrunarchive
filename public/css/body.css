@@ -296,7 +296,7 @@ ol.breadcrumb li {
 		display: block;
 		background-image: url(/images/bannermobile.png);
 		height: 59px;
-		width: 45%;
+		width: 44%;
 		position: absolute;
 		right: 0%;
 		background-color: black;
@@ -479,7 +479,7 @@ ol.breadcrumb li {
 			display: block;
 			background-image: url(/images/bannermobile.png);
 			height: 59px;
-			width: 44%;
+			width: 25%;
 			position: absolute;
 			right: 0%;
 			background-color: black;
