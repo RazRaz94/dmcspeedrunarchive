@@ -136,6 +136,11 @@ Route::get('/DMC2:Formulas', function() {
     return view('pages.DMC2.DMC2StyleOrb');
 });
 
+//S Rank Criteria
+Route::get('/DMC2:SRank', function() {
+    return view('pages.DMC2.DMC2SRank');
+});
+
 //Single News
 Route::get('/news/{id}', function($id){
     return view('news', [

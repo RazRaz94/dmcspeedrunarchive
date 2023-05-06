@@ -131,6 +131,11 @@ Breadcrumbs::for('DMC2StyleOrbFormulas', function (BreadcrumbTrail $trail) {
     $trail->push('Style & Orb Formulas', url('/DMC2:Formulas'));
 });
 
+Breadcrumbs::for('DMC2SRank', function (BreadcrumbTrail $trail) {
+    $trail->parent('DMC2');
+    $trail->push('S Rank Criteria', url('/DMC2:SRank'));
+});
+
 // Home > Blog > [Category]
 //Breadcrumbs::for('category', function (BreadcrumbTrail $trail, $category) {
 //    $trail->parent('blog');

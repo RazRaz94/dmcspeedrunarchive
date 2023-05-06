@@ -76,7 +76,7 @@
 <dl id="extralinks"><ul><li><a href="/DMC2:Amulets">Amulets</a></li>
     <li><a href="/DMC2:Formulas">Style and Orb formulas</a></li>
     <li><a href="/DMC2:Enemy">Enemy Database</a></li>
-    <li><a href="/DMC2:SRank">S Rank Guide</a></li>
+    <li><a href="/DMC2:SRank">S Rank Criteria</a></li>
     <li><a href="/DMC2:Tools">Tools & Resources</a></li>
 </dl> 
 
