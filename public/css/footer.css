@@ -91,8 +91,8 @@
 	#legal .mini {
 		background-image:url(../images/dante4.png);
 		background-repeat: no-repeat;
-		width: 60px;
-		height: 40px;
+		width: 20%;
+		height: 203%;
 		float: left;
 		position: absolute;
 		left: -2%;
